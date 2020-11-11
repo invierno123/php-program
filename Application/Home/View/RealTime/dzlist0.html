@@ -1,0 +1,231 @@
+<html>
+  <head>
+    <title>内部测试</title>
+    <script type="text/javascript" src="/Public/js/jquery.1.4.2-min.js"></script>
+    <style>
+    body{font-size: 12.73px;}
+    table{font-size: 12.73px;}
+    </style>
+    <script>
+    function loadmore() {
+
+    }
+    function setdz() {
+      var dz_val = document.getElementById("input_set_dz").value;
+      var minpl = document.getElementById("input_set_minpl").value;
+      var maxpl = document.getElementById("input_set_maxpl").value;
+      var fd = document.getElementById("input_set_fd").value;
+      var fz = document.getElementById("input_set_fz").value;
+      var cjcount = document.getElementById("input_set_cjcount").value;
+      var uar = document.getElementById("input_set_uar").value;
+      var bfz = document.getElementById('input_set_bfz').value;
+      var xlkj = document.getElementById('input_set_mxlk').value;
+      var cjjg = document.getElementById('input_set_cjjg').value;
+      var gzwd = document.getElementById('input_set_gzwdfz').value;
+
+      if(minpl!="" && isNumber(dz_val) && maxpl!="" && isNumber(maxpl)  && fd!="" && isNumber(fd)  && fz!="" && isNumber(fz)  && cjcount!="" && isNumber(cjcount)  && uar!="" && isNumber(uar) && bfz!="" && isNumber(bfz) && xlkj!="" && isNumber(xlkj) && cjjg!="" && isNumber(cjjg) && gzwd!="" && isNumber(gzwd)){
+        if(document.getElementById("select_ender").value=="0"){
+          alert("请选择需要设置的节点");
+          return;
+        }
+        if(",1,10,20,30,40,60,80,120,157,".indexOf(","+parseInt(fd)+",")==-1){
+          alert("放大倍数不符合规则,请选择1,10,20,30,40,60,80,120,157其中之一作为值!");
+          return;
+        }
+        location='/home/RealTime/SetDZDATA?opt='+document.getElementById("select_ender").value+"&dzv="+dz_val+"&minpl="+minpl+"&maxpl="+maxpl+"&fd="+fd+"&fz="+fz+"&cjcount="+cjcount+"&uar="+uar+"&bfz="+bfz+"&xlkj="+xlkj+"&cjjg="+cjjg+"&gzwd="+gzwd;
+
+
+      }else {
+        alert("数据只能为数字");
+        //document.getElementById("input_set_dz").value="";
+      }
+    }
+    function onchage() {
+      var selectvalue = document.getElementById("select_ender").value;
+      if(selectvalue!="0"){
+        location="/home/RealTime/dzlist?open="+selectvalue;
+      }else {
+        location="/home/RealTime/dzlist";
+      }
+    }
+
+
+    function isNumber(oNum){
+      if(!oNum) return false;
+      var strP=/^\d+(\.\d+)?$/;
+      if(!strP.test(oNum))
+        return false;
+      try{
+        if(parseFloat(oNum)!=oNum)
+          return false;
+      }catch(ex){
+        return false;
+      }
+      return true;
+   }
+    function scrollto(){
+      //document.title=getPageScroll()+"*"+document.body.scrollHeight;
+    }
+    function getPageScroll(){
+      var yScroll;
+      if (self.pageYOffset) {
+      yScroll = self.pageYOffset;
+              //xScroll = self.pageXOffset;
+      } else if (document.documentElement && document.documentElement.scrollTop){
+      yScroll = document.documentElement.scrollTop;
+      } else if (document.body) {
+      yScroll = document.body.scrollTop;
+      }
+      return yScroll;
+    }
+    function showhide_title() {
+      if($("#tab_title").is(":hidden")){
+        $("#tab_title").show(800);
+      }else {
+        $("#tab_title").hide(800);
+      }
+    }
+    </script>
+    <style>
+    .tabl_title{
+      padding-left: 15px;
+      /*background: #92b7fa;*/
+    }
+    .tabl_title tr td{
+      padding-top: 5px;
+    }
+    input{
+      width: 200px;
+    }
+    </style>
+  </head>
+  <body onscroll="scrollto()" onload="onloaddata()">
+    <div id="top" style="width:100%;">
+      <div style="width:100%; background:#5893ff;"><a onclick="showhide_title()" style="cursor:pointer;">参数设置>></a></div>
+      <table id="tab_title" class="tabl_title" style="width:100%; float:right; padding-bottom:20px; padding-top:20px;">
+        <tr>
+          <td colspan="6">TC参数</td>
+        </tr>
+        <tr style="font-size:12px;">
+          <td >
+            <!-底噪:-><input placeholder="输入要设置的底噪值"  style="display:none;" id="input_set_dz"/>
+            放大倍数:<input placeholder="输入要设置的放大倍数"  style="" id="input_set_fd"/>
+          </td>
+          <td >
+            最小频率:<input placeholder="输入要设置的最小频率"  style="" id="input_set_minpl"/>
+          </td>
+          <td >
+            最大频率:<input placeholder="输入要设置的最大频率"  style="" id="input_set_maxpl"/>
+          </td>
+          <td >
+            采集次数:<input placeholder="输入要设置的采集次数"  style="" id="input_set_cjcount"/>
+          </td>
+          <td >
+            串口开关:<input placeholder="设置串口调试开关"  style="" id="input_set_uar"/>
+          </td>
+          <td >
+            阀值系数:<input placeholder="输入要设置的泄露阀值"  style="" id="input_set_fz"/>
+          </td>
+        </tr>
+        <tr style="font-size:12px;">
+          <td>
+            最大泄漏孔径:<input placeholder="输入要设置的泄漏孔径"  style="" id="input_set_mxlk"/>
+          </td>
+          <td></td><td></td><td></td><td></td>
+        </tr>
+        <tr>
+          <td colspan="6">TT参数</td>
+        </tr>
+        <tr style="font-size:12px;">
+          <td>
+            采集时间间隔:(暂不可用)
+            <input placeholder="输入要设置的采集时间间隔"  style="" id="input_set_cjjg"/>
+          </td>
+          <td></td><td></td><td></td><td></td>
+        </tr>
+        <tr>
+          <td colspan="6">TM参数</td>
+        </tr>
+        <tr style="font-size:12px;">
+          <td>
+            百分比例:<input placeholder="输入要设置的百分比例"  style="" id="input_set_bfz"/>
+          </td>
+          <td>
+            工作温度阀值:(暂不可用)
+            <input placeholder="输入要设置的工作温度阀值"  style="" id="input_set_gzwdfz"/>
+          </td>
+          <td>
+            <input type="button" style="width:173px;" value=" 确 定 " onclick="setdz()" />
+          </td><td></td><td></td>
+        </tr>
+        <tr>
+          <td colspan="2" style="">
+          </td>
+          <td></td><td></td><td></td><td></td>
+        </tr>
+        <tr>
+          <td  style="text-align:left;">
+            节点编号:<select onchange="onchage()" id="select_ender">
+              <option value="0">全部节点</option>
+              {$selecthtml}
+            </select>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div id="content" style="text-align:center;">
+      <table cellspacing="10" border="1" width="2500" style="text-align:center;">
+        <tr>
+          <td colspan="11">疏水阀信息</td>
+          <td colspan="3" style="background:#48b8c2;">疏水阀泄漏判断(泄漏率计算法)</td>
+          <td colspan="3" style="background:#c15492;">疏水阀泄漏判断(幅值计算法)</td>
+          <td colspan="3" style="background:#c1a954;">疏水阀泄漏判断(阀值计算法)</td>
+          <td colspan="2">疏水阀信息</td>
+          <td colspan="6" style="background:#8cb76d;">数据参数</td>
+        </tr>
+        <tr>
+          <td>序号</td>
+          <td>ID</td>
+          <td>编号</td>
+          <td>温度</td>
+          <td>最大幅值</td>
+          <td>最小幅值</td>
+          <td>平均幅值</td>
+          <td>最大频率</td>
+          <td>最小频率</td>
+          <td>平均频率</td>
+
+          <td>最大泄漏孔径</td>
+          <!--泄漏率-->
+          <td style="background:#48b8c2;">泄漏百分比</td>
+          <td style="background:#48b8c2;">等级</td>
+          <td style="background:#48b8c2;">泄漏量/年</td>
+          <!--幅值-->
+          <td style="background:#c15492;">泄漏百分比</td>
+          <td style="background:#c15492;">等级</td>
+          <td style="background:#c15492;">泄漏量/年</td>
+
+          <!--阀值-->
+          <td style="background:#c1a954;">泄漏百分比</td>
+          <td style="background:#c1a954;">等级</td>
+          <td style="background:#c1a954;">泄漏量/年</td>
+
+
+          <td>电量</td>
+          <td>获取时间</td>
+
+          <td style="background:#8cb76d;">放大倍数</td>
+          <td style="background:#8cb76d;">阀值</td>
+          <td style="background:#8cb76d;">采集次数</td>
+          <td style="background:#8cb76d;">最小频率</td>
+          <td style="background:#8cb76d;">最大频率</td>
+          <td style="background:#8cb76d;">泄露百分比</td>
+        </tr>
+        {$htmlstr}
+      </table>
+      <p>
+        <a onclick="loadmore()" style="text-decoration:none;cursor:pointer; display:none;">加载更多...</a>
+      </p>
+    </div>
+  </body>
+</html>

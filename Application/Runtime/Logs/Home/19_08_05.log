@@ -1,0 +1,24 @@
+[ 2019-08-05T10:26:58+08:00 ] 113.235.125.244 /home/API/GetWorkTime?comid=11
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' ) LIMIT 1' at line 1
+
+[ 2019-08-05T10:38:33+08:00 ] 113.235.125.244 /home/API/GetWorkTime?comid=11comid=11comid=11comid=11comid=11comid=11comid=11comid=11comid=11comid=11comid=11comid=11comid=11comid=11comid=11comid=11comid=11comid=11comid=11comid=11comid=11comid=11comid=11comid=11comid=11comid=11comid=11comid=11comid=11comid=11comid=11comid=11comid=11comid=11comid=11comid=11comid=11comid=11comid=11comid=11comid=11comid=11comid=11comid=11comid=11comid=11comid=11comid=11comid=11comid=11
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '11comid' in 'where clause'
+
+[ 2019-08-05T10:38:41+08:00 ] 113.235.125.244 /home/API/GetWorkTime?comid=11comid=11comid=11comid=11comid=11comid=11comid=11comid=11comid=11comid=11comid=11comid=11comid=11comid=11
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '11comid' in 'where clause'
+
+[ 2019-08-05T10:38:45+08:00 ] 113.235.125.244 /home/API/GetWorkTime?comid=11comid=11comid=11comid=11comid=11comid=11comid=11comid=11comid=11comid=11comid=11comid=11comid=11comid=11comid=11
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '11comid' in 'where clause'
+
+[ 2019-08-05T10:38:48+08:00 ] 113.235.125.244 /home/API/GetWorkTime?comid=11comid=11comid=11comid=11comid=11comid=11comid=11comid=11comid=11
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '11comid' in 'where clause'
+
+[ 2019-08-05T10:39:48+08:00 ] 113.235.125.244 /home/API/GetWorkTime?comid=11comid=11comid=11comid=11comid=11comid=11comid=11comid=11comid=11comid=11comid=11
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '11comid' in 'where clause'
+
+[ 2019-08-05T10:39:52+08:00 ] 113.235.125.244 /home/API/GetWorkTime?comid=11comid=11comid=11comid=11comid=11comid=11comid=11comid=11comid=11comid=11comid=11
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '11comid' in 'where clause'
+
+[ 2019-08-05T10:43:25+08:00 ] 120.77.213.254 /home/api/gettcsetinfo?comid=18&mcu=03
+ERR: 无法加载控制器:Api
+

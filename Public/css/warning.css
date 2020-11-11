@@ -1,0 +1,107 @@
+*{
+  font-size: 12px;
+}
+.input_search{
+  border-radius: 3px;
+  cursor: pointer;
+  width: 110px;
+  height: 25px;
+  border:1px solid #ccc;
+}
+
+#input_t_s{
+  height: 22px;
+    cursor: pointer;
+}
+#input_t_e{
+  height: 22px;
+    cursor: pointer;
+}
+#input_t_n{
+  height: 22px;
+    cursor: pointer;
+}
+#tab  tr .repair{
+  color: red;
+}
+#tab{
+  border:1px solid #ccc;
+  border-bottom-style: none;
+  border-right-style: none;
+  width: 100%;
+  font-size: 14px;
+  border-radius: 3px;
+}
+#tab td{
+  border:1px solid #ccc;
+  border-top-style: none;
+  border-left-style: none;
+  color:#777;
+  text-align: center;
+  height:30px;
+}
+.add{
+  border: 1px solid gray;
+  background-color: #fff;
+  cursor: pointer;
+  width:60px;
+  height: 25px;
+    border-radius: 3px;
+}
+.btn_search{
+  border: 1px solid gray;
+  background-color: #fff;
+  cursor: pointer;
+  width:60px;
+  height: 25px;
+    border-radius: 3px;
+}
+.center {
+  float: right;
+  border-radius: 5px;
+
+}
+.page{
+  padding: 10px 5px 5px 5px;
+  font-size: 14px;
+  cursor: pointer;
+
+}
+.page a{
+  cursor: pointer;
+  color:#0476ab;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-decoration: none;
+}
+
+input, textarea {
+    -moz-transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) inset;
+}
+
+input:focus, textarea:focus {
+    border-color: rgba(82, 168, 236, 0.8);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) inset, 0 0 8px rgba(82, 168, 236, 0.6);
+    outline: 0 none;
+}
+.tab_page{
+  padding: 10px 5px 5px 5px;
+  font-size: 14px;
+  cursor: pointer;
+  color:gray;
+}
+.tab_page a{
+  cursor: pointer;
+}
+.page{
+  color:#11ccff;
+  padding-left: 10px;
+  padding-right: 5px;
+}
+.unpage{
+  color:gray;
+  cursor: default;
+  padding-left: 10px;
+  padding-right: 5px;
+}

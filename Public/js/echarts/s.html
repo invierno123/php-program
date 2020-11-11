@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>ECharts</title>
+</head>
+
+<script src="echarts.common.min.js"></script>
+
+<body>
+    <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+    <div id="main" style="height:400px"></div>
+    <!-- ECharts单文件引入 -->
+
+<script language="JavaScript">
+
+// 路径配置
+require.config({
+	paths: {
+		echarts: 'echarts-2.2.7/build/dist'
+	}
+});
+
+// 使用
+require(
+	[
+		'echarts',
+		'echarts/chart/line',
+		'echarts/chart/line' // 使用柱状图就加载bar模块，按需加载
+	],
+	function (ec) {
+		// 基于准备好的dom，初始化echarts图表
+		var myChart = ec.init(document.getElementById('main')); 
+		
+		option = {
+			title : {
+				text: '动态数据',
+				subtext: '欧龙科技'
+			},
+			tooltip : {
+				trigger: 'axis'
+			},
+			legend: {
+				data:['曲线一', '曲线二']
+			},
+			toolbox: {
+				show : true,
+				feature : {
+					mark : {show: true},
+					dataView : {show: true, readOnly: false},
+					magicType : {show: true, type: ['line', 'line']},
+					restore : {show: true},
+					saveAsImage : {show: true}
+				}
+			},
+			dataZoom : {
+				show : false,
+				start : 0,
+				end : 100
+			},
+			xAxis : [
+				{
+					type : 'category',
+					splitLine : {show: false},  //去除x轴网格线
+					boundaryGap : true,
+					data : (function (){
+						var now = new Date();
+						var res = [];
+						var len = 100;
+						while (len--) {
+							res.unshift(now.toLocaleTimeString().replace(/^\D*/,''));
+							now = new Date(now - 2000);
+						}
+						return res;
+					})()
+				},
+				{
+					type : 'category',
+					splitLine : {show: false},  //去除x轴网格线
+					boundaryGap : true,
+					data : (function (){
+						var res = [];
+						var len = 100;
+						while (len--) {
+							res.push(len + 1);
+						}
+						return res;
+					})()
+				}
+			],
+			yAxis : [
+				{
+					type : 'value',
+					splitLine : {show: false},  //去除y轴网格线
+					scale: true,
+					name : 'Y轴左',
+					boundaryGap: [0.2, 0.2]
+				},
+				{
+					type : 'value',
+					splitLine : {show: false},  //去除y轴网格线
+					scale: true,
+					name : 'Y轴右',
+					boundaryGap: [0.2, 0.2]
+				}
+			],
+			series : [
+				{
+					name:'曲线二',
+					type:'line',
+					xAxisIndex: 1,
+					yAxisIndex: 1,
+					data:(function (){
+						var res = [];
+						var len = 100;
+						while (len--) {
+							res.push(Math.round(Math.random() * 1000));
+						}
+						return res;
+					})()
+				},
+				{
+					name:'曲线一',
+					type:'line',
+					data:(function (){
+						var res = [];
+						var len = 100;
+						while (len--) {
+							res.push((Math.random()*10 + 5).toFixed(1) - 0);
+						}
+						return res;
+					})()
+				}
+			]
+		};
+
+		// 为echarts对象加载数据
+		myChart.setOption(option);
+			
+		var lastData = 11;
+		var axisData;
+		//clearInterval(timeTicket);
+		timeTicket = setInterval(function (){
+			lastData += Math.random() * ((Math.round(Math.random() * 10) % 2) == 0 ? 1 : -1);
+			lastData = lastData.toFixed(1) - 0;
+			axisData = (new Date()).toLocaleTimeString().replace(/^\D*/,'');
+			
+			// 动态数据接口 addData
+			myChart.addData([
+				[
+					0,        // 系列索引
+					Math.round(Math.random() * 1000), // 新增数据
+					false,    // 新增数据是否从队列头部插入
+					false     // 是否增加队列长度，false则自定删除原有数据，队头插入删队尾，队尾插入删队头
+				],
+				[
+					1,        // 系列索引
+					lastData, // 新增数据
+					false,    // 新增数据是否从队列头部插入
+					false,    // 是否增加队列长度，false则自定删除原有数据，队头插入删队尾，队尾插入删队头
+					axisData  // 坐标轴标签
+				]
+			]);
+		}, 1000);		
+	
+	}
+);
+
+</script>
+</body>

@@ -1,0 +1,65 @@
+<?php if (!defined('THINK_PATH')) exit();?><html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script type="text/javascript" src="/Public/js/jquery-1.7.1.min.js" ></script>
+<!--<script type="text/javascript" src="../../../../Public/js/changePwd.js" ></script>-->
+<link href="/Public/css/jquery-fallr-1.3.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/Public/js/jquery-fallr-1.3.pack.js"></script>
+<title><?php echo L('L_AU_AddUser');?></title>
+<style media="screen">
+.tab_search{
+  padding: 5px 5px 15px 5px;
+  font-size: 12px;
+}
+.tab_search td{
+  padding-left: 5px;
+}
+.input_search{
+  width: 170px;
+  height: 27px;
+  border:1px solid #ccc;
+  -moz-border-radius: 5px;      /* Gecko browsers */
+ -webkit-border-radius: 5px;   /* Webkit browsers */
+ border-radius:5px;            /* W3C syntax */
+}
+input, textarea {
+    -moz-transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) inset;
+}
+
+input:focus, textarea:focus {
+    border-color: rgba(82, 168, 236, 0.8);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) inset, 0 0 8px rgba(82, 168, 236, 0.6);
+    outline: 0 none;
+}
+</style>
+</head>
+<body>
+  <h1 style="font-size:14px;"><?php echo L('L_AU_AddUser');?></h1>
+<table class="tab_search">
+  <tr>
+     <td align="right"><?php echo L('L_AU_UM');?>：</td>
+     <td align="left"><input id="UserName" type="text"  class="input_search"  /></td>
+     <td align="right"><?php echo L('L_UPDATE_LOGINNAME');?>：</td>
+     <td align="left"><input id="LoginName" type="text"  class="input_search" /></td>
+ </tr>
+ <tr><td  colspan="4" style="height=20px"></td></tr>
+ <tr>
+     <td align="right"><?php echo L('L_AU_pwd');?>：</td>
+     <td align="left"><input id="PassWord" type="password"  class="input_search" /></td>
+     <td align="right"><?php echo L('L_UPDATE_SUREPWD');?>：</td>
+     <td align="left"><input id="sure_pwd" type="password" class="input_search"  /></td>
+  </tr>
+ <tr><td  colspan="4" style="height=20px"></td></tr>
+  <tr>
+      <td align="right"><?php echo L('L_UPDATE_UserTel');?>：</td>
+      <td align="left"><input id="UserTel" type="text"  class="input_search"  /></td>
+      <td align="right"><?php echo L('L_AU_UserEmail');?>：</td>
+      <td align="left"><input id="UserEmail" type="text"  class="input_search"  /></td>
+ </tr>
+
+
+</table>
+</div>
+</body>
+</html>

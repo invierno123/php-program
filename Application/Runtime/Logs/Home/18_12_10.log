@@ -1,0 +1,3 @@
+[ 2018-12-10T16:41:02+08:00 ] 124.93.196.18 /home/API/GetRepDataUSEmtfiRP?l=zh-cn&ci=1&ch=ac6671989381999e5826f14a4765f2e8
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group by usemtfi' at line 1
+

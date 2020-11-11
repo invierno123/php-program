@@ -1,0 +1,73 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>{:L("L_MASTER_TITLE")}</title>
+  <script src="/Public/js/jquery.min.js" type="text/javascript"> </script>
+    <link rel="stylesheet" href="/Public/css/body.css" type="text/css" media="screen" />
+    <script>
+    function trim(str) {
+      return rtrim(ltrim(str));
+    }
+    function ltrim(str) {
+      var pattern = new RegExp("^[//s]+","gi");
+      return str.replace(pattern,"");
+    }
+    function rtrim(str) {
+      var pattern = new RegExp("[//s]+$","gi");
+      return str.replace(pattern,"");
+    }
+    function keyLogin(){
+        if (event.keyCode==13){ //回车键的键值为13
+            $("#btn_login").click(); //调用登录按钮的登录事件
+        }
+    }
+    $(function(){
+      $("#btn_login").click(function(){
+        if(trim($("#input_login_name").val())=="" || trim($("#input_login_pass").val())==""){
+          alert("{:L('L_ALERT_UP_NE')}");
+          return;
+        }
+        $.post("/home/Index/logindata",{"name":$("#input_login_name").val(),"pwd":$("#input_login_pass").val(),"tp":(new Date()).valueOf()},function(res){
+          if(res=="0"){
+            alert("{:L('L_ALERT_UP_ERROR')}");
+          }else if(res=="1"){
+            if(getQueryString("open")!=""){
+              location=getQueryString("open");
+            }else {
+              location='/home/index/main';
+            }
+
+          }else if (res=="-1") {
+            alert("{:L('L_ALERT_UP_DATA_EXP')}");
+          }
+          else if (res=="-2") {
+            alert("{:L('L_ALERT_USERNAME_DISABLED')}");
+          }
+        });
+      });
+    });
+    function getQueryString(name) {
+      var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
+      var r = window.location.search.substr(1).match(reg);
+      if (r != null) return unescape(r[2]); return "";
+    }
+    </script>
+</head>
+<body class="bg_login"  onkeydown="keyLogin();">
+  <h1 style="float: right; font-size: 40px; color:#169ddd; padding-right: 300px; letter-spacing:3pt;">TMS在线体验系统</h1>
+  <center>
+  <div class="div_form_login">
+    <div style="width:80px; height:10px; background:#02b5ff; float:left;"></div>
+    <p>
+      <div style="float:left; font-size: 20px; color:#02b5ff;">登录</div>
+    </p>
+    <ul>
+      <li><img src="/Public/images/username.png" width="30px" style="float: left; margin-top: 5px;"/>&nbsp;&nbsp;<input id="input_login_name" placeholder=" {:L('L_MASTER_USERNAME')}" type="text"  class="input_login" /></li>
+      <li><img src="/Public/images/password.png" width="30px" style="float: left; margin-top: 5px;"/>&nbsp;&nbsp;<input id="input_login_pass" placeholder=" {:L('L_MASTER_PASSWORD')}" type="password" class="input_login" /></li>
+      <li><input id="btn_login" class="btn_login" type="button" value="登录"/></li>
+    </ul>
+  </div>
+</center>
+</body>
+</html>

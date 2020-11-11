@@ -1,0 +1,70 @@
+*{
+  font-size: 12px;
+}
+span{
+  width: 100px;
+  float: left;
+  padding-right: 10px;
+}
+
+p{
+  height: 25px;
+  line-height:25px;
+  padding-left: 25px;
+
+}
+input{
+  height: 25px;
+  border:1px solid #ccc;
+  border-radius: 5px;
+
+}
+
+#repairtype{
+width: 148px;
+height: 25px;
+border: 1px solid #ccc;
+border-radius: 5px;
+
+}
+#repairstate{
+width: 148px;
+height: 25px;
+border: 1px solid #ccc;
+border-radius: 5px;
+
+}
+.left{
+  float: left;
+}
+.right{
+float: right;
+
+}
+.right p #repairdescription{
+  border:1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 4px;
+}
+.all{
+  width: 600px;
+}
+
+.button{
+  float: right;
+}
+#innit{
+  margin-top: 20px;
+  margin-left:40px;
+  cursor:pointer;
+  width: 100px;
+  height: 30px;
+
+}
+.btn{
+  margin-top: 20px;
+  margin-left: 190px;
+  cursor:pointer;
+  width: 100px;
+  height: 30px;
+}

@@ -1,0 +1,2501 @@
+[ 2020-03-19T14:31:15+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.013001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.027001s ]
+NOTIC: [8] Undefined index: trapno F:\C\VSPRO\TMS_WEB\TMTY\Application\Home\Controller\IndexController.class.php 第 37 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2020-03-19T14:31:44+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: trapno F:\C\VSPRO\TMS_WEB\TMTY\Application\Home\Controller\IndexController.class.php 第 37 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2020-03-19T14:34:04+08:00 ] 127.0.0.1 /home/Index/logindata
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `companyinfo` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `companyinfo` WHERE ( LoginName='zylt' and LoginPWD='e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.0280s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2020-03-19T14:34:04+08:00 ] 127.0.0.1 /home/index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2020-03-19T14:34:04+08:00 ] 127.0.0.1 /home/index/top
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2020-03-19T14:34:04+08:00 ] 127.0.0.1 /home/index/menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2020-03-19T14:34:04+08:00 ] 127.0.0.1 /home/index/welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2020-03-19T14:42:10+08:00 ] 127.0.0.1 /home/InputData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2020-03-19T14:42:16+08:00 ] 127.0.0.1 /home/warning/index?page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page F:\C\VSPRO\TMS_WEB\TMTY\Application\Runtime\Cache\Home\7dd8466f41fafacb879d4736903fe25e.php 第 188 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2020-03-19T14:42:17+08:00 ] 127.0.0.1 /home/warning/getareas
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `areainfo` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `areainfo` WHERE ( CompanyID=35 )  [ RunTime:0.0250s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2020-03-19T14:42:17+08:00 ] 127.0.0.1 /home/warning/getwarninglist?page=1&area=&ts=&te=&trapno=&repairstate=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `warning` [ RunTime:0.0240s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `warning` WHERE ( CompanyId=35  ) LIMIT 1   [ RunTime:0.0270s ]
+SQL: SELECT * FROM `warning` WHERE ( CompanyId=35  ) ORDER BY RepairTime desc,areaid,trapno LIMIT 0,10   [ RunTime:0.0240s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2020-03-19T14:42:19+08:00 ] 127.0.0.1 /home/emc/setdata
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `emcdata` [ RunTime:0.0250s ]
+NOTIC: [8] Undefined index: type F:\C\VSPRO\TMS_WEB\TMTY\Application\Home\Controller\EmcController.class.php 第 14 行.
+SQL: SELECT * FROM `emcdata` WHERE `CompanyID` = 35 LIMIT 1   [ RunTime:0.0430s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2020-03-19T14:42:20+08:00 ] 127.0.0.1 /home/AreaInfo/TrapAnalysis
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2020-03-19T14:42:21+08:00 ] 127.0.0.1 /home/supervisory/getareas
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `areainfo` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `areainfo` WHERE ( CompanyID=35 )  [ RunTime:0.0230s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2020-03-19T14:42:21+08:00 ] 127.0.0.1 /home/AreaInfo/getTraoInfoByAnalysis
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `trapinfo` [ RunTime:0.0270s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `trapinfo` WHERE (  CompanyID=35 and DateCheck BETWEEN '2020-03-01' and '2020-04-01'and TrapState='0' ) LIMIT 1   [ RunTime:0.0340s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `trapinfo` WHERE (  CompanyID=35 and DateCheck BETWEEN '2020-03-01' and '2020-04-01'and TrapState='1' ) LIMIT 1   [ RunTime:0.0300s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2020-03-19T14:42:23+08:00 ] 127.0.0.1 /home/AreaInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `companyinfo` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `companyinfo` WHERE ( Id=35 and LoginName='zylt' ) LIMIT 1   [ RunTime:0.0240s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.076004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2020-03-19T14:42:23+08:00 ] 127.0.0.1 /home/supervisory/getareas
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `areainfo` [ RunTime:0.0280s ]
+SQL: SELECT * FROM `areainfo` WHERE ( CompanyID=35 )  [ RunTime:0.0260s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2020-03-19T14:42:23+08:00 ] 127.0.0.1 /home/AreaInfo/gettraplist?page=1&area=&trap=&trapty=&keys=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `trapmodel` [ RunTime:0.0260s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `trapmodel` WHERE (  companyid=35 ) ORDER BY Id LIMIT 1   [ RunTime:0.0240s ]
+SQL: SELECT * FROM `trapmodel` WHERE (  companyid=35 ) ORDER BY areaId,ordernum  LIMIT 0,5   [ RunTime:0.0280s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2020-03-19T14:42:24+08:00 ] 127.0.0.1 /home/AreaInfo/getarealist?page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `areainfo` [ RunTime:0.0250s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `areainfo` WHERE (  companyid=35 ) ORDER BY Id LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT * FROM `areainfo` WHERE (  companyid=35 ) ORDER BY Id LIMIT 0,3   [ RunTime:0.0380s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2020-03-19T14:42:25+08:00 ] 127.0.0.1 /home/Systemset
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: oid F:\C\VSPRO\TMS_WEB\TMTY\Application\Home\Controller\SystemsetController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `areainfo` [ RunTime:0.0240s ]
+SQL: SHOW COLUMNS FROM `trapmodel` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `areainfo` WHERE ( companyid=35 ) ORDER BY arealocation asc  [ RunTime:0.0240s ]
+SQL: SHOW COLUMNS FROM `layout` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `layout` WHERE ( companyid=35 ) LIMIT 1   [ RunTime:0.0240s ]
+SQL: SELECT * FROM `trapmodel` WHERE ( CompanyID='35' and AreaId='113'  ) GROUP BY TrapNo  [ RunTime:0.0250s ]
+NOTIC: [8] Undefined variable: L_str F:\C\VSPRO\TMS_WEB\TMTY\Application\Home\Controller\SystemsetController.class.php 第 287 行.
+NOTIC: [8] Undefined variable: M_str F:\C\VSPRO\TMS_WEB\TMTY\Application\Home\Controller\SystemsetController.class.php 第 288 行.
+NOTIC: [8] Undefined variable: R_str F:\C\VSPRO\TMS_WEB\TMTY\Application\Home\Controller\SystemsetController.class.php 第 289 行.
+SQL: SELECT * FROM `layout` WHERE ( companyid=35 ) LIMIT 1   [ RunTime:0.0230s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2020-03-19T14:42:28+08:00 ] 127.0.0.1 /home/Systemset/changepwd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2020-03-19T14:42:29+08:00 ] 127.0.0.1 /home/Systemset/usermanager?page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `subuser` [ RunTime:0.0260s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `subuser` WHERE ( AdminName='zylt' and CompanyID=35 ) LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT * FROM `subuser` WHERE ( AdminName='zylt' and CompanyID=35 ) ORDER BY Id ASC LIMIT 0,10   [ RunTime:0.0240s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2020-03-19T14:42:30+08:00 ] 127.0.0.1 /home/Systemset/usermanager?page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `subuser` [ RunTime:0.0240s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `subuser` WHERE ( AdminName='zylt' and CompanyID=35 ) LIMIT 1   [ RunTime:0.0230s ]
+SQL: SELECT * FROM `subuser` WHERE ( AdminName='zylt' and CompanyID=35 ) ORDER BY Id ASC LIMIT 0,10   [ RunTime:0.0290s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2020-03-19T14:42:30+08:00 ] 127.0.0.1 /home/emc/setdata
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `emcdata` [ RunTime:0.0270s ]
+NOTIC: [8] Undefined index: type F:\C\VSPRO\TMS_WEB\TMTY\Application\Home\Controller\EmcController.class.php 第 14 行.
+SQL: SELECT * FROM `emcdata` WHERE `CompanyID` = 35 LIMIT 1   [ RunTime:0.0240s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2020-03-19T14:42:31+08:00 ] 127.0.0.1 /home/warning/index?page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page F:\C\VSPRO\TMS_WEB\TMTY\Application\Runtime\Cache\Home\7dd8466f41fafacb879d4736903fe25e.php 第 188 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2020-03-19T14:42:31+08:00 ] 127.0.0.1 /home/warning/getwarninglist?page=1&area=&ts=&te=&trapno=&repairstate=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `warning` [ RunTime:0.0270s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `warning` WHERE ( CompanyId=35  ) LIMIT 1   [ RunTime:0.0270s ]
+SQL: SELECT * FROM `warning` WHERE ( CompanyId=35  ) ORDER BY RepairTime desc,areaid,trapno LIMIT 0,10   [ RunTime:0.0270s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2020-03-19T14:42:31+08:00 ] 127.0.0.1 /home/warning/getareas
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `areainfo` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `areainfo` WHERE ( CompanyID=35 )  [ RunTime:0.0280s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2020-03-19T14:42:32+08:00 ] 127.0.0.1 /home/AreaInfo/TrapAnalysis
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2020-03-19T14:42:32+08:00 ] 127.0.0.1 /home/supervisory/getareas
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `areainfo` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `areainfo` WHERE ( CompanyID=35 )  [ RunTime:0.0240s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2020-03-19T14:42:33+08:00 ] 127.0.0.1 /home/AreaInfo/getTraoInfoByAnalysis
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `trapinfo` [ RunTime:0.0240s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `trapinfo` WHERE (  CompanyID=35 and DateCheck BETWEEN '2020-03-01' and '2020-04-01'and TrapState='0' ) LIMIT 1   [ RunTime:0.0350s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `trapinfo` WHERE (  CompanyID=35 and DateCheck BETWEEN '2020-03-01' and '2020-04-01'and TrapState='1' ) LIMIT 1   [ RunTime:0.0290s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2020-03-19T14:42:48+08:00 ] 127.0.0.1 /home/Supervisory?t=list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `trapinfo` [ RunTime:0.0260s ]
+NOTIC: [8] Undefined index: area F:\C\VSPRO\TMS_WEB\TMTY\Application\Home\Controller\SupervisoryController.class.php 第 555 行.
+NOTIC: [8] Undefined index: ts F:\C\VSPRO\TMS_WEB\TMTY\Application\Home\Controller\SupervisoryController.class.php 第 556 行.
+NOTIC: [8] Undefined index: te F:\C\VSPRO\TMS_WEB\TMTY\Application\Home\Controller\SupervisoryController.class.php 第 557 行.
+NOTIC: [8] Undefined index: tn F:\C\VSPRO\TMS_WEB\TMTY\Application\Home\Controller\SupervisoryController.class.php 第 558 行.
+NOTIC: [8] Undefined index: tstate F:\C\VSPRO\TMS_WEB\TMTY\Application\Home\Controller\SupervisoryController.class.php 第 559 行.
+SQL: SELECT * FROM `trapinfo` WHERE (  CompanyID=35  ) GROUP BY TrapNo ORDER BY DateCheck desc,areaid,trapno  [ RunTime:0.0500s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2020-03-19T14:42:48+08:00 ] 127.0.0.1 /home/supervisory/getareas
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `areainfo` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `areainfo` WHERE ( CompanyID=35 )  [ RunTime:0.0250s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2020-03-19T14:42:52+08:00 ] 127.0.0.1 /home/index/loginout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2020-03-19T14:42:52+08:00 ] 127.0.0.1 /home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: trapno F:\C\VSPRO\TMS_WEB\TMTY\Application\Home\Controller\IndexController.class.php 第 37 行.
+
+[ 2020-03-19T14:42:52+08:00 ] 127.0.0.1 /home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: trapno F:\C\VSPRO\TMS_WEB\TMTY\Application\Home\Controller\IndexController.class.php 第 37 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2020-03-19T14:42:56+08:00 ] 127.0.0.1 /home/Index/logindata
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `companyinfo` [ RunTime:0.0270s ]
+SQL: SELECT * FROM `companyinfo` WHERE ( LoginName='test' and LoginPWD='e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.0260s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2020-03-19T14:42:57+08:00 ] 127.0.0.1 /home/index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2020-03-19T14:42:57+08:00 ] 127.0.0.1 /home/index/menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2020-03-19T14:42:57+08:00 ] 127.0.0.1 /home/index/top
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2020-03-19T14:42:57+08:00 ] 127.0.0.1 /home/index/welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2020-03-19T14:43:02+08:00 ] 127.0.0.1 /home/Supervisory?t=line
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: areacode F:\C\VSPRO\TMS_WEB\TMTY\Application\Home\Controller\SupervisoryController.class.php 第 9 行.
+NOTIC: [8] Undefined index: trapid F:\C\VSPRO\TMS_WEB\TMTY\Application\Home\Controller\SupervisoryController.class.php 第 13 行.
+
+[ 2020-03-19T14:43:02+08:00 ] 127.0.0.1 /home/supervisory/superline
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2020-03-19T14:43:02+08:00 ] 127.0.0.1 /home/supervisory/getareas
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `areainfo` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `areainfo` WHERE ( CompanyID=1 )  [ RunTime:0.0230s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2020-03-19T14:43:03+08:00 ] 127.0.0.1 /home/supervisory/drawline
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `trapinfo` [ RunTime:0.0450s ]
+NOTIC: [8] Undefined index: dn F:\C\VSPRO\TMS_WEB\TMTY\Application\Home\Controller\SupervisoryController.class.php 第 350 行.
+SQL: SELECT * FROM `trapinfo` WHERE ( CompanyID=1 ) GROUP BY areaid ORDER BY DateCheck desc LIMIT 5   [ RunTime:0.0800s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( CompanyID=1 and TrapNo='0130' ) ORDER BY DateCheck desc LIMIT 10   [ RunTime:0.0280s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( CompanyID=1 and TrapNo='1231' ) ORDER BY DateCheck desc LIMIT 10   [ RunTime:0.0490s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( CompanyID=1 and TrapNo='0201' ) ORDER BY DateCheck desc LIMIT 10   [ RunTime:0.0300s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( CompanyID=1 and TrapNo='0201' ) ORDER BY DateCheck desc LIMIT 10   [ RunTime:0.0330s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( CompanyID=1 and TrapNo='0103' ) ORDER BY DateCheck desc LIMIT 10   [ RunTime:0.0320s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2020-03-19T14:43:07+08:00 ] 127.0.0.1 /home/Supervisory?t=list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `trapinfo` [ RunTime:0.0300s ]
+NOTIC: [8] Undefined index: area F:\C\VSPRO\TMS_WEB\TMTY\Application\Home\Controller\SupervisoryController.class.php 第 555 行.
+NOTIC: [8] Undefined index: ts F:\C\VSPRO\TMS_WEB\TMTY\Application\Home\Controller\SupervisoryController.class.php 第 556 行.
+NOTIC: [8] Undefined index: te F:\C\VSPRO\TMS_WEB\TMTY\Application\Home\Controller\SupervisoryController.class.php 第 557 行.
+NOTIC: [8] Undefined index: tn F:\C\VSPRO\TMS_WEB\TMTY\Application\Home\Controller\SupervisoryController.class.php 第 558 行.
+NOTIC: [8] Undefined index: tstate F:\C\VSPRO\TMS_WEB\TMTY\Application\Home\Controller\SupervisoryController.class.php 第 559 行.
+SQL: SELECT * FROM `trapinfo` WHERE (  CompanyID=1  ) GROUP BY TrapNo ORDER BY DateCheck desc,areaid,trapno  [ RunTime:0.0920s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2020-03-19T14:43:07+08:00 ] 127.0.0.1 /home/supervisory/getareas
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `areainfo` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `areainfo` WHERE ( CompanyID=1 )  [ RunTime:0.0240s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2020-03-19T14:43:08+08:00 ] 127.0.0.1 /home/Supervisory?t=line
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+NOTIC: [8] Undefined index: areacode F:\C\VSPRO\TMS_WEB\TMTY\Application\Home\Controller\SupervisoryController.class.php 第 9 行.
+NOTIC: [8] Undefined index: trapid F:\C\VSPRO\TMS_WEB\TMTY\Application\Home\Controller\SupervisoryController.class.php 第 13 行.
+
+[ 2020-03-19T14:43:08+08:00 ] 127.0.0.1 /home/supervisory/superline
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2020-03-19T14:43:08+08:00 ] 127.0.0.1 /home/supervisory/getareas
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `areainfo` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `areainfo` WHERE ( CompanyID=1 )  [ RunTime:0.0260s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2020-03-19T14:43:09+08:00 ] 127.0.0.1 /home/supervisory/drawline
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `trapinfo` [ RunTime:0.0330s ]
+NOTIC: [8] Undefined index: dn F:\C\VSPRO\TMS_WEB\TMTY\Application\Home\Controller\SupervisoryController.class.php 第 350 行.
+SQL: SELECT * FROM `trapinfo` WHERE ( CompanyID=1 ) GROUP BY areaid ORDER BY DateCheck desc LIMIT 5   [ RunTime:0.0650s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( CompanyID=1 and TrapNo='0130' ) ORDER BY DateCheck desc LIMIT 10   [ RunTime:0.0340s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( CompanyID=1 and TrapNo='1231' ) ORDER BY DateCheck desc LIMIT 10   [ RunTime:0.0290s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( CompanyID=1 and TrapNo='0201' ) ORDER BY DateCheck desc LIMIT 10   [ RunTime:0.0320s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( CompanyID=1 and TrapNo='0201' ) ORDER BY DateCheck desc LIMIT 10   [ RunTime:0.0320s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( CompanyID=1 and TrapNo='0102' ) ORDER BY DateCheck desc LIMIT 10   [ RunTime:0.0310s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2020-03-19T14:43:35+08:00 ] 127.0.0.1 /home/Supervisory/showmax2d
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `areainfo` [ RunTime:0.0270s ]
+SQL: SHOW COLUMNS FROM `trapmodel` [ RunTime:0.0270s ]
+SQL: SHOW COLUMNS FROM `trapinfo` [ RunTime:0.0330s ]
+SQL: SELECT * FROM `areainfo` WHERE ( CompanyID=1 ) ORDER BY AreaLocation  [ RunTime:0.0280s ]
+SQL: SELECT * FROM `trapmodel` WHERE ( CompanyID=1 and AreaId=88 ) ORDER BY OrderNum  [ RunTime:0.0250s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='1231' and AreaId=88 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0330s ]
+SQL: SELECT * FROM `trapmodel` WHERE ( CompanyID=1 and AreaId=1 ) ORDER BY OrderNum  [ RunTime:0.0290s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='9709' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0270s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='9809' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='9909' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0260s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='9919' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0240s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='1103' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='6666' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0240s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='8888' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0240s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='FF33' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0270s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0102' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0240s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0132' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0420s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0405' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0406' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0280s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0411' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='040e' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0340s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0412' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0280s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0413' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0416' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0260s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0417' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0260s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='040f' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0410' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0510s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0414' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0270s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0415' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0280s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='AAFF' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0260s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0110' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0590s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0111' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0600s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0201' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0206' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0515' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0690s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0420' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0740s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0559' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0530s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='055a' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0350s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='055e' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0350s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0550' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0564' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0280s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0571' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0280s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='055d' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0350s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='056d' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0545' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0330s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='056a' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0280s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0570' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0270s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0556' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0410s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0546' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0340s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0561' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0270s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0551' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0280s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0548' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0280s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='3338' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0330s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='3337' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='3331' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0280s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='3332' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0270s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='3335' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='9999' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0330s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='3339' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='3334' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='1123' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='1221' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='9002' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='9003' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='9004' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0330s ]
+SQL: SELECT * FROM `trapmodel` WHERE ( CompanyID=1 and AreaId=2 ) ORDER BY OrderNum  [ RunTime:0.0610s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='9706' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0330s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='9708' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='9806' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='9808' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0270s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='9906' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='9908' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='9916' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='9918' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='1102' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0350s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='1104' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0280s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='5555' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='9006' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0330s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='9008' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0270s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0101' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0270s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0501' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0330s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0502' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0410s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0112' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0600s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0503' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0280s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0504' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0505' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0506' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0280s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0507' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0270s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0508' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0509' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0260s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='050A' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0270s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0205' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='050B' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='050C' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='050D' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='050E' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0270s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='050F' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0260s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0510' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0260s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0511' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0370s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0512' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0350s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0513' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0420s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0514' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0500s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0516' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0370s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0517' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0518' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0400s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0519' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0400s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0520' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0460s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='051A' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0350s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='051B' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0430s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='051C' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0390s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='051D' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='051E' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='051F' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0370s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0521' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0440s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0522' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0420s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0523' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0270s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0536' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0270s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0538' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0360s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0539' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0540' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0541' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='053A' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0280s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='053B' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0330s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='053C' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0360s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='053D' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='053E' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0270s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='053F' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0260s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0542' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0543' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0544' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0524' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0410s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0525' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0270s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0528' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0529' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='052A' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0330s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='052B' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='052C' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='052D' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='052E' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0340s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='052F' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0270s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0531' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0533' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0534' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0535' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0549' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0340s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0552' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0330s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0553' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0340s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0554' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0340s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='9001' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT * FROM `trapmodel` WHERE ( CompanyID=1 and AreaId=3 ) ORDER BY OrderNum  [ RunTime:0.0280s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0113' and AreaId=3 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0600s ]
+SQL: SELECT * FROM `trapmodel` WHERE ( CompanyID=1 and AreaId=10 ) ORDER BY OrderNum  [ RunTime:0.0320s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='9707' and AreaId=10 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='9807' and AreaId=10 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0240s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='9907' and AreaId=10 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='9917' and AreaId=10 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='1101' and AreaId=10 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='4444' and AreaId=10 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='1105' and AreaId=10 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0270s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='9007' and AreaId=10 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0270s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0208' and AreaId=10 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='020A' and AreaId=10 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0270s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='9000' and AreaId=10 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0270s ]
+SQL: SELECT * FROM `trapmodel` WHERE ( CompanyID=1 and AreaId=74 ) ORDER BY OrderNum  [ RunTime:0.0250s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\C\VSPRO\TMS_WEB\TMTY\Application\Home\Controller\SupervisoryController.class.php 第 88 行.
+SQL: SELECT * FROM `trapmodel` WHERE ( CompanyID=1 and AreaId=73 ) ORDER BY OrderNum  [ RunTime:0.0250s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\C\VSPRO\TMS_WEB\TMTY\Application\Home\Controller\SupervisoryController.class.php 第 88 行.
+SQL: SELECT * FROM `trapmodel` WHERE ( CompanyID=1 and AreaId=87 ) ORDER BY OrderNum  [ RunTime:0.0280s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\C\VSPRO\TMS_WEB\TMTY\Application\Home\Controller\SupervisoryController.class.php 第 88 行.
+SQL: SELECT * FROM `trapmodel` WHERE ( CompanyID=1 and AreaId=75 ) ORDER BY OrderNum  [ RunTime:0.0260s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0203' and AreaId=75 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0270s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0204' and AreaId=75 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0207' and AreaId=75 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT * FROM `trapmodel` WHERE ( CompanyID=1 and AreaId=76 ) ORDER BY OrderNum  [ RunTime:0.0310s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\C\VSPRO\TMS_WEB\TMTY\Application\Home\Controller\SupervisoryController.class.php 第 88 行.
+SQL: SELECT * FROM `trapmodel` WHERE ( CompanyID=1 and AreaId=70 ) ORDER BY OrderNum  [ RunTime:0.0280s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\C\VSPRO\TMS_WEB\TMTY\Application\Home\Controller\SupervisoryController.class.php 第 88 行.
+SQL: SELECT * FROM `trapmodel` WHERE ( CompanyID=1 and AreaId=71 ) ORDER BY OrderNum  [ RunTime:0.0280s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0219' and AreaId=71 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0280s ]
+SQL: SELECT * FROM `trapmodel` WHERE ( CompanyID=1 and AreaId=77 ) ORDER BY OrderNum  [ RunTime:0.0250s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\C\VSPRO\TMS_WEB\TMTY\Application\Home\Controller\SupervisoryController.class.php 第 88 行.
+SQL: SELECT * FROM `trapmodel` WHERE ( CompanyID=1 and AreaId=78 ) ORDER BY OrderNum  [ RunTime:0.0250s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\C\VSPRO\TMS_WEB\TMTY\Application\Home\Controller\SupervisoryController.class.php 第 88 行.
+SQL: SELECT * FROM `trapmodel` WHERE ( CompanyID=1 and AreaId=82 ) ORDER BY OrderNum  [ RunTime:0.0270s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\C\VSPRO\TMS_WEB\TMTY\Application\Home\Controller\SupervisoryController.class.php 第 88 行.
+SQL: SELECT * FROM `trapmodel` WHERE ( CompanyID=1 and AreaId=81 ) ORDER BY OrderNum  [ RunTime:0.0250s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='' and AreaId=81 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0270s ]
+SQL: SELECT * FROM `trapmodel` WHERE ( CompanyID=1 and AreaId=86 ) ORDER BY OrderNum  [ RunTime:0.0300s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\C\VSPRO\TMS_WEB\TMTY\Application\Home\Controller\SupervisoryController.class.php 第 88 行.
+SQL: SELECT * FROM `trapmodel` WHERE ( CompanyID=1 and AreaId=83 ) ORDER BY OrderNum  [ RunTime:0.0360s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\C\VSPRO\TMS_WEB\TMTY\Application\Home\Controller\SupervisoryController.class.php 第 88 行.
+SQL: SELECT * FROM `trapmodel` WHERE ( CompanyID=1 and AreaId=84 ) ORDER BY OrderNum  [ RunTime:0.0270s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\C\VSPRO\TMS_WEB\TMTY\Application\Home\Controller\SupervisoryController.class.php 第 88 行.
+SQL: SELECT * FROM `trapmodel` WHERE ( CompanyID=1 and AreaId=80 ) ORDER BY OrderNum  [ RunTime:0.0270s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\C\VSPRO\TMS_WEB\TMTY\Application\Home\Controller\SupervisoryController.class.php 第 88 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2020-03-19T14:46:37+08:00 ] 127.0.0.1 /home/index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2020-03-19T14:46:37+08:00 ] 127.0.0.1 /home/index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2020-03-19T14:46:59+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: open F:\C\VSPRO\TMS_WEB\TMTY\Application\Home\Controller\IndexController.class.php 第 29 行.
+
+[ 2020-03-19T14:46:59+08:00 ] 127.0.0.1 /home/index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2020-03-19T14:46:59+08:00 ] 127.0.0.1 /home/index/top
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2020-03-19T14:47:00+08:00 ] 127.0.0.1 /home/index/menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2020-03-19T14:47:00+08:00 ] 127.0.0.1 /home/index/welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2020-03-19T14:47:02+08:00 ] 127.0.0.1 /home/AreaInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `companyinfo` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `companyinfo` WHERE ( Id=1 and LoginName='test' ) LIMIT 1   [ RunTime:0.0280s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2020-03-19T14:47:03+08:00 ] 127.0.0.1 /home/AreaInfo/getarealist?page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `areainfo` [ RunTime:0.0240s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `areainfo` WHERE (  companyid=1 ) ORDER BY Id LIMIT 1   [ RunTime:0.0240s ]
+SQL: SELECT * FROM `areainfo` WHERE (  companyid=1 ) ORDER BY Id LIMIT 0,3   [ RunTime:0.0250s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2020-03-19T14:47:03+08:00 ] 127.0.0.1 /home/supervisory/getareas
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `areainfo` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `areainfo` WHERE ( CompanyID=1 )  [ RunTime:0.0240s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2020-03-19T14:47:04+08:00 ] 127.0.0.1 /home/AreaInfo/gettraplist?page=1&area=&trap=&trapty=&keys=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `trapmodel` [ RunTime:0.0290s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `trapmodel` WHERE (  companyid=1 ) ORDER BY Id LIMIT 1   [ RunTime:0.0240s ]
+SQL: SELECT * FROM `trapmodel` WHERE (  companyid=1 ) ORDER BY areaId,ordernum  LIMIT 0,5   [ RunTime:0.0260s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2020-03-19T14:48:35+08:00 ] 127.0.0.1 /home/index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2020-03-19T14:48:35+08:00 ] 127.0.0.1 /home/index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2020-03-19T14:48:41+08:00 ] 127.0.0.1 /home/index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2020-03-19T14:48:41+08:00 ] 127.0.0.1 /home/index/top
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2020-03-19T14:48:42+08:00 ] 127.0.0.1 /home/index/menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2020-03-19T14:48:42+08:00 ] 127.0.0.1 /home/index/welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2020-03-19T14:49:16+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: trapno F:\C\VSPRO\TMS_WEB\TMTY\Application\Home\Controller\IndexController.class.php 第 37 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2020-03-19T14:49:21+08:00 ] 127.0.0.1 /home/Index/logindata
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `companyinfo` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `companyinfo` WHERE ( LoginName='test' and LoginPWD='e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.0240s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2020-03-19T14:49:21+08:00 ] 127.0.0.1 /home/index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2020-03-19T14:49:21+08:00 ] 127.0.0.1 /home/index/top
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2020-03-19T14:49:21+08:00 ] 127.0.0.1 /home/index/menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2020-03-19T14:49:22+08:00 ] 127.0.0.1 /home/index/welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2020-03-19T15:44:18+08:00 ] 127.0.0.1 /home/AreaInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `companyinfo` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `companyinfo` WHERE ( Id=1 and LoginName='test' ) LIMIT 1   [ RunTime:0.0300s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2020-03-19T15:44:19+08:00 ] 127.0.0.1 /home/supervisory/getareas
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `areainfo` [ RunTime:0.0370s ]
+SQL: SELECT * FROM `areainfo` WHERE ( CompanyID=1 )  [ RunTime:0.0240s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2020-03-19T15:44:20+08:00 ] 127.0.0.1 /home/AreaInfo/getarealist?page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `areainfo` [ RunTime:0.0640s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `areainfo` WHERE (  companyid=1 ) ORDER BY Id LIMIT 1   [ RunTime:0.0230s ]
+SQL: SELECT * FROM `areainfo` WHERE (  companyid=1 ) ORDER BY Id LIMIT 0,3   [ RunTime:0.0310s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2020-03-19T15:44:20+08:00 ] 127.0.0.1 /home/AreaInfo/gettraplist?page=1&area=&trap=&trapty=&keys=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `trapmodel` [ RunTime:0.0260s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `trapmodel` WHERE (  companyid=1 ) ORDER BY Id LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT * FROM `trapmodel` WHERE (  companyid=1 ) ORDER BY areaId,ordernum  LIMIT 0,5   [ RunTime:0.0490s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2020-03-19T15:52:46+08:00 ] 127.0.0.1 /home/index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2020-03-19T15:52:46+08:00 ] 127.0.0.1 /home/index/top
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2020-03-19T15:52:47+08:00 ] 127.0.0.1 /home/index/menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.006001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2020-03-19T15:52:47+08:00 ] 127.0.0.1 /home/index/welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2020-03-19T15:52:57+08:00 ] 127.0.0.1 /home/index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2020-03-19T15:52:57+08:00 ] 127.0.0.1 /home/index/top
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2020-03-19T15:52:57+08:00 ] 127.0.0.1 /home/index/menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2020-03-19T15:52:58+08:00 ] 127.0.0.1 /home/index/welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2020-03-19T15:53:11+08:00 ] 127.0.0.1 /home/index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2020-03-19T15:53:11+08:00 ] 127.0.0.1 /home/index/top
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2020-03-19T15:53:11+08:00 ] 127.0.0.1 /home/index/menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2020-03-19T15:53:12+08:00 ] 127.0.0.1 /home/index/welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2020-03-19T15:53:59+08:00 ] 127.0.0.1 /home/index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2020-03-19T15:53:59+08:00 ] 127.0.0.1 /home/index/top
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2020-03-19T15:53:59+08:00 ] 127.0.0.1 /home/index/menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2020-03-19T15:54:00+08:00 ] 127.0.0.1 /home/index/welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2020-03-19T15:54:03+08:00 ] 127.0.0.1 /home/index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2020-03-19T15:54:03+08:00 ] 127.0.0.1 /home/index/top
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2020-03-19T15:54:03+08:00 ] 127.0.0.1 /home/index/menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2020-03-19T15:54:04+08:00 ] 127.0.0.1 /home/index/welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2020-03-19T16:39:02+08:00 ] 127.0.0.1 /home/index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2020-03-19T16:39:02+08:00 ] 127.0.0.1 /home/index/top
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2020-03-19T16:39:03+08:00 ] 127.0.0.1 /home/index/menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2020-03-19T16:39:03+08:00 ] 127.0.0.1 /home/index/welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2020-03-19T16:41:00+08:00 ] 127.0.0.1 /home/index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2020-03-19T16:41:14+08:00 ] 127.0.0.1 /home/index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2020-03-19T16:41:14+08:00 ] 127.0.0.1 /home/index/menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2020-03-19T16:41:14+08:00 ] 127.0.0.1 /home/index/top
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2020-03-19T16:41:15+08:00 ] 127.0.0.1 /home/index/welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2020-03-19T16:51:12+08:00 ] 127.0.0.1 /home/Supervisory?t=list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `trapinfo` [ RunTime:0.0400s ]
+NOTIC: [8] Undefined index: area F:\C\VSPRO\TMS_WEB\TMTY\Application\Home\Controller\SupervisoryController.class.php 第 555 行.
+NOTIC: [8] Undefined index: ts F:\C\VSPRO\TMS_WEB\TMTY\Application\Home\Controller\SupervisoryController.class.php 第 556 行.
+NOTIC: [8] Undefined index: te F:\C\VSPRO\TMS_WEB\TMTY\Application\Home\Controller\SupervisoryController.class.php 第 557 行.
+NOTIC: [8] Undefined index: tn F:\C\VSPRO\TMS_WEB\TMTY\Application\Home\Controller\SupervisoryController.class.php 第 558 行.
+NOTIC: [8] Undefined index: tstate F:\C\VSPRO\TMS_WEB\TMTY\Application\Home\Controller\SupervisoryController.class.php 第 559 行.
+SQL: SELECT * FROM `trapinfo` WHERE (  CompanyID=1  ) GROUP BY TrapNo ORDER BY DateCheck desc,areaid,trapno  [ RunTime:0.1250s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2020-03-19T16:51:12+08:00 ] 127.0.0.1 /home/supervisory/getareas
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `areainfo` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `areainfo` WHERE ( CompanyID=1 )  [ RunTime:0.0240s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2020-03-19T16:51:19+08:00 ] 127.0.0.1 /home/index/set
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2020-03-19T16:51:19+08:00 ] 127.0.0.1 /home/index/getleakbase?dz=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `trapmodel` [ RunTime:0.0280s ]
+SQL: SELECT * FROM `trapmodel` WHERE ( CompanyID=1 and trapNo='' )  [ RunTime:0.0280s ]
+SQL: SHOW COLUMNS FROM `companyinfo` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `companyinfo` WHERE ( id=1 )  [ RunTime:0.0240s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2020-03-19T16:51:23+08:00 ] 127.0.0.1 /home/index/loginout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2020-03-19T16:51:23+08:00 ] 127.0.0.1 /home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: trapno F:\C\VSPRO\TMS_WEB\TMTY\Application\Home\Controller\IndexController.class.php 第 37 行.
+
+[ 2020-03-19T16:51:23+08:00 ] 127.0.0.1 /home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: trapno F:\C\VSPRO\TMS_WEB\TMTY\Application\Home\Controller\IndexController.class.php 第 37 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2020-03-19T16:51:50+08:00 ] 127.0.0.1 /home/Index/logindata
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `companyinfo` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `companyinfo` WHERE ( LoginName='test' and LoginPWD='e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.0260s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2020-03-19T16:51:50+08:00 ] 127.0.0.1 /home/index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2020-03-19T16:51:50+08:00 ] 127.0.0.1 /home/index/top
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2020-03-19T16:51:51+08:00 ] 127.0.0.1 /home/index/menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2020-03-19T16:51:51+08:00 ] 127.0.0.1 /home/index/welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

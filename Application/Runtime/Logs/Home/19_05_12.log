@@ -1,0 +1,6 @@
+[ 2019-05-12T17:21:00+08:00 ] 101.132.144.145 /home/api/gettcsetinfo?comid=20&mcu=01
+ERR: 无法加载控制器:Api
+
+[ 2019-05-12T18:42:34+08:00 ] 101.132.69.5 /home/api/gettcsetinfo?comid=15&mcu=01
+ERR: 无法加载控制器:Api
+

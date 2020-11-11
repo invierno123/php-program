@@ -1,0 +1,21 @@
+[ 2019-08-08T10:55:31+08:00 ] 106.14.215.243 /home/api/getworktime?comid=18&data=tpcmscdtpcmssd01053200287000400000000842089000536983990114,ender
+ERR: 无法加载控制器:Api
+
+[ 2019-08-08T11:09:03+08:00 ] 47.100.51.108 /home/api/getworktime?comid=18&data=tpcmscdtpcmssd01053200287000432128000842089000537301990115,ender
+ERR: 无法加载控制器:Api
+
+[ 2019-08-08T11:29:13+08:00 ] 113.235.125.244 /home/API/GetWorkTime?comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '18comid' in 'where clause'
+
+[ 2019-08-08T11:36:28+08:00 ] 113.235.125.244 /home/API/GetWorkTime?comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '18comid' in 'where clause'
+
+[ 2019-08-08T11:57:43+08:00 ] 113.235.125.244 /home/API/GetWorkTime?comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '18comid' in 'where clause'
+
+[ 2019-08-08T12:48:39+08:00 ] 113.235.125.244 /home/API/GetWorkTime?comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '18comid' in 'where clause'
+
+[ 2019-08-08T14:37:43+08:00 ] 113.235.125.244 /home/API/GetWorkTime?comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '18comid' in 'where clause'
+

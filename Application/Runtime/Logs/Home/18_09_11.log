@@ -1,0 +1,6 @@
+[ 2018-09-11T14:29:02+08:00 ] 42.236.10.124 /home/supervisory?t=list
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') GROUP BY TrapNo ORDER BY DateCheck desc,areaid,trapno' at line 1
+
+[ 2018-09-11T14:29:09+08:00 ] 113.10.156.85 /home/supervisory?t=list
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') GROUP BY TrapNo ORDER BY DateCheck desc,areaid,trapno' at line 1
+

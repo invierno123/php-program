@@ -1,0 +1,80 @@
+
+*{
+  font-size: 12px;
+}
+span{
+  width: 100px;
+  float: left;
+  padding-right: 10px;
+}
+
+p{
+  height: 25px;
+  line-height:25px;
+  padding-left: 25px;
+
+}
+input{
+  height: 25px;
+  border:1px solid #ccc;
+  border-radius: 5px;
+
+}
+textarea{
+  height: 40px;
+  border-radius: 5px;
+  border:1px solid #ccc;
+  width:143px;
+
+}
+#trapstate{
+  width: 148px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+#repairtype{
+  width: 148px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+
+}
+#repairstate{
+width: 148px;
+height: 30px;
+border: 1px solid #ccc;
+border-radius: 5px;
+
+}
+#AreaId{
+  width: 148px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+
+}
+#add{
+  cursor:pointer;
+  width: 100px;
+  height: 30px;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+#btn_cencel{
+  cursor:pointer;
+  width: 100px;
+  height: 30px;
+  margin-top: 50px;
+  margin-left: 30px;
+}
+.all{
+  width:600px;
+}
+.left{
+float: left;
+
+}
+.right{
+  float: right;
+}

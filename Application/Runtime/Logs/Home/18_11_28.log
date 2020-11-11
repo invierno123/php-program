@@ -1,0 +1,3 @@
+[ 2018-11-28T16:07:05+08:00 ] 113.235.121.201 /home/API/GetTrapStateCount?l=zh-cn&ci=18&ch=7391b85d359f177fcb99795ba4d2dbfc
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order by datecheck desc) as te) group by trapno' at line 1
+

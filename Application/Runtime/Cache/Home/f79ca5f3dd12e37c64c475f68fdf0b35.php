@@ -1,0 +1,215 @@
+<?php if (!defined('THINK_PATH')) exit();?><html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script type="text/javascript" src="../../../../Public/js/jquery-1.7.1.min.js" ></script>
+<!--<script type="text/javascript" src="../../../../Public/js/changePwd.js" ></script>-->
+<link rel="stylesheet" href="/Public/css/setdata.css" type="text/css" media="screen" />
+<link href="/Public/css/jquery-fallr-1.3.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/Public/js/jquery-fallr-1.3.pack.js"></script>
+<title></title>
+</head>
+<script>
+var check_flag=1;
+function checkPwd(str_pwd){
+  var reg= /^[A-Za-z0-9]{6,15}$/;
+ return reg.test(str_pwd);
+}
+function checkEamil(str_pwd){
+  var reg = /^(\w)+(\.\w+)*@(\w)+((\.\w+)+)$/;
+  return reg.test(str_pwd);
+}
+function checkFax(str_pwd){
+//  var reg=/^(\w)+(\.\w+)*@(\w)+((\.\w{2,3}){1,3})$/;
+var reg=/^((\+?[0-9]{2,4}\-[0-9]{3,4}\-)|([0-9]{3,4}\-))?([0-9]{7,8})(\-[0-9]+)?$/;
+ return reg.test(str_pwd);
+}
+function checkCompanyNo(str_pwd){
+  var reg=/^\d{13}$/;
+   return reg.test(str_pwd);
+}
+function checkTel(str_pwd){
+var isPhone = /^([0-9]{3,4}-)?[0-9]{7,8}$/;
+//var isMob=/^((\+?86)|(\(\+86\)))?(13[012356789][0-9]{8}|15[012356789][0-9]{8}|18[02356789][0-9]{8}|147[0-9]{8}|1349[0-9]{7})$/;
+//var isMob=/^(13[012356789][0-9]{8}|15[012356789][0-9]{8}|18[02356789][0-9]{8}|147[0-9]{8}|1349[0-9]{7})$/;
+var isMob=str_pwd.length;
+if(isMob==11||isPhone.test(str_pwd)){
+	return true;
+}
+else{
+	return false;
+ }
+}
+function checkAll(tel,fax,el,comno,comname,uname){
+  if(comname.length>20){
+    check_flag=0;
+    return "<?php echo L('L_UPDATE_CompanyName_err');?>";
+  }
+  if(uname.length>15){
+    check_flag=0;
+    return "<?php echo L('L_AU_UName_ERROR');?>";
+  }
+	if(!checkTel(tel)){
+	   check_flag=0;
+	   return "<?php echo L('L_UPDATE_usertel_err');?>";
+	}
+	if(!checkEamil(el)){
+	   check_flag=0;
+	   return "<?php echo L('L_UPDATE_usereamil_err');?>";
+	}
+	if(!checkFax(fax)){
+	  check_flag=0;
+	  return "<?php echo L('L_UPDATE_userfax_err');?>";
+	}
+  if(!checkCompanyNo(comno)){
+    check_flag=0;
+    return "<?php echo L('L_UPDATE_CompanyNo_err');?>";
+  }
+	check_flag=1;
+	return null;
+}
+function update_info(){
+  $.fallr("show", {
+      content: "<iframe src='/home/Systemset/updateinfo' id='iframe_show_edit' name='iframe_show_edit' frameborder='0' width='100%' height='100%'></iframe>",
+      position: "center",
+      height:"63%",
+      width:"60%",
+      buttons:{
+        button1: {
+            text: "<?php echo L('L_ALERT_CANCEL');?>",
+            onclick: function () {
+              $.fallr("hide");
+            }
+        },
+        button2: {
+            text: "<?php echo L('L_ALERT_OK');?>",
+            onclick: function () {
+              var html_update_val = "";
+              var html_update_key = "";
+              var flag=1;
+      			  var html_tel=$(window.frames["iframe_show_edit"].document).find("#UserTel").val();
+      			  var html_fax=$(window.frames["iframe_show_edit"].document).find("#CompanyFax").val();
+      			  var html_el=$(window.frames["iframe_show_edit"].document).find("#CompanyEmail").val();
+              var html_comno=$(window.frames["iframe_show_edit"].document).find("#CompanyNo").val();
+              var html_companyname=$(window.frames["iframe_show_edit"].document).find("#CompanyName").val();
+              var html_username=$(window.frames["iframe_show_edit"].document).find("#UserName").val();
+      			  var ch_html_str=checkAll(html_tel,html_fax,html_el,html_comno,html_companyname,html_username);
+      		   if(check_flag==1){
+                  $(window.frames["iframe_show_edit"].document).find("input:text").each(function(){
+                         if($(this).val()==""){
+                           flag=0;
+                           alert("<?php echo L('L_ALERT_UP_Info_Per');?>");
+                           return false;
+                         }else{
+                                html_update_key+=$(this).attr("id")+",";
+                                html_update_val+=$(this).val()+",";
+                           }
+
+                  });
+                 if(flag==1&&check_flag==1){
+                   $.post("/home/Systemset/updateuserinfo",{"key":html_update_key,"val":html_update_val},function(res){
+                       if(res=="0"){
+                            alert("<?php echo L('L_ALERT_UP_OperFail_Again');?>");
+                       }else{
+                         $.fallr("hide");
+                        alert("<?php echo L('L_ALERT_SUCCESS');?>");
+                       }
+                   });
+                 }
+              }else{
+      			alert(ch_html_str);
+      		 }
+      		}
+      }
+    }
+  });
+}
+function commit_info(){
+ var html_oldpwd=$("#old_pwd").val();
+ var html_newpwd=$("#new_pwd").val();
+ var html_surepwd=$("#sure_pwd").val();
+ var ht=$("#user_name").html();
+ if(html_oldpwd==""||html_newpwd==""||html_surepwd==""){
+   alert("<?php echo L('L_ALERT_UP_Info_Per');?>");
+ }
+ else if(html_surepwd!==html_newpwd){
+   alert("<?php echo L('L_ALERT_UP_Pwd_No');?>");
+ }else if(html_oldpwd==html_newpwd){
+   alert("<?php echo L('L_UPDATE_Pwd_err');?>");
+ }
+ else{
+	 if(checkPwd(html_newpwd)){
+   $.post("/home/Systemset/updatepwd",{"name":ht,"newpwd":html_newpwd,"oldpwd":html_oldpwd},function(res){
+      res=$.trim(res);
+      switch (res) {
+        case "-2":
+           alert("<?php echo L('L_ALERT_UP_Pwd_Error');?>");
+          rest_info();
+          break;
+      case "1":
+        alert("<?php echo L('L_ALERT_UP_OperSu_AgainLogin');?>");
+        $.get("/home/index/loginout",function(res){
+          parent.location="/home/index";
+        });
+        break;
+      case "0":
+        alert("<?php echo L('L_ALERT_UP_OperFail_Again');?>");
+        rest_info();
+        break;
+        default:
+          break;
+      }
+   });
+	 }else{
+		 alert("<?php echo L('L_ALERT_UP_PWD_Must');?>");
+		 }
+ }
+}
+function rest_info(){
+   $("input:password").attr("value","");
+}
+</script>
+<body>
+    <h1 style="font-size:14px;"><?php echo L('L_MENU_SYSTEM_PASS');?></h1>
+  <table class="tab_search">
+    <tr>
+      <td align="right"><?php echo L('L_UPDATE_LOGINNAME');?>：</td>
+     <td align="left"><p id="user_name"><?php echo ($now_name); ?></p></td>
+    </tr>
+     <tr>
+    <td height="10px">
+    </td>
+    </tr>
+    <tr>
+      <td align="right"><?php echo L('L_UPDATE_CurrentPWD');?>：</td>
+     <td align="left"><input id="old_pwd" type="password" placeholder="<?php echo L('L_UPDATE_Pld_CurrentPwd');?>" class="input_search" /></td>
+    </tr>
+    <tr>
+    <td height="10px">
+    </td>
+    </tr>
+    <tr>
+      <td align="right">&nbsp;<?php echo L('L_UPDATE_NEWPWD');?>：</td>
+     <td align="left"><input id="new_pwd" type="password" placeholder="<?php echo L('L_UPDATE_Pld_NewPwd');?>" class="input_search" /></td>
+    </tr>
+        <tr>
+    <td height="10px">
+    </td>
+    </tr>
+    <tr>
+      <td align="right"><?php echo L('L_UPDATE_SUREPWD');?>：</td>
+     <td align="left"><input id="sure_pwd" type="password" placeholder="<?php echo L('L_UPDATE_Pld_Sure_NewPwd');?>" class="input_search"  /></td>
+     <td></td>
+    </tr>
+    <tr>
+    <td height="30px"  colspan="3" align="right">
+    <a onClick="update_info()"><?php echo L('L_UPDATE_ChangeMore');?></a>
+    </td>
+    </tr>
+    <tr>
+        <td align="center" colspan="2"><input type="button" value=" <?php echo L('L_UPDATE_SUBMIT');?>  "  onclick="commit_info()"  class="btn_search" />
+          &nbsp;<input type="button" value=" <?php echo L('L_UPDATE_RESET');?>  " class="btn_search" onClick="rest_info()" /></td>
+    </tr>
+</table>
+  </div>
+</body>
+</html>

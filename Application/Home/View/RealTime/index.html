@@ -1,0 +1,49 @@
+<html>
+  <head>
+    <title></title>
+
+    <script type="text/javascript" src="/Public/js/jquery.1.4.2-min.js"></script>
+    <script>
+    var id_c="";
+    function loadData() {
+      $.get("/home/RealTime/GetData",function (res) {
+        var res_json = eval('('+res+')');
+        var JSON_LEN = res_json.length;
+        var html_str = "";
+        for (var i = 0; i < JSON_LEN; i++) {
+          if(id_c.indexOf(res_json[i]["ID"]+",")>-1){
+            continue;
+          }
+          id_c+=res_json[i]["ID"]+",";
+          html_str+="  <tr><td >"+res_json[i]["ID"]+"</td><td >"+res_json[i]["DATA"]+"</td><td >"+res_json[i]["TEM"]+"</td><td >"+res_json[i]["HZ"]+"</td><td >"+res_json[i]["ZF"]+"</td><td >"+res_json[i]["TIME"]+"</td></tr>";
+        }
+        $("#tab_show_list_realtime").append(html_str);
+        setTimeout(function(){loadData();},1000);
+      });
+    }
+    $(function() {
+      loadData();
+    });
+    </script>
+  </head>
+  <body>
+    <center>
+    <div>
+      <h3>
+        TMS-测试-实时
+      </h3>
+    </div>
+    <table id="tab_show_list_realtime" cellspadding="0" cellspacing="0" border="1" style="font-weight: bold; color:#54B6C2;text-align: center;">
+      <tr>
+        <td >序号</td>
+        <td >数据</td>
+        <td >温度</td>
+        <td >频率</td>
+        <td >振幅</td>
+        <td >时间</td>
+      </tr>
+    </table>
+  </center>
+    <div style="color:#eee; padding-top:20px; text-align:center;">山东萝卜电子信息科技有限公司 &copy;萝卜智能</div>
+  </body>
+</html>

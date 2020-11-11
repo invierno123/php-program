@@ -1,0 +1,6 @@
+[ 2018-11-10T02:11:44+08:00 ] 112.42.4.128 /home/API/trapmodelAddUpdate?l=zh-cn&ci=1&ch=9b738ebb229310a9a391d4a85a685eb4
+ERR: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'MaxLK' at row 1
+
+[ 2018-11-10T02:13:20+08:00 ] 112.42.4.128 /home/API/trapmodelAddUpdate?l=zh-cn&ci=1&ch=c2220262b56a303833f065b75e2a659a
+ERR: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'MaxLK' at row 1
+

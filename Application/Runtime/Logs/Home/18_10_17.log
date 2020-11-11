@@ -1,0 +1,12 @@
+[ 2018-10-17T12:15:35+08:00 ] 112.243.32.45 //home/API/getTrapmodelByTrapNo?l=zh-cn&ci=19&ch=da4d476fe95c33272fb1ac564cc05866
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+[ 2018-10-17T12:15:38+08:00 ] 112.243.32.45 //home/API/getTrapmodelByTrapNo?l=zh-cn&ci=19&ch=da4d476fe95c33272fb1ac564cc05866
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+[ 2018-10-17T12:15:57+08:00 ] 112.243.32.45 //home/API/getTrapmodelByTrapNo?l=zh-cn&ci=19&ch=da4d476fe95c33272fb1ac564cc05866
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+[ 2018-10-17T12:16:44+08:00 ] 112.243.32.45 //home/API/getTrapmodelByTrapNo?l=zh-cn&ci=19&ch=26486b564c9f22fd02bba44d1d5a2324
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+

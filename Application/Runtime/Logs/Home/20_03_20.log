@@ -1,0 +1,101 @@
+[ 2020-03-20T09:57:15+08:00 ] 127.0.0.1 /home/API/GetWorkTime?comid=25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2020-03-20T09:57:46+08:00 ] 127.0.0.1 /home/API/GetWorkTime?comid=25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: data F:\C\VSPRO\TMS_WEB\TMTY\Application\Home\Controller\APIController.class.php 第 3753 行.
+NOTIC: [8] Undefined index: mcuid F:\C\VSPRO\TMS_WEB\TMTY\Application\Home\Controller\APIController.class.php 第 3754 行.
+NOTIC: [8] Undefined index: gd F:\C\VSPRO\TMS_WEB\TMTY\Application\Home\Controller\APIController.class.php 第 3755 行.
+NOTIC: [8] Undefined index: sec F:\C\VSPRO\TMS_WEB\TMTY\Application\Home\Controller\APIController.class.php 第 3757 行.
+SQL: SHOW COLUMNS FROM `companyinfo` [ RunTime:0.0270s ]
+SQL: SELECT * FROM `companyinfo` WHERE ( Id=25 ) LIMIT 1   [ RunTime:0.0530s ]
+SQL: UPDATE `companyinfo` SET `CommTime`='2020-03-20 09:57:46' WHERE `Id` = 25 [ RunTime:0.0390s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2020-03-20T10:27:33+08:00 ] 127.0.0.1 /home/Mobile/GetData?method=traplist&data={%22areaid%22:%22%22,%22cid%22:%2235%22,%22tstate%22:%22%22}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: data F:\C\VSPRO\TMS_WEB\TMTY\Application\Home\Controller\MobileController.class.php 第 521 行.
+
+[ 2020-03-20T10:28:03+08:00 ] 127.0.0.1 /home/Mobile/GetData?method=barandpie&data={%22aid%22:%22%22,%22cid%22:%2235%22,%22tstate%22:%22%22}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=35' at line 1
+
+[ 2020-03-20T10:28:45+08:00 ] 127.0.0.1 /home/Mobile/GetData?method=barandpie&data={%22aid%22:%22%22,%22cid%22:%2235%22,%22tstate%22:%22%22}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=35' at line 1
+
+[ 2020-03-20T10:28:48+08:00 ] 127.0.0.1 /home/Mobile/GetData?method=barandpie&data={%22aid%22:%22%22,%22cid%22:%2235%22,%22tstate%22:%22%22}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=35' at line 1
+
+[ 2020-03-20T10:29:09+08:00 ] 127.0.0.1 /home/Mobile/GetData?method=barandpie&data={%22aid%22:%22%22,%22cid%22:%2235%22,%22tstate%22:%22%22}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=35' at line 1
+
+[ 2020-03-20T10:29:30+08:00 ] 127.0.0.1 /home/Mobile/GetData?method=barandpie&data={%22aid%22:%22%22,%22cid%22:%2235%22,%22tstate%22:%22%22}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select statusTime as datecheck,`status`,usemtfi,traptype from trapmodel where  companyid=35   [ RunTime:0.0720s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2020-03-20T10:39:33+08:00 ] 127.0.0.1 /home/Mobile/GetData?method=barandpie&data={%22aid%22:%22%22,%22cid%22:%2235%22,%22tstate%22:%22%22}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: data F:\C\VSPRO\TMS_WEB\TMTY\Application\Home\Controller\MobileController.class.php 第 531 行.
+

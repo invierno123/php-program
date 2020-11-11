@@ -1,0 +1,3 @@
+[ 2019-06-18T14:23:56+08:00 ] 175.167.154.253 /home/API/GetTrapEXA?ci=9ch=8230f982f3ceb8817bd621dbd5b96f5a
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and CreateTime between '' and ''   and (trapno in (select trapno from trapmodel ' at line 2
+

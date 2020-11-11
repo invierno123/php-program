@@ -1,0 +1,117 @@
+[ 2019-11-23T02:20:14+08:00 ] 42.84.116.254 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-11-23T03:31:21+08:00 ] 58.56.189.98 /home/API/GetWorkTime?comid=20/home/API/GetWorkTime?comid=20/home/API/GetWorkTime?comid=20/home/API/GetWorkTime?comid=20/home/API/GetWorkTime?comid=20/home/API/GetWorkTime?comid=20
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-11-23T03:31:24+08:00 ] 58.56.189.98 /home/API/GetWorkTime?comid=20/home/API/GetWorkTime?comid=20&data=TPCMSCDTPCMSSD03012701158003132000051742000049837000990102|2019-11-23-3-30-24,ender/home/API/GetWorkTime?comid=20&data=TPCMSCD,ender
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-11-23T03:31:29+08:00 ] 58.56.189.98 /home/API/GetWorkTime?comid=20/home/API/GetWorkTime?comid=20&data=TPCMSCDTPCMSSD03012401285006132000063042000059837000990100|2019-11-23-3-30-27,ender/home/API/GetWorkTime?comid=20&data=TPCMSCD,ender
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-11-23T03:31:34+08:00 ] 58.56.189.98 /home/API/GetWorkTime?comid=20/home/API/GetWorkTime?comid=20&data=TPCMSCDTPCMSSD03011F01221006132000050242000049337000990099|2019-11-23-3-30-40,ender/home/API/GetWorkTime?comid=20&data=TPCMSCD,ender
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-11-23T03:31:39+08:00 ] 58.56.189.98 /home/API/GetWorkTime?comid=20/home/API/GetWorkTime?comid=20&data=TPCMSCDTPCMSSD03012501190005432000078742000074737000990107|2019-11-23-3-31-8,ender/home/API/GetWorkTime?comid=20&data=TPCMSCD,ender
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-11-23T04:14:57+08:00 ] 222.174.105.94 /home/API/GetWorkTime?comid=29/home/API/GetWorkTime?comid=29/home/API/GetWorkTime?comid=29/home/API/GetWorkTime?comid=29
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-11-23T04:15:00+08:00 ] 222.174.105.94 /home/API/GetWorkTime?comid=29/home/API/GetWorkTime?comid=29
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-11-23T07:31:46+08:00 ] 58.56.189.98 /home/API/GetWorkTime?comid=20/home/API/GetWorkTime?comid=20/home/API/GetWorkTime?comid=20
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-11-23T10:51:47+08:00 ] 221.2.235.34 /home/API/GetWorkTime?comid=29/home/API/GetWorkTime?comid=29
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-11-23T11:01:06+08:00 ] 222.174.105.94 /home/API/GetWorkTime?comid=29/home/API/GetWorkTime?comid=29/home/API/GetWorkTime?comid=29/home/API/GetWorkTime?comid=29
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-11-23T11:02:06+08:00 ] 42.84.116.254 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-11-23T11:02:24+08:00 ] 42.84.116.254 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-11-23T11:33:56+08:00 ] 58.56.189.98 /home/API/GetWorkTime?comid=20/home/API/GetWorkTime?comid=20/home/API/GetWorkTime?comid=20
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-11-23T11:34:05+08:00 ] 58.56.189.98 /home/API/GetWorkTime?comid=20/home/API/GetWorkTime?comid=20&data=TPCMSCDTPCMSSD03012501184005132000083942000075437000990103|2019-11-23-11-33-59,ender/home/API/GetWorkTime?comid=20&data=TPCMSCD,ender
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-11-23T13:15:27+08:00 ] 58.56.189.98 /home/API/GetWorkTime?comid=20/home/API/GetWorkTime?comid=20
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-11-23T14:27:55+08:00 ] 42.84.116.254 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-11-23T15:04:31+08:00 ] 222.174.105.94 /home/API/GetWorkTime?comid=29/home/API/GetWorkTime?comid=29/home/API/GetWorkTime?comid=29
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-11-23T15:04:36+08:00 ] 221.2.235.34 /home/API/GetWorkTime?comid=29/home/API/GetWorkTime?comid=29&data=TPCMSCDTPCMSSD03019600451047100361048100109048000000990101|2019-11-23-15-4-33,ender/home/API/GetWorkTime?comid=29&data=TPCMSCD,ender/home/API/GetWorkTime?comid=29
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-11-23T15:13:39+08:00 ] 42.84.116.254 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-11-23T15:23:55+08:00 ] 42.84.116.254 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-11-23T15:28:19+08:00 ] 42.84.116.254 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-11-23T15:37:41+08:00 ] 42.84.116.254 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-11-23T15:39:52+08:00 ] 42.84.116.254 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-11-23T15:42:41+08:00 ] 58.56.189.98 /home/API/GetWorkTime?comid=20/home/API/GetWorkTime?comid=20/home/API/GetWorkTime?comid=20
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-11-23T15:42:44+08:00 ] 58.56.189.98 /home/API/GetWorkTime?comid=20/home/API/GetWorkTime?comid=20&data=TPCMSCDTPCMSSD03012701147002632000049342000047837000990105|2019-11-23-15-42-34,ender/home/API/GetWorkTime?comid=20&data=TPCMSCD,ender
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-11-23T15:42:47+08:00 ] 58.56.189.98 /home/API/GetWorkTime?comid=20/home/API/GetWorkTime?comid=20
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-11-23T15:59:51+08:00 ] 42.84.116.254 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-11-23T16:03:04+08:00 ] 222.174.105.94 /home/API/GetWorkTime?comid=29/home/API/GetWorkTime?comid=29/home/API/GetWorkTime?comid=29/home/API/GetWorkTime?comid=29
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-11-23T16:15:57+08:00 ] 221.2.235.34 /home/API/GetWorkTime?comid=29/home/API/GetWorkTime?comid=29/home/API/GetWorkTime?comid=29/home/API/GetWorkTime?comid=29
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-11-23T16:21:20+08:00 ] 222.174.105.94 /home/API/GetWorkTime?comid=29/home/API/GetWorkTime?comid=29/home/API/GetWorkTime?comid=29/home/API/GetWorkTime?comid=29
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-11-23T16:36:00+08:00 ] 221.2.235.34 /home/API/GetWorkTime?comid=29/home/API/GetWorkTime?comid=29/home/API/GetWorkTime?comid=29/home/API/GetWorkTime?comid=29
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-11-23T17:01:21+08:00 ] 222.174.105.94 /home/API/GetWorkTime?comid=29/home/API/GetWorkTime?comid=29/home/API/GetWorkTime?comid=29/home/API/GetWorkTime?comid=29
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-11-23T17:35:26+08:00 ] 42.84.116.254 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-11-23T18:13:28+08:00 ] 222.174.105.94 /home/API/GetWorkTime?comid=29/home/API/GetWorkTime?comid=29/home/API/GetWorkTime?comid=29/home/API/GetWorkTime?comid=29
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-11-23T18:16:56+08:00 ] 42.84.116.254 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-11-23T20:53:48+08:00 ] 222.174.105.94 /home/API/GetWorkTime?comid=29/home/API/GetWorkTime?comid=29/home/API/GetWorkTime?comid=29/home/API/GetWorkTime?comid=29
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-11-23T20:53:50+08:00 ] 221.2.235.34 /home/API/GetWorkTime?comid=29/home/API/GetWorkTime?comid=29&data=TPCMSCDTPCMSSD03019100435009200000049500000049000000990083|2019-11-23-20-53-33,ender/home/API/GetWorkTime?comid=29&data=TPCMSCD,ender
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-11-23T21:46:48+08:00 ] 42.84.116.254 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+

@@ -1,0 +1,55 @@
+*{
+  font-size: 12px;
+  color: gray;
+}
+ul{
+  width: 100%;
+  text-align: center;
+  padding-left: 0px;
+  padding-top: 45px;
+}
+li{
+  list-style: none;
+  margin-top: 35px;
+}
+.bg_login{
+  background-image: url("/Public/images/login_bg.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  font-family: '微软雅黑';
+}
+.div_form_login{
+  float: left;
+  padding-left: 150px;
+  padding-top: 15%;
+}
+.span_name{
+  padding-right: 10px;
+}
+.div_form{
+  background-image: url("/Public/images/Form.png");
+  background-repeat: no-repeat;
+  width: 422px;
+  height: 333px;
+}
+.input_login{
+  height: 40px;
+  /**border-radius: 5px;**/
+  width:300px;
+  border-style: none;
+  border-bottom: 1px solid #3ecaf0;
+  background-color: transparent;
+}
+.btn_login{
+  width:170px;
+  height: 50px;
+  margin-left:200px;
+  border-style:none;
+  background-color: transparent;
+  background-image: url("/Public/images/button_bg.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  color:#fff;
+  font-size: 16px;
+  cursor: pointer;
+}

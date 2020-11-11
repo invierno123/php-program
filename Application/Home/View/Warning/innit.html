@@ -1,0 +1,137 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head></head>
+<title>维修处理</title>
+<link rel="stylesheet" href="/Public/css/innit.css" type="text/css" media="screen" />
+<script language="javascript" type="text/javascript" src="/Public/js/My97DatePicker/WdatePicker.js"></script>
+<script src="/Public/js/jquery.min.js" type="text/javascript"> </script>
+<script  type="text/javascript">
+function trim(str){ //删除左右两端的空格
+return str.replace(/(^\s*)|(\s*$)/g, "");
+}
+function ltrim(str){ //删除左边的空格
+return str.replace(/(^\s*)/g,"");
+}
+function rtrim(str){ //删除右边的空格
+return str.replace(/(\s*$)/g,"");
+}
+function back_warning(){
+location="/home/warning/index?page="+GetQueryString("page");
+}
+function GetQueryString(name)
+{
+     var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
+     var r = window.location.search.substr(1).match(reg);
+     if(r!=null)return  unescape(r[2]); return null;
+}
+$(function(){
+      $("#innit").click(function(){
+      var repairstate=$("#repairstate").val();
+      if(repairstate=="1"){
+      var repairstate=1;
+      }else{
+        var repairstate=0;
+      }
+      var repairtype=$("#repairtype").val();
+      if(repairtype=="1"){
+      var repairtype=1;
+      }else{
+        var repairtype=0;
+      }
+          var re=  /^[+-]?\d+\.?\d*$/;//验证数字
+          if(!re.test(trim($("#standardtem").val()))){
+          alert("{:L('L_ALERT_STANDARDTEM_INPUT_ERRORS')}");
+          return;
+          }
+      var DATE_FORMAT = /^[0-9]{4}-[0-1]?[0-9]{1}-[0-3]?[0-9]{1}$/;
+      var date =trim($("#repairtime").val());
+        if(!DATE_FORMAT.test(date)){
+         alert("{:L('L_ALERT_TIME_INPUT_ERRORS')}");
+         return;
+        }
+
+        var number=  /^[0-9]*[1-9][0-9]*$/;
+        if(!number.test(trim($("#repairnum").val()))){
+        alert("{:L('L_ALERT_REPAIRNUM_INPUT_ERRORS')}");
+        return;
+         }
+
+        var re =/^\d+(?=\.{0,1}\d+$|$)/;
+        if(!re.test(trim($("#repairprice").val()))){
+        alert("{:L('L_ALERT_REPAIRPRICE_INPUT_ERRORS')}");
+        return;
+         }
+      $.post("/home/warning/update",
+      {id:$("#id").val(),
+      repairstate:repairstate,
+      repairtype: repairtype,
+      repairtime:$("#repairtime").val(),
+      repairnum:$("#repairnum").val(),
+      repairprice:$("#repairprice").val(),
+      standardtem:$("#standardtem").val(),
+      repairdescription:$("#repairdescription").val()
+      },
+      function(res){
+        if(res=="ok"){
+        alert("{:L("L_ALERT_SUCCESS")}");
+        location="/home/warning/index";
+        } else{
+          alert("{:L("L_ALERT_FAIL")}");
+        }
+      });
+     });
+});
+</script>
+
+<body>
+    <input id="id" type="hidden" name="id"  value="{$warnningdata['id']}">
+    <div class="all">
+
+      <div class="left">
+        <p><span>{:L('L_ALERT_REPAIRNO')} :</span><label>{$warnningdata['id']}</label></p>
+        <p><span>{:L('L_ALERT_AREAID')} :</span><label>{$warnningdata['area']}</label></p>
+        <p><span>{:L('L_ALERT_TRAPNO')}:</span><label>{$warnningdata['trapno']}</label></p>
+        <p><span>{:L('L_ALERT_LOCATION')} :</span><label>{$warnningdata['location']}</label></p>
+        <p><span>{:L('L_ALERT_EXLEVEL')}:</span><label>{$warnningdata['exlevel']}</label></p>
+        <p><span>{:L('L_ALERT_LEVELDESC')}:</span><label>{$warnningdata['leveldesc']}</label></p>
+        <p><span>{:L('L_ALERT_TRAPSTATE')}:</span><label id="trapstate">{$warnningdata['trapstate']}</label></p>
+        <p><span>{:L('L_ALERT_TEM')}:</span><label>{$warnningdata['alerttem']}</label></p>
+        <p><span>{:L('L_ALERT_HZ')}:</span><label>{$warnningdata['alerthz']}</label></p>
+      </div>
+      <script>
+      var  trapstate=$("#trapstate").text();
+        if(trapstate=="0"){
+        $("#trapstate").text("{:L('L_ALERT_TJ_WORK')}");
+        }else{
+        $("#trapstate").text("{:L('L_ALERT_TJ_EXC')}");
+        }
+      </script>
+      <div class="right">
+        <p><span>{:L('L_ALERT_REPAIRSTATE')}:</span>
+
+        <select id="repairstate">
+           <option value="1">{:L('L_ALERT_HANDLED')}</option>
+           <option value="0">{:L('L_ALERT_HANDLING')}</option>
+        </select>
+        </p>
+        <p><span>{:L('L_ALERT_REPAIRTYPE')}:</span>
+
+        <select id="repairtype">
+           <option value="1">{:L('L_ALERT_REPAIR')}</option>
+           <option value="0">{:L('L_ALERT_REPLACE')}</option>
+        </select>
+        </p>
+            <p><span>{:L('L_ALERT_STANDARD')}:</span><input id="standardtem" name="standardtem"  type="text" value="{$warnningdata['standardtem']}"></p>
+        <p><span>{:L('L_ALERT_REPAIRTIME')}:</span><input id="repairtime" name="repairtime" onclick="WdatePicker()"  type="text" value="{$warnningdata['repairtime']}"></p>
+        <p><span>{:L('L_ALERT_REPAIRNUM')}:</span><input id="repairnum" name="repairnum"  type="text" value="{$warnningdata['repairnum']}"></p>
+        <p><span>{:L('L_ALERT_REPAIRPRICE')}:</span><input id="repairprice" name="repairprice"  type="text" value="{$warnningdata['repairprice']}"></p>
+        <p><span> {:L('L_ALERT_REPAIRDESCRIPTION')}:</span><textarea cols="21" rows="3" id="repairdescription">{$warnningdata['repairdescription']} </textarea>
+        </p>
+      </div>
+      <div class="button">
+    <input id="btn_cencel" class="btn" type="submit" value ="{:L('L_ALERT_CANCEL')}" onclick="back_warning()" />
+    <input id="innit" type="submit" value ="{:L('L_ALERT_SUBMIT')}" />
+     </div>
+      </div>
+</body>
+</html>

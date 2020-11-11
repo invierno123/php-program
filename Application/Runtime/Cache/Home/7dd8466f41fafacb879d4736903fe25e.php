@@ -1,0 +1,227 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head></head>
+<title>预警列表展示</title>
+<link rel="stylesheet" href="/Public/css/warning.css" type="text/css" media="screen" />
+<script language="javascript" type="text/javascript" src="/Public/js/My97DatePicker/WdatePicker.js"></script>
+<script src="/Public/js/jquery.min.js" type="text/javascript"> </script>
+<script type="text/javascript">
+
+$(function(){
+  var page=GetQueryString("page");
+  if(GetQueryString("page")==""){
+    page="1";
+  }
+  LoadWarning(page);
+//  $("#leftcon .subbox .sublist").attr("style","width:"+($(window).width()-35)+"px;");
+});
+function innit(id,page) {
+  window.location.href="/home/warning/innit?id="+id+"&page="+page;
+//  window.open("/home/warning/innit?id="+id);
+}
+function errorreport(id,page) {
+  window.location.href="/home/warning/errorreport?id="+id+"&page="+page;
+//  window.open("/home/warning/innit?id="+id);
+}
+function GetQueryString(name)
+{
+     var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
+     var r = window.location.search.substr(1).match(reg);
+     if(r!=null)return  unescape(r[2]); return "";
+}
+  $(function(){
+      $.get("/home/warning/getareas",function(res){
+        var area_array_=res.split('/');
+        for(var i=0;i<area_array_.length;i++){
+          if(area_array_[i]==""){break;}
+          $("#select_area").append("<option value='"+area_array_[i].split(",")[0]+"'>"+area_array_[i].split(",")[1]+"</option>");
+        }
+      });
+    });
+</script>
+<script>
+
+<!--列表-->
+
+
+function LoadWarning(page){
+  var frist_node = $("#tab").find("tr:first");
+  $("#tab").html("");
+  $("#tab").append(frist_node);
+  var area=$("#select_area").val();
+  var time_s=$("#input_t_s").val();
+  var time_e=$("#input_t_e").val();
+  var trapno=$("#input_t_n").val();
+  var repairstate=$("#handle").val();
+  $.get("/home/warning/getwarninglist?page="+page+"&area="+area+"&ts="+time_s+"&te="+time_e+"&trapno="+trapno+"&repairstate="+repairstate,function(res){
+    var res_array=res.split('○');
+    $("#tab").append(res_array[0]);
+
+    $(function(){
+        $("tr[name='tr_repair']").each(function(){
+          var td_text = $($(this).children()[4]).text();
+
+          if(td_text=="1"){
+          $($(this).children()[4]).text("<?php echo L('L_ALERT_HANDLED');?>");
+          $($(this).children()[16]).attr("class","");
+          $($(this).children()[17]).attr("class","");
+          $($(this).children()[4]).attr("class","");
+          $($(this).children()[16]).children().removeAttr("onclick");
+          $($(this).children()[17]).children().removeAttr("onclick");
+
+          }else  if(td_text=="0"){
+            $($(this).children()[4]).text("<?php echo L('L_ALERT_HANDLING');?>");
+
+         };
+        });
+        $("tr[name='tr_repair']").each(function(){
+          var td_text = $($(this).children()[5]).text();
+          if(td_text=="1"){
+          $($(this).children()[5]).text("<?php echo L('L_ALERT_REPAIR');?>");
+
+          }else  if(td_text=="0"){
+            $($(this).children()[5]).text("<?php echo L('L_ALERT_REPLACE');?>");
+         };
+        });
+        $("tr[name='tr_repair']").each(function(){
+          var td_text = $($(this).children()[9]).text();
+          if(td_text=="1"){
+          $($(this).children()[9]).text("<?php echo L('L_ALERT_TJ_EXC');?>");
+
+          }else  if(td_text=="0"){
+            $($(this).children()[9]).text("<?php echo L('L_ALERT_TJ_WORK');?>");
+         };
+        });
+    });
+    $("#lab_c_p_trap").text(res_array[1].split(',')[1]);
+    $("#lab_t_p_trap").text(res_array[1].split(',')[0]);
+    $("#lab_count").text(res_array[1].split(',')[2]);
+    PageEable_warning();
+  });
+}
+function PageEable_warning(){
+  $("#page_f_trap").attr("class","page");
+  $("#page_p_trap").attr("class","page");
+  $("#page_n_trap").attr("class","page");
+  $("#page_l_trap").attr("class","page");
+  $("#page_f_trap").unbind("click");
+  $("#page_p_trap").unbind("click");
+  $("#page_n_trap").unbind("click");
+  $("#page_l_trap").unbind("click");
+
+  $("#page_f_trap").click(function(){
+    PageData_warning(0);
+
+  });
+  $("#page_p_trap").click(function(){
+    PageData_warning(-1);
+  });
+  $("#page_n_trap").click(function(){
+    PageData_warning(1);
+  });
+  $("#page_l_trap").click(function(){
+    PageData_warning(9);
+  });
+
+  if($("#lab_c_p_trap").text()=="1"){
+    $("#page_f_trap").removeAttr("class");
+    $("#page_p_trap").removeAttr("class");
+
+    $("#page_f_trap").attr("class","unpage");
+    $("#page_p_trap").attr("class","unpage");
+
+    $("#page_f_trap").unbind("click");
+    $("#page_p_trap").unbind("click");
+  }
+  if($("#lab_c_p_trap").text()==$("#lab_t_p_trap").text()){
+    $("#page_n_trap").removeAttr("class");
+    $("#page_l_trap").removeAttr("class");
+
+    $("#page_n_trap").attr("class","unpage");
+    $("#page_l_trap").attr("class","unpage");
+
+    $("#page_n_trap").unbind("click");
+    $("#page_l_trap").unbind("click");
+  }
+}
+  function PageData_warning(opp){
+    if(opp==0){
+      $("#lab_c_p_trap").text("1");
+    }else if (opp==9) {
+      $("#lab_c_p_trap").text($("#lab_t_p_trap").text());
+
+    }else{
+        $("#lab_c_p_trap").text(parseInt($("#lab_c_p_trap").text())+opp);
+    }
+    LoadWarning(parseInt($("#lab_c_p_trap").text()));
+
+  }
+
+</script>
+
+
+<body>
+  <h1 style="font-size:14px"><?php echo L('L_MENU_WAR');?></h1>
+
+  <table class="tab_search">
+    <tr>
+      <td><?php echo L("L_AREA_QY");?></td>
+      <td><select class="input_search" id="select_area"><option value=""><?php echo L("L_ALERT_TJ_ALL");?></option></select></td>
+      <td>&nbsp;</td>
+      <td><?php echo L("L_LIST_SHOW_TIME");?></td>
+      <td><input type="text" value="" id="input_t_s" class="input_search" onclick="WdatePicker()"/></td>
+      <td>-</td>
+      <td><input type="text" value="" id="input_t_e" class="input_search" onclick="WdatePicker()"/></td>
+      <td>&nbsp;</td>
+      <td><?php echo L('L_AREA_JDBH');?></td>
+      <td><input type="text" value="" id="input_t_n" class="input_search"/></td>
+      <td>&nbsp;</td>
+      <td class="center"> <?php echo L('L_ALERT_REPAIRSTATE');?><select id="handle"  class="input_search">
+        <option  value=""><?php echo L('L_ALERT_ALL');?></option>
+        <option  value="1"><?php echo L('L_ALERT_HANDLED');?></option>
+        <option  value="0"><?php echo L('L_ALERT_HANDLING');?></option>
+      </select>
+    </td>
+      <td>&nbsp;</td>
+      <td><input type="button" value=" <?php echo L('L_SEARCH_SEARCH');?> " onclick="LoadWarning(1)" class="btn_search" /></td>
+        <td>&nbsp;</td>
+        <td> <input type="button" class="add" onclick="window.location.href='/home/warning/add?&page=<?php echo ($page); ?>';"  value="<?php echo L('L_ALERT_ADD');?>"></td>
+    </tr>
+  </table>
+
+
+  <table border="0" cellspacing="0"  cellpadding="0" id="tab"  >
+  <tr>
+  <td style="text-align: center;color:#222;">  <?php echo L('L_ALERT_REPAIRNO');?> </td>
+  <td style="text-align: center;color:#222;">  <?php echo L('L_ALERT_AREA');?>  </td>
+  <td style="text-align: center;color:#222;">  <?php echo L('L_ALERT_TRAPNO');?>  </td>
+  <td style="text-align: center;color:#222;">  <?php echo L('L_ALERT_LOCATION');?>  </td>
+  <td style="text-align: center;color:#222;">  <?php echo L('L_ALERT_REPAIRSTATE');?>  </td>
+  <td style="text-align: center;color:#222;">  <?php echo L('L_ALERT_REPAIRTYPE');?>  </td>
+  <td style="text-align: center;color:#222;">  <?php echo L('L_ALERT_REPAIRTIME');?>  </td>
+  <td style="text-align: center;color:#222;">  <?php echo L('L_ALERT_REPAIRNUM');?>  </td>
+  <td style="text-align: center;color:#222;">  <?php echo L('L_ALERT_REPAIRPRICE');?>  </td>
+  <td style="text-align: center;color:#222;">  <?php echo L('L_ALERT_TRAPSTATE');?>  </td>
+  <td style="text-align: center;color:#222;">  <?php echo L('L_ALERT_EXLEVEL');?>  </td>
+  <td style="text-align: center;color:#222;">  <?php echo L('L_ALERT_LEVELDESC');?>  </td>
+  <td style="text-align: center;color:#222;">  <?php echo L('L_ALERT_TEM');?> </td>
+  <td style="text-align: center;color:#222;"> <?php echo L('L_ALERT_HZ');?> </td>
+  <td style="text-align: center;color:#222;"> <?php echo L('L_ALERT_STANDARD');?>  </td>
+  <td style="text-align: center;color:#222;">  <?php echo L('L_ALERT_REPAIRDESCRIPTION');?>  </td>
+  <td style="text-align: center;color:#222;" colspan="2">  <?php echo L('L_ALERT_OPERATION');?>    </td>
+  </tr>
+
+</table>
+<table class="tab_page">
+  <tr>
+    <td><a class="page" id="page_f_trap"><?php echo L("L_ALERT_PAGE_F");?></a></td>
+    <td><a class="page" id="page_p_trap"><?php echo L("L_ALERT_PAGE_P");?></a></td>
+    <td><a class="page" id="page_n_trap"><?php echo L("L_ALERT_PAGE_N");?></a></td>
+    <td><a class="page" id="page_l_trap"><?php echo L("L_ALERT_PAGE_L");?></a></td>
+    <td><label id="lab_c_p_trap"></label>/<label id="lab_t_p_trap"></label></td>
+    <td><?php echo L('L_ALERT_PAGE_GONG');?> <label id="lab_count"></label> <?php echo L('L_ALERT_PAGE_SHUJU');?></td>
+  </tr>
+</table>
+
+</body>
+</html>

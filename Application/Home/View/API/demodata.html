@@ -1,0 +1,258 @@
+<html>
+  <head>
+    <title></title>
+    <style type="text/css">
+      body{
+        font-size: 12.7px;
+        background-color: #fffff3;
+      }
+      h3{
+
+        font-size: 33.2px;
+        text-align: center;
+        font-family: Lucida Grande;
+         background-color: #00000f;
+         -webkit-background-clip: text;
+         -moz-background-clip: text;
+         background-clip: text;
+         color: transparent;
+         text-shadow: rgba(255,255,255,0.8) 0px 3px 3px;
+         filter:alpha(opacity=85);
+         -moz-opacity:0.85;
+         opacity: 0.85;
+      }
+
+      .UL_LIST{
+        padding-left: 0px;
+        list-style: none;
+        width: 100%;
+      }
+      .UL_LIST li{
+        padding: 5px 0 5px 0;
+        width: 100%;
+      }
+      .TAB_CONTENT{
+        font-size: 12.7px;
+        border-left: 1px solid #ccc;
+        width: 98%;
+        margin-left: 1%;
+        text-align: center;
+      }
+      .TR_CONTENT{
+        height: 30px;
+      }
+      .TR_CONTENT td{
+        border: 1px solid #ccc;
+        border-left: 0 none #ccc;
+        padding: 3px 0 3px 0;
+      }
+      .TOPBORDER_NONE td{
+        border-top: 0 none #ccc;
+      }
+      .page{
+        margin-left: 2%;
+        width: 98%;
+      }
+      .page span{
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      .page span a{
+        cursor: pointer;
+      }
+      .page_ac{
+        color: #54B6C2;
+      }
+      .page_un{
+        color: #ccc;
+      }
+      .pt {
+          background-size: 50px 50px;
+          background-color: #ac0;
+          background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent);
+          background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent);
+          background-image: -ms-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent);
+          background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent);
+          background-image: linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent);
+      }
+      .pt_C {
+          background-size: 50px 50px;
+          background-color: #fff;
+          filter:alpha(opacity=85);
+          -moz-opacity:0.85;
+          opacity: 0.85;
+          /*background-image: -webkit-linear-gradient(transparent 50%, rgba(200, 0, 0, .5) 50%, rgba(200, 0, 0, .5)), -webkit-linear-gradient(0deg, transparent 50%, rgba(200, 0, 0, .5) 50%, rgba(200, 0, 0, .5));
+          background-image: -moz-linear-gradient(transparent 50%, rgba(200, 0, 0, .5) 50%, rgba(200, 0, 0, .5)), -moz-linear-gradient(0deg, transparent 50%, rgba(200, 0, 0, .5) 50%, rgba(200, 0, 0, .5));
+          background-image: -ms-linear-gradient(transparent 50%, rgba(200, 0, 0, .5) 50%, rgba(200, 0, 0, .5)), -ms-linear-gradient(0deg, transparent 50%, rgba(200, 0, 0, .5) 50%, rgba(200, 0, 0, .5));
+          background-image: -o-linear-gradient(transparent 50%, rgba(200, 0, 0, .5) 50%, rgba(200, 0, 0, .5)), -o-linear-gradient(0deg, transparent 50%, rgba(200, 0, 0, .5) 50%, rgba(200, 0, 0, .5));
+          background-image: linear-gradient(transparent 50%, rgba(200, 0, 0, .5) 50%, rgba(200, 0, 0, .5)), linear-gradient(0deg, transparent 50%, rgba(200, 0, 0, .5) 50%, rgba(200, 0, 0, .5));*/
+      }
+      .curved_box {
+          display: inline-block;
+          *display: inline;
+          width: 100%;
+          padding: 0px;
+          border: 1px solid #eee;
+          -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.8), 0 0 20px rgba(0, 0, 0, 0.06) inset;
+          -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(0, 0, 0, 0.06) inset;
+          box-shadow: 0 1px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(0, 0, 0, 0.06) inset;
+          position: relative;
+          *zoom: 1;
+      }
+    </style>
+    <script type="text/javascript" src="/Public/js/jquery.1.4.2-min.js"></script>
+    <script>
+    var TimeInerv;
+    var cp=1;
+    function GetData(cpage) {
+      cp = cpage;
+      $.get("/home/API/DemoGetData?comid=1&cp="+cpage,function(res){
+        var res_json = eval('('+res+')');
+        var JSON_LEN = res_json.length;
+        var Last_HTML = "";
+
+        var AllPage = "1";
+        for (var i = 0; i < JSON_LEN; i++) {
+          var class_str = "TR_CONTENT";
+          if(i>0){
+            class_str = "TR_CONTENT TOPBORDER_NONE";
+          }
+          Last_HTML+='  <tr class="'+class_str+'"> <td style="width:5%;">'+res_json[i]["ID"]+'</td> <td style="width:15%;">'+res_json[i]["TNO"]+'</td> <td style="width:10%;">'+res_json[i]["TEM"]+'</td> <td style="width:15%;">'+res_json[i]["HZ"]+'</td> <td style="width:20%;">'+res_json[i]["TIME"]+'</td><td style="width:5%;">'+res_json[i]["ZF"]+'</td> <td style="width:25%;" title="单击修改或添加内容" onclick="des_click(this)" so="'+i+'" id="td_'+i+'"><input oi="'+res_json[i]["ID"]+'" id="input_'+i+'" value="'+res_json[i]["DESC"]+'" style="display:none; width:95%;" name="input_d"/><span id="span_'+i+'">'+res_json[i]["DESC"]+'</span></td>  </tr>';
+
+          AllPage = res_json[0]["AP"];
+        }
+        $("#lab_a").text(AllPage);
+        $("#lab_c").text(cp);
+
+        $("#TAB_C").html(Last_HTML);
+
+        Page_Set();
+
+        $("[name='input_d']").blur(function() {
+          $(this).hide();
+          var IF_C=true;
+          if($(this).val()==$(this).siblings('span').text()){
+            IF_C=false;
+          }
+          $(this).siblings('span').text($(this).val());
+          $(this).siblings('span').show();
+
+          if(!IF_C){
+            return;
+          }
+          $.get("UpdatDemoData?oid="+$(this).attr("oi")+"&des="+$(this).val(),function (res) {
+            if(!res){
+              alert("保存失败");
+            }else {
+              TimeInerv = setInterval(function () {
+                GetData(cp);
+              },3000);
+            }
+          });
+        })
+      });
+    }
+    $(function(){
+      DATA_L();
+    });
+
+    function DATA_L() {
+      GetData(cp);
+      TimeInerv = setInterval(function () {
+        GetData(cp);
+      },3000);
+    }
+    function des_click(obj) {
+      clearInterval(TimeInerv);
+      $("#input_"+$(obj).attr("so")).show();
+      $("#input_"+$(obj).attr("so")).focus();
+      $("#span_"+$(obj).attr("so")).hide();
+    }
+
+    function Page_Set() {
+      $("#p_a_n").unbind("click");
+      $("#p_a_l").unbind("click");
+      $("#p_a_p").unbind("click");
+      $("#p_a_f").unbind("click");
+
+      $("#p_a_f").click(function () {
+        cp=1;
+        DATA_L();
+      });
+      $("#p_a_p").click(function () {
+        if(cp>1){
+          cp=cp-1;
+        }
+        DATA_L();
+      });
+      $("#p_a_n").click(function () {
+        if(cp<parseInt($("#lab_a").text())){
+          cp=cp+1;
+        }
+        DATA_L();
+      });
+      $("#p_a_l").click(function () {
+        cp=parseInt($("#lab_a").text());
+        DATA_L();
+      });
+      $("#p_a_n").removeClass();
+      $("#p_a_n").addClass("page_ac");
+
+      $("#p_a_l").removeClass();
+      $("#p_a_l").addClass("page_ac");
+
+      $("#p_a_p").removeClass();
+      $("#p_a_p").addClass("page_ac");
+
+      $("#p_a_f").removeClass();
+      $("#p_a_f").addClass("page_ac");
+
+      if($("#lab_a").text()==$("#lab_c").text()){
+        $("#p_a_n").unbind("click");
+        $("#p_a_l").unbind("click");
+        $("#p_a_n").addClass("page_un");
+        $("#p_a_l").addClass("page_un");
+      }
+      if($("#lab_c").text()=="1"){
+        $("#p_a_p").unbind("click");
+        $("#p_a_f").unbind("click");
+        $("#p_a_p").addClass("page_un");
+        $("#p_a_f").addClass("page_un");
+      }
+
+    }
+    </script>
+  </head>
+  <body class="pt">
+    <div>
+      <h3>
+        TMS-测试
+      </h3>
+    </div>
+    <div class="curved_box pt_C" >
+      <ul class="UL_LIST">
+        <li>
+          <table class="TAB_CONTENT" cellspacing="0" cellspadding="0" style="font-weight: bold; color:#54B6C2;">
+            <tr class="TR_CONTENT">
+              <td style="width:5%;">序号</td>
+              <td style="width:15%;">编号</td>
+              <td style="width:10%;">温度</td>
+              <td style="width:15%;">频率</td>
+              <td style="width:20%;">检测时间</td>
+              <td style="width:5%;">振幅</td>
+              <td style="width:25%;">备注</td>
+            </tr>
+          </table>
+        </li>
+        <li>
+          <table class="TAB_CONTENT" id="TAB_C" cellspacing="0" cellspadding="0">
+          </table>
+        </li>
+        <li class="page" style="width: 98%;">
+          <span><a id="p_a_f">首页</a></span><span><a id="p_a_p" class="box-shadow">上一页</a></span><span><a id="p_a_n">下一页</a></span><span><a id="p_a_l">末页</a></span><span>第<label id="lab_c"></label>/<label id="lab_a"></label>页</span>
+        </li>
+      </ul>
+    </div>
+    <div style="color:#eee; padding-top:20px; text-align:center;">山东萝卜电子信息科技有限公司 &copy;萝卜智能</div>
+  </body>
+</html>

@@ -1,0 +1,6 @@
+[ 2018-09-18T12:27:29+08:00 ] 124.93.196.9 /home/API/GetRepDataPTRP?l=zh-cn&ci=1&ch=ffa0377b208c519cab0778947936445e
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group by traptype' at line 1
+
+[ 2018-09-18T23:55:48+08:00 ] 47.75.60.193 /Home/API/GetSupList?ci=15&chxxxxxx&atool_timestamp=1537286147
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-100,100' at line 1
+

@@ -1,0 +1,50 @@
+.tab_search{
+  padding: 5px 5px 15px 5px;
+  font-size: 12px;
+  color: gray;
+}
+.tab_search td{
+  padding-left: 5px;
+}
+.input_search{
+  width: 200px;
+  height: 30px;
+  border:1px solid #ccc;
+  -moz-border-radius: 5px;      /* Gecko browsers */
+ -webkit-border-radius: 5px;   /* Webkit browsers */
+ border-radius:5px;            /* W3C syntax */
+}
+.btn_search{
+  border: 1px solid gray;
+  background-color: #fff;
+  cursor: pointer;
+  font-size: 12px;
+  width:80px;
+  height:28px;
+  -moz-border-radius: 5px;      /* Gecko browsers */
+ -webkit-border-radius: 5px;   /* Webkit browsers */
+ border-radius:5px;            /* W3C syntax */
+}
+
+input, textarea {
+    -moz-transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) inset;
+}
+
+input:focus, textarea:focus {
+    border-color: rgba(82, 168, 236, 0.8);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) inset, 0 0 8px rgba(82, 168, 236, 0.6);
+    outline: 0 none;
+}
+a {
+    color:#2685e3;
+    font-size: 12px;
+	text-decoration:none;
+	outline: medium none;
+  cursor: pointer;
+}
+span{
+  width: 100px;
+  float: left;
+  padding-right: 10px;
+}

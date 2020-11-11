@@ -1,0 +1,12 @@
+[ 2019-08-27T18:22:15+08:00 ] 116.3.195.224 /home/API/trapmodelAddUpdate?l=zh-cn&ci=1&ch=198b6521a4820521c8343042d6e41491
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+
+[ 2019-08-27T18:22:27+08:00 ] 116.3.195.224 /home/API/trapmodelAddUpdate?l=zh-cn&ci=1&ch=198b6521a4820521c8343042d6e41491
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+
+[ 2019-08-27T18:22:47+08:00 ] 116.3.195.224 /home/API/DeleteModel?l=zh-cn&ci=1&ch=198b6521a4820521c8343042d6e41491
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and trapNo='9006'' at line 1
+
+[ 2019-08-27T18:35:36+08:00 ] 116.3.195.224 /home/API/trapmodelAddUpdate?l=zh-cn&ci=1&ch=3cd6a902885c7d8edadd38e45d3e4db1
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+

@@ -1,0 +1,12 @@
+[ 2019-05-10T16:07:52+08:00 ] 101.132.193.68 /home/api/getworktime?comid=20
+ERR: 无法加载控制器:Api
+
+[ 2019-05-10T16:11:44+08:00 ] 106.14.190.222 /home/api/getworktime?comid=15
+ERR: 无法加载控制器:Api
+
+[ 2019-05-10T16:43:34+08:00 ] 47.100.38.232 /home/api/gettcsetinfo?comid=20&mcu=01
+ERR: 无法加载控制器:Api
+
+[ 2019-05-10T16:49:33+08:00 ] 101.132.144.145 /home/api/gettcsetinfo?comid=15&mcu=01
+ERR: 无法加载控制器:Api
+

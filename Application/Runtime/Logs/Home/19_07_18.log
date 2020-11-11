@@ -1,0 +1,6 @@
+[ 2019-07-18T13:48:00+08:00 ] 27.214.132.67 /home/RealTime/GetData
+ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2019-07-18T17:54:20+08:00 ] 60.210.218.52 /home/RealTime/GetData
+ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+

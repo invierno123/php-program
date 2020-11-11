@@ -1,0 +1,33 @@
+[ 2019-08-14T10:14:03+08:00 ] 42.84.47.14 /home/API/GetWorkTime?comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '18comid' in 'where clause'
+
+[ 2019-08-14T13:46:07+08:00 ] 42.84.47.14 /home/API/GetWorkTime?comid=&mcuid=01&gd=qqgd
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+
+[ 2019-08-14T13:46:32+08:00 ] 42.84.47.14 /home/API/GetWorkTime?comid=&mcuid=01&gd=qqgd
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+
+[ 2019-08-14T13:47:02+08:00 ] 42.84.47.14 /home/API/GetWorkTime?comid=&mcuid=01&gd=qqgd
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+
+[ 2019-08-14T13:47:57+08:00 ] 42.84.47.14 /home/API/GetWorkTime?comid=&mcuid=01&gd=qqgd
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+
+[ 2019-08-14T13:48:48+08:00 ] 42.84.47.14 /home/API/GetWorkTime?comid=comid=comid=comid=comid=comid=comid=comid=comid=comid=comid=comid=comid=comid=comid=comid=comid=comid=comid=comid=comid=comid=comid=comid=comid=comid=comid=comid=comid=comid=comid=comid=comid=comid=comid=comid=comid=comid=comid=comid=comid=comid=comid=comid=comid=comid=comid=comid=comid=comid=comid=comid=comid=comid=comid=comid=comid=comid=comid=comid=comid=comid=comid=comid=comid=comid=comi
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'comid' in 'where clause'
+
+[ 2019-08-14T13:51:04+08:00 ] 42.84.47.14 /home/API/GetWorkTime?comid=&mcuid=01&gd=qqgd
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+
+[ 2019-08-14T18:21:42+08:00 ] 42.84.47.14 /home/API/GetWorkTime?comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '18comid' in 'where clause'
+
+[ 2019-08-14T18:21:48+08:00 ] 42.84.47.14 /home/API/GetWorkTime?comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '18comid' in 'where clause'
+
+[ 2019-08-14T18:21:53+08:00 ] 42.84.47.14 /home/API/GetWorkTime?comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '18comid' in 'where clause'
+
+[ 2019-08-14T18:21:57+08:00 ] 42.84.47.14 /home/API/GetWorkTime?comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18comid=18
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '18comid' in 'where clause'
+

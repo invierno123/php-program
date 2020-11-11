@@ -1,0 +1,21 @@
+[ 2018-09-25T09:34:33+08:00 ] 223.104.176.207 /home/API/GetTrapInfo?l=zh-cn&ci=1&ch=2f61f1e5da512dc6f5597248e07e1cd7
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-50,50' at line 1
+
+[ 2018-09-25T09:35:07+08:00 ] 223.104.176.207 /home/API/GetTrapInfo?l=zh-cn&ci=1&ch=f144fa26db0c7cca9190f4a0f0fb483c
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-50,50' at line 1
+
+[ 2018-09-25T09:35:46+08:00 ] 223.104.176.207 /home/API/GetTrapInfo?l=zh-cn&ci=1&ch=f144fa26db0c7cca9190f4a0f0fb483c
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-50,50' at line 1
+
+[ 2018-09-25T09:38:27+08:00 ] 223.104.176.207 /home/API/GetTrapInfo?l=zh-cn&ci=1&ch=2b1355fc0cc7b69a275a5cbaee4a9ce9
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-50,50' at line 1
+
+[ 2018-09-25T09:42:01+08:00 ] 223.104.176.207 /home/API/GetRepDataPTRP?l=zh-cn&ci=1&ch=c14919b64c30aa856a61d3b5c44db4d3
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group by traptype' at line 1
+
+[ 2018-09-25T09:42:14+08:00 ] 223.104.176.207 /home/API/GetTrapInfo?l=zh-cn&ci=1&ch=895e0ffcb72c7a11df18e8dfe8dc6575
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-50,50' at line 1
+
+[ 2018-09-25T10:27:21+08:00 ] 223.104.176.207 /home/API/GetTrapInfo?l=zh-cn&ci=1&ch=e75b977f8db607893478721d6f65c5ee
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-50,50' at line 1
+

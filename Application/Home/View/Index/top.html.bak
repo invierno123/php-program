@@ -1,0 +1,89 @@
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <script src="/Public/js/jquery.min.js" type="text/javascript"> </script>
+
+  <script type="text/javascript">
+  function getCookie(name)
+  {
+      var arr,reg=new RegExp("(^| )"+name+"=([^;]*)(;|$)");
+
+      if(arr=document.cookie.match(reg))
+
+          return unescape(arr[2]);
+      else
+          return "";
+  }
+  onload=function(){
+    var l_t = getCookie("think_language");
+    if(l_t==""){l_t="zh-cn";}
+    document.getElementById("a_"+l_t.toLowerCase()).style.color="red";
+  };
+function backTohome(){
+//  this.location="/home/Main";
+}
+
+  </script>
+  <style>
+  body{
+    background: url("/Public/images/banner.png") no-repeat fixed top;
+    overflow: hidden;
+  }
+  ul{list-style: none;}
+  .ul{
+    float: right;
+    margin-top: 25px;
+    padding-right: 10px;
+  }
+  .ul li{
+    display:inline;
+    padding-left: 15px;
+    font-size: 12px;
+  }
+  .logo{
+    height:50px;
+    padding-left:25px;
+  }
+  .title{
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    bottom: 10px;
+    margin-left: 10px;
+    color: gray;
+  }
+  </style>
+
+
+
+</head>
+<body>
+  <img class="logo" src="/Public/images/l_chinese.png"/>
+  <span class="title"><a id="back_home" style="cursor:pointer;text-decoration:none; color:gray" href="/home/index/main" target="_parent">{:L("L_MASTER_TITLE")}</a></span>
+  <ul class="ul">
+    <li>
+      <a id="a_zh-cn" style="cursor:pointer;text-decoration:none;" href="/home/index/main?l=zh-cn" target="_parent">中文</a>
+    </li>
+    <li>
+      <a id="a_en-us" style="cursor:pointer;text-decoration:none;" href="/home/index/main?l=en-us" target="_parent">English</a>
+    </li>
+  </ul>
+  <ul class="ul">
+    <li>
+      {:L("L_ALERT_HELLO")}，{$CMPNA}
+    </li>
+    <li>
+      <a id="link_exit" style="cursor:pointer;">{:L("L_ALERT_LOGOUT")}</a>
+    </li>
+  </ul>
+<script>
+$(function(){
+  $("#link_exit").click(function(){
+    $.get("/home/index/loginout",function(res){
+      parent.location="/home/index";
+    });
+  });
+});
+  </script>
+</body>
+</html>

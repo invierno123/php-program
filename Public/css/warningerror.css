@@ -1,0 +1,62 @@
+*{
+  font-size: 12px;
+}
+.div_all{
+  width: 580px;
+}
+.div_left{
+float: left;
+
+}
+.div_right{
+  float: right;
+}
+label{
+  padding-right: 35px;
+}
+span{
+  width: 100px;
+  float: left;
+  padding-right: 10px;
+}
+
+p{
+  height: 25px;
+  line-height:25px;
+  padding-left: 25px;
+
+}
+input{
+  height: 25px;
+  border:1px solid #ccc;
+  border-radius: 5px;
+
+}
+#alerttype{
+  width: 148px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+#fluidtype{
+  width: 148px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+
+}
+#tianjia{
+  cursor:pointer;
+  width: 100px;
+  height: 30px;
+  margin-top:50px;
+  margin-left: 50px;
+  margin-right: 0px;
+}
+.btn{
+  margin-top: 50px;
+  margin-left: 20px;
+  cursor:pointer;
+  width: 100px;
+  height: 30px;
+}

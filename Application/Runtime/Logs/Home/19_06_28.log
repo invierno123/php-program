@@ -1,0 +1,18 @@
+[ 2019-06-28T11:10:45+08:00 ] 42.84.112.173 /home/API/trapmodelAddUpdate
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+
+[ 2019-06-28T11:10:58+08:00 ] 42.84.112.173 /home/API/trapmodelAddUpdate
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+
+[ 2019-06-28T11:10:59+08:00 ] 42.84.112.173 /home/API/trapmodelAddUpdate
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+
+[ 2019-06-28T11:11:03+08:00 ] 42.84.112.173 /home/API/trapmodelAddUpdate
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+
+[ 2019-06-28T20:58:31+08:00 ] 47.97.220.124 /home/api/gettcsetinfo?comid=15&mcu=01
+ERR: 无法加载控制器:Api
+
+[ 2019-06-28T21:04:25+08:00 ] 47.92.74.243 /home/api/getworktime?comid=15
+ERR: 无法加载控制器:Api
+

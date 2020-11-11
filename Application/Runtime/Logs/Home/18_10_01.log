@@ -1,0 +1,6 @@
+[ 2018-10-01T08:04:34+08:00 ] 175.171.158.46 /home/API/subAccount?l=zh-cn&ci=1&ch=60279bba3a70d069308ef9592d8d324b
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+[ 2018-10-01T12:41:53+08:00 ] 116.3.244.221 /home/API/GetRepDataUSEmtfiRP?l=zh-cn&ci=1&ch=afd59fbe52a750472870592e43b1c318
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group by usemtfi' at line 1
+

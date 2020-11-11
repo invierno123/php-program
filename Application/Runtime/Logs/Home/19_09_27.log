@@ -1,0 +1,363 @@
+[ 2019-09-27T01:23:01+08:00 ] 42.84.37.51 /home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28&mcuid=01&gd=qqgd
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-09-27T02:26:49+08:00 ] 42.84.37.51 /home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28&mcuid=01&gd=qqgd
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-09-27T03:30:44+08:00 ] 42.84.37.51 /home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28&mcuid=01&gd=qqgd
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-09-27T04:32:11+08:00 ] 42.84.37.51 /home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28&mcuid=01&gd=qqgd
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-09-27T05:24:05+08:00 ] 42.84.37.51 /home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28&mcuid=01&gd=qqgd/home/API/GetWorkTime?comid=28&mcuid=01&gd=qqgd
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-09-27T06:09:53+08:00 ] 42.84.37.51 /home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28&mcuid=01&gd=qqgd
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-09-27T07:12:09+08:00 ] 42.84.37.51 /home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28&mcuid=01&gd=qqgd
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-09-27T08:14:20+08:00 ] 42.84.37.51 /home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28&mcuid=01&gd=qqgd
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-09-27T09:17:32+08:00 ] 47.100.38.9 /home/api/getworktime?comid=28&data=tpcmscdtpcmssd03014600265048600000048600000048600000990096|2019-9-26-11-36-31,tpcmssd03014700260051000000051100000051000000990057|2019-9-26-11-36-35,tpcmssd03014b00244048900000048900000048900000990114|2019-9-26-11-36-38,tpcmssd03014d00244048200000048300000048200000990096|2019-9-26-11-36-42,ender/home/api/getworktime?comid=28
+ERR: 无法加载控制器:Api
+
+[ 2019-09-27T09:18:07+08:00 ] 47.97.120.5 /home/api/getworktime?comid=1&data=tpcmscdtpcmssd03013900270010500000047900000047700000990084|2019-9-26-9-40-12,tpcmssd03013c00281010700000048800000048600000990098|2019-9-26-9-40-22,tpcmssd03013d00302010700000049000000048700000990087|2019-9-26-9-40-26,tpcmssd03013f00313010600000047200000047000000990082|2019-9-26-9-40-33,tpcmssd03014100286010400000047700000047400000990078|2019-9-26-9-40-40,ender
+ERR: 无法加载控制器:Api
+
+[ 2019-09-27T09:18:42+08:00 ] 47.98.62.203 /home/api/getworktime?comid=28&data=tpcmscdtpcmssd03013200286010400000048300000047700000990078|2019-9-26-22-35-9,tpcmssd03013300223009900000048900000048300000990086|2019-9-26-22-35-13,tpcmssd03013400270010200000047700000047200000990069|2019-9-26-22-35-16,tpcmssd03013600239010100000046900000046500000990078|2019-9-26-22-35-20,ender/home/api/getworktime?comid=28
+ERR: 无法加载控制器:Api
+
+[ 2019-09-27T09:19:29+08:00 ] 47.92.140.160 /home/api/getworktime?comid=28&data=tpcmscdtpcmssd03013200281010400000048300000048000000990067|2019-9-26-22-4-36,tpcmssd03013300233010000000048800000048400000990070|2019-9-26-22-4-40,tpcmssd03013400265010300000047700000047200000990074|2019-9-26-22-4-43,tpcmssd03013600249010300000046800000046700000990082|2019-9-26-22-4-47,ender/home/api/getworktime?comid=28
+ERR: 无法加载控制器:Api
+
+[ 2019-09-27T09:21:03+08:00 ] 47.92.98.215 /home/api/getworktime?comid=28&data=tpcmscdtpcmssd03013400265011000000047600000047400000990073|2019-9-26-23-45-31,tpcmssd03013600239010400000046800000046700000990082|2019-9-26-23-45-35,ender/home/api/getworktime?comid=28
+ERR: 无法加载控制器:Api
+
+[ 2019-09-27T09:21:07+08:00 ] 47.97.167.161 /home/api/getworktime?comid=20&data=tpcmscdtpcmssd03012801349005332000051042000050737000990093|2019-9-26-20-27-28,tpcmssd03012901349005532000070442000053437000990101|2019-9-26-20-27-30,ender
+ERR: 无法加载控制器:Api
+
+[ 2019-09-27T09:24:08+08:00 ] 47.92.38.53 /home/api/getworktime?comid=28&data=tpcmscdtpcmssd03012d00244010100000047300000047000000990078|2019-9-26-21-0-12,tpcmssd03013200276010500000048200000047900000990079|2019-9-26-21-0-31,tpcmssd03013300228009800000048900000048600000990093|2019-9-26-21-0-34,ender/home/api/getworktime?comid=28
+ERR: 无法加载控制器:Api
+
+[ 2019-09-27T09:24:08+08:00 ] 47.92.98.215 /home/api/getworktime?comid=20&data=tpcmscdtpcmssd03011e00993006932000045242000044937000991127|2019-9-26-0-56-17,tpcmssd03011f01306006932000049142000048537000990119|2019-9-26-0-56-19,tpcmssd03012401227007932000057942000055637000990111|2019-9-26-0-56-22,tpcmssd03012501131006232000062842000059137000990092|2019-9-26-0-56-24,tpcmssd03012701333002832000051842000051337000990092|2019-9-26-0-56-26,ender
+ERR: 无法加载控制器:Api
+
+[ 2019-09-27T09:24:39+08:00 ] 47.98.97.81 /home/api/getworktime?comid=20&data=tpcmscdtpcmssd03012401344006432000055942000054737000990103|2019-9-26-20-19-23,ender
+ERR: 无法加载控制器:Api
+
+[ 2019-09-27T09:25:32+08:00 ] 101.132.144.145 /home/api/getworktime?comid=28&data=tpcmscdtpcmssd03014700276010400000051500000051300000990070|2019-9-26-13-23-12,tpcmssd03014b00286010200000048900000048600000990099|2019-9-26-13-23-15,ender/home/api/getworktime?comid=28
+ERR: 无法加载控制器:Api
+
+[ 2019-09-27T09:26:09+08:00 ] 47.97.204.168 /home/api/getworktime?comid=1
+ERR: 无法加载控制器:Api
+
+[ 2019-09-27T09:35:32+08:00 ] 47.100.1.70 /home/api/getworktime?comid=28&data=tpcmscdtpcmssd03013100239010900000049600000049500000990084|2019-9-26-16-5-32,tpcmssd03013200297011000000048200000048100000990071|2019-9-26-16-5-36,tpcmssd03013600281010500000046800000046700000990080|2019-9-26-16-5-40,tpcmssd03013b00324010100000047700000047600000990086|2019-9-26-16-5-43,tpcmssd03013f00308010600000047200000047100000990087|2019-9-26-16-5-47,ender
+ERR: 无法加载控制器:Api
+
+[ 2019-09-27T09:35:36+08:00 ] 106.15.229.102 /home/api/getworktime?comid=28&data=tpcmscdtpcmssd03014600276010100000048700000048500000990082|2019-9-26-11-58-58,ender/home/api/getworktime?comid=28
+ERR: 无法加载控制器:Api
+
+[ 2019-09-27T09:37:34+08:00 ] 47.92.6.234 /home/api/getworktime?comid=20&data=tpcmscdtpcmssd03012501142006032000063742000061237000990086|2019-9-26-9-34-23,tpcmssd03012701020005832000049042000048837000990098|2019-9-26-9-34-26,ender
+ERR: 无法加载控制器:Api
+
+[ 2019-09-27T09:37:40+08:00 ] 47.98.62.203 /home/api/getworktime?comid=20&data=tpcmscdtpcmssd03012800956007232000049942000049837000990122|2019-9-26-6-31-57,tpcmssd03011e01025006932000045242000044937000991114|2019-9-26-6-31-59,tpcmssd03012900610008200000050500000050000000990062|2019-9-26-6-32-12,tpcmssd03011f01301007132000049142000048637000990108|2019-9-26-6-32-14,tpcmssd03012701094006332000073742000057937000990110|2019-9-26-6-32-16,ender
+ERR: 无法加载控制器:Api
+
+[ 2019-09-27T09:38:00+08:00 ] 47.92.110.185 /home/api/getworktime?comid=28&data=tpcmscdtpcmssd03014700270010400000051500000051300000990064|2019-9-26-13-20-10,ender/home/api/getworktime?comid=28
+ERR: 无法加载控制器:Api
+
+[ 2019-09-27T09:38:10+08:00 ] 47.97.120.5 /home/api/getworktime?comid=20&data=tpcmscdtpcmssd03011e01009006632000045442000045037000991107|2019-9-26-9-46-58,tpcmssd03012401221007632000056642000055437000990096|2019-9-26-9-47-0,tpcmssd03012801227005132000053842000050537000990094|2019-9-26-9-47-3,tpcmssd03012901370006132000050842000050137000990088|2019-9-26-9-47-5,tpcmssd03011f01317006732000049942000048837000990130|2019-9-26-9-47-7,ender
+ERR: 无法加载控制器:Api
+
+[ 2019-09-27T09:38:31+08:00 ] 101.132.131.7 /home/api/getworktime?comid=20&data=tpcmscdtpcmssd03012501142005932000092242000062837000990098|2019-9-26-9-47-13,tpcmssd03012701004005832000049042000048837000990100|2019-9-26-9-47-15,ender
+ERR: 无法加载控制器:Api
+
+[ 2019-09-27T09:39:31+08:00 ] 101.132.100.6 /home/api/getworktime?comid=20&data=tpcmscdtpcmssd03012801269005032000050542000050037000990088|2019-9-26-8-12-54,tpcmssd03012701168004432000049642000048837000990112|2019-9-26-8-12-57,ender
+ERR: 无法加载控制器:Api
+
+[ 2019-09-27T09:40:02+08:00 ] 47.92.151.67 /home/api/getworktime?comid=28&data=tpcmscdtpcmssd03014700255051200000051300000051200000990067|2019-9-26-18-3-20,tpcmssd03014b00223048500000048700000048600000990102|2019-9-26-18-3-23,tpcmssd03014d00244048100000048200000048100000990093|2019-9-26-18-3-27,ender/home/api/getworktime?comid=28
+ERR: 无法加载控制器:Api
+
+[ 2019-09-27T09:40:41+08:00 ] 47.98.97.252 /home/api/getworktime?comid=28
+ERR: 无法加载控制器:Api
+
+[ 2019-09-27T09:41:33+08:00 ] 101.132.182.68 /home/api/getworktime?comid=20&data=tpcmscdtpcmssd03012801317004832000050142000050037000990085|2019-9-26-4-26-16,tpcmssd03012900876007132000050142000049937000990108|2019-9-26-4-26-19,ender
+ERR: 无法加载控制器:Api
+
+[ 2019-09-27T09:41:58+08:00 ] 47.92.74.243 /home/api/getworktime?comid=20&data=tpcmscdtpcmssd03011f01322006932000049842000048937000990128|2019-9-26-8-47-47,tpcmssd03012401322007832000058742000055537000990104|2019-9-26-8-47-50,tpcmssd03012501142006232000064342000060537000990087|2019-9-26-8-47-52,tpcmssd03012801243005232000051542000050537000990088|2019-9-26-8-47-54,tpcmssd03012901370005632000050642000050137000990090|2019-9-26-8-47-57,ender
+ERR: 无法加载控制器:Api
+
+[ 2019-09-27T09:42:59+08:00 ] 47.92.75.171 /home/api/getworktime?comid=20&data=tpcmscdtpcmssd03011e01014006932000045442000045037000991106|2019-9-26-6-18-27,tpcmssd03012401253008132000056942000055737000990103|2019-9-26-6-18-29,tpcmssd03012501120006532000061742000058537000990094|2019-9-26-6-18-32,tpcmssd03012900616008000000050000000049900000990078|2019-9-26-6-18-44,tpcmssd03011f01312007032000049542000048837000990115|2019-9-26-6-18-57,ender
+ERR: 无法加载控制器:Api
+
+[ 2019-09-27T09:43:31+08:00 ] 101.132.131.7 /home/api/getworktime?comid=28&data=tpcmscdtpcmssd03013100244010100000049800000049700000990076|2019-9-26-12-39-21,tpcmssd03013200286010200000048400000048200000990073|2019-9-26-12-39-29,tpcmssd03013b00313009200000047900000047500000990094|2019-9-26-12-39-32,tpcmssd03013f00302009900000047400000047100000990094|2019-9-26-12-39-40,tpcmssd03014700265010500000051500000051200000990068|2019-9-26-12-39-43,en
+ERR: 无法加载控制器:Api
+
+[ 2019-09-27T09:44:32+08:00 ] 101.132.177.14 /home/api/getworktime?comid=20&data=tpcmscdtpcmssd03012801338005432000057942000051537000990106|2019-9-26-20-35-58,tpcmssd03012901338005432000051142000050237000990089|2019-9-26-20-36-0,ender
+ERR: 无法加载控制器:Api
+
+[ 2019-09-27T09:44:35+08:00 ] 47.92.75.171 /home/api/getworktime?comid=28&data=tpcmscdtpcmssd03012d00249010000000047300000046800000990089|2019-9-26-19-47-9,tpcmssd03012e00260010800000048800000048500000990096|2019-9-26-19-47-13,tpcmssd03012f00270009800000046800000046400000990101|2019-9-26-19-47-16,tpcmssd03013100233010200000049600000049300000990069|2019-9-26-19-47-24,tpcmssd03013200276010800000048100000047800000990080|2019-9-26-19-47-27,end
+ERR: 无法加载控制器:Api
+
+[ 2019-09-27T09:45:03+08:00 ] 120.79.184.41 /home/api/getworktime?comid=28&data=tpcmscdtpcmssd03012d00244010400000047300000047000000990081|2019-9-26-23-54-15,tpcmssd03012e00244010600000048900000048500000990097|2019-9-26-23-54-19,tpcmssd03013100223009300000049600000049000000990074|2019-9-26-23-54-30,tpcmssd03013400260010200000047700000047200000990068|2019-9-26-23-54-41,tpcmssd03013600249010100000046800000046500000990078|2019-9-26-23-54-45,en
+ERR: 无法加载控制器:Api
+
+[ 2019-09-27T09:46:59+08:00 ] 39.107.121.196 /home/api/getworktime?comid=20&data=tpcmscdtpcmssd03012801179007432000064742000052037000990103|2019-9-26-6-41-14,tpcmssd03011e01014006932000045242000045037000991104|2019-9-26-6-41-16,tpcmssd03012901142008132000051342000050237000990084|2019-9-26-6-41-19,tpcmssd03011f01312007032000049642000048737000990115|2019-9-26-6-41-21,tpcmssd03012701216005832000071042000051337000990089|2019-9-26-6-41-23,ender
+ERR: 无法加载控制器:Api
+
+[ 2019-09-27T09:47:32+08:00 ] 47.100.38.9 /home/api/getworktime?comid=28&data=tpcmscdtpcmssd03013300255010600000048700000048300000990078|2019-9-26-18-24-48,tpcmssd03013400286047600000047700000047600000990094|2019-9-26-18-24-52,ender/home/api/getworktime?comid=28
+ERR: 无法加载控制器:Api
+
+[ 2019-09-27T09:49:01+08:00 ] 101.132.156.172 /home/api/getworktime?comid=20&data=tpcmscdtpcmssd03012701328003032000052242000051537000990086|2019-9-26-0-39-8,tpcmssd03012801381004132000084242000052937000990098|2019-9-26-0-39-10,ender
+ERR: 无法加载控制器:Api
+
+[ 2019-09-27T09:49:29+08:00 ] 120.77.213.254 /home/api/getworktime?comid=28&data=tpcmscdtpcmssd03013100249010100000049800000049700000990081|2019-9-26-13-28-53,tpcmssd03014700265010400000051500000051300000990068|2019-9-26-13-29-15,tpcmssd03014b00286009900000049100000048800000990109|2019-9-26-13-29-23,ender/home/api/getworktime?comid=28
+ERR: 无法加载控制器:Api
+
+[ 2019-09-27T09:50:04+08:00 ] 47.92.122.11 /home/api/getworktime?comid=28&mcuid=01&gd=qqgd
+ERR: 无法加载控制器:Api
+
+[ 2019-09-27T09:50:07+08:00 ] 47.92.102.179 /home/api/getworktime?comid=20&data=tpcmscdtpcmssd03012901322006032000052442000050337000990084|2019-9-26-23-23-24,tpcmssd03012401280007332000056442000055037000990092|2019-9-26-23-23-27,ender
+ERR: 无法加载控制器:Api
+
+[ 2019-09-27T09:50:37+08:00 ] 47.97.220.124 /home/api/getworktime?comid=20&data=tpcmscdtpcmssd03012801386004832000076642000052037000990106|2019-9-26-1-5-10,tpcmssd03012901354005132000087142000053237000990096|2019-9-26-1-5-12,ender
+ERR: 无法加载控制器:Api
+
+[ 2019-09-27T09:51:11+08:00 ] 47.97.204.168 /home/api/getworktime?comid=20&data=tpcmscdtpcmssd03011e00945006932000045642000045037000991120|2019-9-26-2-35-45,tpcmssd03011f01301007032000049342000048637000990109|2019-9-26-2-35-47,tpcmssd03012401158008032000058242000056337000990098|2019-9-26-2-35-50,tpcmssd03012501126006432000064142000059437000990096|2019-9-26-2-35-52,tpcmssd03012701354004132000052042000051637000990086|2019-9-26-2-35-54,ender
+ERR: 无法加载控制器:Api
+
+[ 2019-09-27T09:51:41+08:00 ] 47.92.140.160 /home/api/getworktime?comid=28&data=tpcmscdtpcmssd03013200286047900000048000000047900000990092|2019-9-26-18-2-54,tpcmssd03013300249047800000048300000047900000990094|2019-9-26-18-2-57,tpcmssd03013b00302009800000047800000047400000990096|2019-9-26-18-3-8,tpcmssd03013f00308046700000046800000046700000990107|2019-9-26-18-3-12,tpcmssd03014600265047900000048500000048300000990094|2019-9-26-18-3-16,ender
+ERR: 无法加载控制器:Api
+
+[ 2019-09-27T09:52:06+08:00 ] 47.97.204.168 /home/api/getworktime?comid=20&data=tpcmscdtpcmssd03012901360005232000071842000052637000990097|2019-9-26-1-9-36,ender
+ERR: 无法加载控制器:Api
+
+[ 2019-09-27T09:56:31+08:00 ] 47.100.38.232 /home/api/getworktime?comid=20&data=tpcmscdtpcmssd03011e01115005732000045542000045237000991108|2019-9-26-20-15-15,tpcmssd03012801338005532000054042000051537000990095|2019-9-26-20-15-17,tpcmssd03011f01317005632000049442000048937000990124|2019-9-26-20-15-20,tpcmssd03012901328005732000073542000053437000990104|2019-9-26-20-15-22,tpcmssd03012501163005132000084242000063637000990093|2019-9-26-20-15-34,en
+ERR: 无法加载控制器:Api
+
+[ 2019-09-27T09:56:32+08:00 ] 106.14.204.78 /home/api/getworktime?comid=28&data=tpcmscdtpcmssd03013100244010000000049900000049700000990076|2019-9-26-12-7-56,tpcmssd03013200302010600000048200000048000000990062|2019-9-26-12-8-0,tpcmssd03013600265009700000047000000046800000990086|2019-9-26-12-8-7,tpcmssd03014700265010400000051500000051100000990066|2019-9-26-12-8-22,tpcmssd03014b00286009800000049100000048800000990108|2019-9-26-12-8-26,ender/hom
+ERR: 无法加载控制器:Api
+
+[ 2019-09-27T09:57:01+08:00 ] 101.132.156.172 /home/api/getworktime?comid=20&data=tpcmscdtpcmssd03011e01020006932000045242000044937000991109|2019-9-26-5-48-48,tpcmssd03012401205008132000057242000055637000990093|2019-9-26-5-48-50,tpcmssd03012501115006532000063442000059037000990093|2019-9-26-5-48-53,tpcmssd03012701030006032000049042000048837000990092|2019-9-26-5-48-55,tpcmssd03012900674007900000050000000049900000990090|2019-9-26-5-48-57,ender
+ERR: 无法加载控制器:Api
+
+[ 2019-09-27T09:57:01+08:00 ] 47.100.1.70 /home/api/getworktime?comid=20&data=tpcmscdtpcmssd03012801386004732000052642000050837000990105|2019-9-26-3-15-7,tpcmssd03011e00977007032000045342000044937000991122|2019-9-26-3-15-9,tpcmssd03011f01285007132000049242000048637000990120|2019-9-26-3-15-12,tpcmssd03012501131006532000076642000062337000990094|2019-9-26-3-15-14,tpcmssd03012701349003832000051242000050837000990098|2019-9-26-3-15-16,ender
+ERR: 无法加载控制器:Api
+
+[ 2019-09-27T09:58:02+08:00 ] 101.132.131.7 /home/api/getworktime?comid=20&data=tpcmscdtpcmssd03012501158005332000082542000064337000990098|2019-9-26-21-36-50,tpcmssd03012701306005032000052242000050937000990087|2019-9-26-21-37-13,ender
+ERR: 无法加载控制器:Api
+
+[ 2019-09-27T10:01:41+08:00 ] 47.92.148.120 /home/api/getworktime?comid=28&data=tpcmscdtpcmssd03014d00249009500000048400000048200000990102|2019-9-26-13-59-39,tpcmssd03013600260009600000047100000046900000990082|2019-9-26-13-59-50,tpcmssd03013b00308009100000048000000047800000990092|2019-9-26-13-59-54,tpcmssd03014600276010000000048900000048700000990085|2019-9-26-14-0-2,tpcmssd03014b00313010200000048900000048600000990090|2019-9-26-14-0-5,ender
+ERR: 无法加载控制器:Api
+
+[ 2019-09-27T10:02:02+08:00 ] 47.100.38.232 /home/api/getworktime?comid=20&data=tpcmscdtpcmssd03012701296005132000075642000051237000990099|2019-9-26-7-11-45,tpcmssd03011e01009007032000045242000044937000991108|2019-9-26-7-11-47,tpcmssd03011f01306007232000049542000048737000990119|2019-9-26-7-11-50,tpcmssd03012401184008332000057842000056237000990104|2019-9-26-7-11-52,tpcmssd03012501120006732000062042000058937000990094|2019-9-26-7-11-54,ender
+ERR: 无法加载控制器:Api
+
+[ 2019-09-27T10:02:06+08:00 ] 47.97.167.161 /home/api/getworktime?comid=20&data=tpcmscdtpcmssd03012401338007032000056142000054837000990097|2019-9-26-19-46-55,ender
+ERR: 无法加载控制器:Api
+
+[ 2019-09-27T10:03:02+08:00 ] 47.100.38.232 /home/api/getworktime?comid=20&data=tpcmscdtpcmssd03012401200008232000057342000055937000990093|2019-9-26-6-50-7,tpcmssd03012701243005532000057542000050837000990099|2019-9-26-6-50-9,ender
+ERR: 无法加载控制器:Api
+
+[ 2019-09-27T10:04:06+08:00 ] 47.92.101.29 /home/api/getworktime?comid=20&data=tpcmscdtpcmssd03011e01009005432000045642000045237000991108|2019-9-26-21-52-8,tpcmssd03011f01322005532000051242000049937000990111|2019-9-26-21-52-10,tpcmssd03012401269006732000057042000055137000990100|2019-9-26-21-52-13,tpcmssd03012501163004932000065342000063037000990094|2019-9-26-21-52-15,tpcmssd03012701296004932000051342000050637000990100|2019-9-26-21-52-17,end
+ERR: 无法加载控制器:Api
+
+[ 2019-09-27T10:04:59+08:00 ] 39.107.121.196 /home/api/getworktime?comid=28&data=tpcmscdtpcmssd03013100239010600000049600000049300000990079|2019-9-26-14-27-22,tpcmssd03013600276009800000046800000046600000990094|2019-9-26-14-27-29,tpcmssd03013f00313010100000047300000047000000990078|2019-9-26-14-27-37,tpcmssd03014700270010600000051300000050900000990069|2019-9-26-14-27-41,ender/home/api/getworktime?comid=28
+ERR: 无法加载控制器:Api
+
+[ 2019-09-27T10:05:02+08:00 ] 47.100.53.146 /home/api/getworktime?comid=20&data=tpcmscdtpcmssd03012901354006032000051842000050637000990095|2019-9-26-3-46-0,tpcmssd03012401136008232000057542000055837000990102|2019-9-26-3-46-23,ender
+ERR: 无法加载控制器:Api
+
+[ 2019-09-27T10:05:08+08:00 ] 47.97.167.161 /home/api/getworktime?comid=20&data=tpcmscdtpcmssd03011e01046007032000045242000044937000991109|2019-9-26-6-1-30,tpcmssd03012401253008132000057842000055937000990105|2019-9-26-6-1-32,tpcmssd03012501115006532000062142000059837000990097|2019-9-26-6-1-35,tpcmssd03012701009006232000048942000048837000990108|2019-9-26-6-1-37,tpcmssd03012900648008000000050000000049900000990083|2019-9-26-6-1-39,ender
+ERR: 无法加载控制器:Api
+
+[ 2019-09-27T10:06:02+08:00 ] 139.224.11.233 /home/api/getworktime?comid=20&data=tpcmscdtpcmssd03012801370004432000051642000050637000990092|2019-9-25-23-59-47,tpcmssd03012401184007932000056842000055537000990110|2019-9-25-23-59-49,tpcmssd03011e01030006832000045442000045037000991103|2019-9-25-23-59-52,tpcmssd03011f01290006832000049042000048437000990118|2019-9-25-23-59-54,tpcmssd03012501142006232000065242000060537000990087|2019-9-25-23-59-56,en
+ERR: 无法加载控制器:Api
+
+[ 2019-09-27T10:06:08+08:00 ] 47.98.96.116 /home/api/getworktime?comid=20&data=tpcmscdtpcmssd03012801375004832000068742000052037000990106|2019-9-26-3-10-49,tpcmssd03011e00977007132000045342000045037000991115|2019-9-26-3-10-51,tpcmssd03011f01306007132000048842000048537000990118|2019-9-26-3-10-54,tpcmssd03012501131006532000064242000059437000990094|2019-9-26-3-10-56,tpcmssd03012701354003932000051842000051137000990095|2019-9-26-3-10-58,ender
+ERR: 无法加载控制器:Api
+
+[ 2019-09-27T10:06:32+08:00 ] 47.92.110.185 /home/api/getworktime?comid=20&data=tpcmscdtpcmssd03012801391005232000051342000050837000990093|2019-9-26-2-31-43,tpcmssd03012901333006032000050342000050037000990080|2019-9-26-2-31-46,ender
+ERR: 无法加载控制器:Api
+
+[ 2019-09-27T10:07:02+08:00 ] 101.132.106.40 /home/api/getworktime?comid=20&data=tpcmscdtpcmssd03012801030007032000049942000049837000990104|2019-9-26-5-53-16,tpcmssd03011f01296007032000050042000048637000990111|2019-9-26-5-53-18,ender
+ERR: 无法加载控制器:Api
+
+[ 2019-09-27T10:09:01+08:00 ] 101.132.106.40 /home/api/getworktime?comid=28&data=tpcmscdtpcmssd03013600260009900000046900000046800000990091|2019-9-26-18-31-4,ender/home/api/getworktime?comid=28
+ERR: 无法加载控制器:Api
+
+[ 2019-09-27T10:09:06+08:00 ] 47.97.167.161 /home/api/getworktime?comid=20&data=tpcmscdtpcmssd03012801338005532000051142000050537000990092|2019-9-26-20-3-1,tpcmssd03011e01120006032000045442000045237000991097|2019-9-26-20-3-3,tpcmssd03011f01338006132000050142000048937000990112|2019-9-26-20-3-6,tpcmssd03012901344005832000077942000050537000990109|2019-9-26-20-3-8,tpcmssd03012701301004832000050942000050437000990089|2019-9-26-20-3-10,ender
+ERR: 无法加载控制器:Api
+
+[ 2019-09-27T10:09:58+08:00 ] 47.92.75.171 /home/api/getworktime?comid=28&data=tpcmscdtpcmssd03013300233010200000048800000048400000990072|2019-9-26-19-13-54,tpcmssd03013600249009900000047000000046700000990089|2019-9-26-19-14-1,ender/home/api/getworktime?comid=28
+ERR: 无法加载控制器:Api
+
+[ 2019-09-27T10:10:01+08:00 ] 47.100.53.146 /home/api/getworktime?comid=28&data=tpcmscdtpcmssd03013400270010900000047600000047500000990078|2019-9-26-22-47-42,tpcmssd03013600260010600000046700000046600000990076|2019-9-26-22-47-46,ender/home/api/getworktime?comid=28
+ERR: 无法加载控制器:Api
+
+[ 2019-09-27T10:11:02+08:00 ] 101.132.177.30 /home/api/getworktime?comid=20&data=tpcmscdtpcmssd03012701301004732000051242000050737000990085|2019-9-26-20-47-41,tpcmssd03012901344005432000051242000050237000990087|2019-9-26-20-47-44,ender
+ERR: 无法加载控制器:Api
+
+[ 2019-09-27T10:12:36+08:00 ] 47.92.98.215 /home/api/getworktime?comid=20&data=tpcmscdtpcmssd03012901365005132000051342000050137000990087|2019-9-26-0-38-53,tpcmssd03012401200007832000057542000055737000990098|2019-9-26-0-38-55,tpcmssd03011e01025006832000045442000045037000991107|2019-9-26-0-38-58,tpcmssd03011f01285006832000049142000048537000990124|2019-9-26-0-39-0,tpcmssd03012501136006132000062442000060437000990087|2019-9-26-0-39-2,ender
+ERR: 无法加载控制器:Api
+
+[ 2019-09-27T10:14:02+08:00 ] 101.132.193.68 /home/api/getworktime?comid=28&data=tpcmscdtpcmssd03013200265010500000048200000047700000990075|2019-9-26-22-50-40,tpcmssd03013400270010900000047600000047500000990078|2019-9-26-22-50-47,tpcmssd03013600260010600000046700000046600000990076|2019-9-26-22-50-51,ender/home/api/getworktime?comid=28
+ERR: 无法加载控制器:Api
+
+[ 2019-09-27T10:14:02+08:00 ] 47.100.38.232 /home/api/getworktime?comid=28&data=tpcmscdtpcmssd03013200281010700000048100000047600000990073|2019-9-26-21-48-58,tpcmssd03013600249010100000046800000046700000990080|2019-9-26-21-49-9,ender/home/api/getworktime?comid=28
+ERR: 无法加载控制器:Api
+
+[ 2019-09-27T10:15:07+08:00 ] 47.97.167.161 /home/api/getworktime?comid=28&data=tpcmscdtpcmssd03014600265010400000048500000048300000990079|2019-9-26-16-27-24,tpcmssd03014700255010400000051400000050900000990071|2019-9-26-16-27-28,tpcmssd03014b00249009900000049100000049000000990101|2019-9-26-16-27-31,tpcmssd03014d00228010400000048100000048000000990085|2019-9-26-16-27-35,ender/home/api/getworktime?comid=28
+ERR: 无法加载控制器:Api
+
+[ 2019-09-27T10:17:13+08:00 ] 47.98.96.116 /home/api/getworktime?comid=28&data=tpcmscdtpcmssd03014800255049000000049500000049300000990090|2019-9-26-11-21-31,tpcmssd03014900260047100000047600000047200000990082|2019-9-26-11-21-34,tpcmssd03014a00302047500000048000000047800000990092|2019-9-26-11-21-38,tpcmssd03014b00302048300000048800000048400000990097|2019-9-26-11-21-42,tpcmssd03014c00217048100000048600000048300000990098|2019-9-26-11-21-45,en
+ERR: 无法加载控制器:Api
+
+[ 2019-09-27T10:18:02+08:00 ] 101.132.177.30 /home/api/getworktime?comid=20&data=tpcmscdtpcmssd03012401205008232000057742000056437000990098|2019-9-26-6-45-53,tpcmssd03012701243005732000069942000050437000990104|2019-9-26-6-46-6,ender
+ERR: 无法加载控制器:Api
+
+[ 2019-09-27T10:18:31+08:00 ] 39.107.121.196 /home/api/getworktime?comid=20&data=tpcmscdtpcmssd03012800950007332000049942000049837000990117|2019-9-26-6-27-33,tpcmssd03011e00993007032000045042000044937000991117|2019-9-26-6-27-35,tpcmssd03012401195008232000058542000055937000990109|2019-9-26-6-27-38,tpcmssd03012900610008100000050500000050000000990061|2019-9-26-6-27-50,tpcmssd03011f01296007032000049542000048637000990124|2019-9-26-6-27-52,ender
+ERR: 无法加载控制器:Api
+
+[ 2019-09-27T10:19:03+08:00 ] 47.100.104.184 /home/api/getworktime?comid=28&mcuid=01/home/api/getworktime?comid=28&mcuid=01
+ERR: 无法加载控制器:Api
+
+[ 2019-09-27T10:19:05+08:00 ] 47.92.75.171 /home/api/getworktime?comid=28&data=tpcmscdtpcmssd03012d00244010100000047300000047000000990078|2019-9-26-21-3-14,tpcmssd03012e00249010200000048900000048500000990098|2019-9-26-21-3-18,tpcmssd03012f00265009900000046800000046400000990106|2019-9-26-21-3-21,tpcmssd03013000281010300000047700000047300000990069|2019-9-26-21-3-25,tpcmssd03013100223009200000049600000049300000990076|2019-9-26-21-3-29,ender
+ERR: 无法加载控制器:Api
+
+[ 2019-09-27T10:19:33+08:00 ] 47.92.120.136 /home/api/getworktime?comid=28&data=tpcmscdtpcmssd03013100255010200000049800000049700000990079|2019-9-26-15-55-46,tpcmssd03013200302010400000048300000048200000990063|2019-9-26-15-55-50,tpcmssd03013600286009900000046900000046800000990099|2019-9-26-15-55-54,tpcmssd03013b00324009600000047900000047700000990102|2019-9-26-15-55-57,tpcmssd03013f00329010000000047300000047200000990086|2019-9-26-15-56-1,end
+ERR: 无法加载控制器:Api
+
+[ 2019-09-27T10:19:41+08:00 ] 47.98.62.203 /home/api/getworktime?comid=28&data=tpcmscdtpcmssd03014700265010400000051500000051100000990066|2019-9-26-16-30-33,tpcmssd03014b00276010000000049000000048800000990090|2019-9-26-16-30-36,tpcmssd03014d00228010400000048100000048000000990085|2019-9-26-16-30-40,ender/home/api/getworktime?comid=28
+ERR: 无法加载控制器:Api
+
+[ 2019-09-27T10:20:01+08:00 ] 101.132.106.40 /home/api/getworktime?comid=20&data=tpcmscdtpcmssd03012701328003532000052242000051337000990089|2019-9-26-0-0-1,tpcmssd03012901365005532000077442000051837000990108|2019-9-26-0-0-4,ender
+ERR: 无法加载控制器:Api
+
+[ 2019-09-27T16:01:45+08:00 ] 42.84.37.51 /home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-09-27T16:01:48+08:00 ] 42.84.37.51 /home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-09-27T16:01:51+08:00 ] 42.84.37.51 /home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-09-27T16:01:54+08:00 ] 42.84.37.51 /home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-09-27T16:02:00+08:00 ] 42.84.37.51 /home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-09-27T16:02:03+08:00 ] 42.84.37.51 /home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-09-27T16:02:06+08:00 ] 42.84.37.51 /home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-09-27T16:02:10+08:00 ] 42.84.37.51 /home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-09-27T16:02:13+08:00 ] 42.84.37.51 /home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-09-27T16:02:16+08:00 ] 42.84.37.51 /home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-09-27T16:02:19+08:00 ] 42.84.37.51 /home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-09-27T16:02:22+08:00 ] 42.84.37.51 /home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-09-27T16:02:25+08:00 ] 42.84.37.51 /home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-09-27T16:02:28+08:00 ] 42.84.37.51 /home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-09-27T16:02:31+08:00 ] 42.84.37.51 /home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-09-27T16:02:34+08:00 ] 42.84.37.51 /home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-09-27T16:02:38+08:00 ] 42.84.37.51 /home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-09-27T16:02:41+08:00 ] 42.84.37.51 /home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-09-27T16:02:44+08:00 ] 42.84.37.51 /home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-09-27T16:02:47+08:00 ] 42.84.37.51 /home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-09-27T16:02:50+08:00 ] 42.84.37.51 /home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-09-27T16:02:54+08:00 ] 42.84.37.51 /home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-09-27T16:02:57+08:00 ] 42.84.37.51 /home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-09-27T16:03:00+08:00 ] 42.84.37.51 /home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-09-27T16:03:04+08:00 ] 42.84.37.51 /home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-09-27T16:03:07+08:00 ] 42.84.37.51 /home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-09-27T16:03:10+08:00 ] 42.84.37.51 /home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-09-27T16:03:14+08:00 ] 42.84.37.51 /home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-09-27T16:14:32+08:00 ] 42.84.41.202 /home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28&sec=1&mcuid=01
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-09-27T16:38:37+08:00 ] 42.84.41.202 /home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28&sec=1&mcuid=01/home/API/GetWorkTime?comid=28&sec=1&mcuid=01
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-09-27T17:01:42+08:00 ] 42.84.41.202 /home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-09-27T17:01:45+08:00 ] 42.84.41.202 /home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-09-27T17:01:49+08:00 ] 42.84.41.202 /home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-09-27T17:01:52+08:00 ] 42.84.41.202 /home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-09-27T17:01:56+08:00 ] 42.84.41.202 /home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-09-27T17:01:59+08:00 ] 42.84.41.202 /home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-09-27T17:02:02+08:00 ] 42.84.41.202 /home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-09-27T17:02:06+08:00 ] 42.84.41.202 /home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-09-27T17:02:09+08:00 ] 42.84.41.202 /home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-09-27T17:02:12+08:00 ] 42.84.41.202 /home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-09-27T17:02:16+08:00 ] 42.84.41.202 /home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/GetWorkTime?comid=28/home/API/
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+

@@ -1,0 +1,432 @@
+[ 2019-10-25T00:00:06+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T00:03:44+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T00:08:47+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T00:10:08+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T00:12:39+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T00:29:17+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T00:30:04+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T00:32:48+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=30/home/API/GetWorkTime?comid=30
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T01:07:24+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=30/home/API/GetWorkTime?comid=30
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T01:28:12+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T01:52:44+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=30/home/API/GetWorkTime?comid=30
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T02:15:22+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T02:25:09+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T02:29:21+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T02:29:35+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=30/home/API/GetWorkTime?comid=30
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T02:45:17+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T03:04:38+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=30/home/API/GetWorkTime?comid=30
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T03:16:16+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T03:24:23+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T03:25:07+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T03:25:45+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=30/home/API/GetWorkTime?comid=30
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T03:31:54+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=30/home/API/GetWorkTime?comid=30
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T03:36:24+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T03:37:54+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T03:40:13+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=30/home/API/GetWorkTime?comid=30
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T03:44:01+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T03:46:05+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T04:02:10+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=30/home/API/GetWorkTime?comid=30/home/API/GetWorkTime?comid=30
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T04:13:10+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T04:13:12+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=30/home/API/GetWorkTime?comid=30
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T04:24:48+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T04:37:40+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=30/home/API/GetWorkTime?comid=30
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T05:15:58+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T05:18:38+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=30/home/API/GetWorkTime?comid=30
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T05:57:16+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=30/home/API/GetWorkTime?comid=30/home/API/GetWorkTime?comid=30
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T06:05:15+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=30/home/API/GetWorkTime?comid=30/home/API/GetWorkTime?comid=30
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T06:28:33+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=30/home/API/GetWorkTime?comid=30/home/API/GetWorkTime?comid=30
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T06:30:43+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T06:50:11+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T06:56:17+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=30/home/API/GetWorkTime?comid=30
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T07:02:45+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T07:12:46+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=30/home/API/GetWorkTime?comid=30/home/API/GetWorkTime?comid=30
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T07:14:44+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T07:20:43+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T07:26:36+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T07:27:22+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=30/home/API/GetWorkTime?comid=30
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T07:28:43+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=30/home/API/GetWorkTime?comid=30
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T07:47:15+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T07:49:18+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T08:02:42+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T08:20:59+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T08:34:09+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T09:02:53+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T09:26:07+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T09:26:23+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T09:26:38+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T09:27:20+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T09:27:42+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T09:30:26+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T09:54:05+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T10:35:15+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T10:39:04+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T10:43:14+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T10:59:13+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T11:17:55+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T11:17:58+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T11:30:15+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T11:39:44+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T11:43:45+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T11:54:08+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T11:56:37+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T12:09:18+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T12:16:00+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T12:52:13+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T13:12:04+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T13:44:29+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T13:51:14+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T14:28:24+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T14:42:37+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T15:08:47+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T15:19:18+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T15:19:27+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T15:23:31+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=31/home/API/GetWorkTime?comid=31&mcuid=01/home/API/GetWorkTime?comid=31&mcuid=01/home/API/GetWorkTime?comid=31/home/API/GetWorkTime?comid=31/home/API/GetWorkTime?comid=31/home/API/GetWorkTime?comid=31/home/API/GetWorkTime?comid=31/home/API/GetWorkTime?comid=31/home/API/GetWorkTime?comid=31/home/API/GetWorkTime?comid=31/home/API/GetWorkTime?comid=31&mcuid=01
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T15:29:21+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=31/home/API/GetWorkTime?comid=31
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T15:33:16+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T15:38:26+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=31/home/API/GetWorkTime?comid=31
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T15:41:15+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=31/home/API/GetWorkTime?comid=31/home/API/GetWorkTime?comid=31/home/API/GetWorkTime?comid=31
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T15:41:19+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=31/home/API/GetWorkTime?comid=31
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T15:47:24+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T16:13:09+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=31/home/API/GetWorkTime?comid=31
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T16:36:12+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T16:39:32+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=31/home/API/GetWorkTime?comid=31
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T16:40:47+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=31/home/API/GetWorkTime?comid=31/home/API/GetWorkTime?comid=31/home/API/GetWorkTime?comid=31/home/API/GetWorkTime?comid=31
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T16:44:47+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=31/home/API/GetWorkTime?comid=31
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T16:46:30+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=31/home/API/GetWorkTime?comid=31
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T16:52:46+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=31/home/API/GetWorkTime?comid=31
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T16:53:57+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=31/home/API/GetWorkTime?comid=31/home/API/GetWorkTime?comid=31/home/API/GetWorkTime?comid=31/home/API/GetWorkTime?comid=31
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T16:59:04+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=31/home/API/GetWorkTime?comid=31/home/API/GetWorkTime?comid=31/home/API/GetWorkTime?comid=31
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T16:59:08+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=31/home/API/GetWorkTime?comid=31
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T17:11:34+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=31/home/API/GetWorkTime?comid=31/home/API/GetWorkTime?comid=31/home/API/GetWorkTime?comid=31
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T17:11:37+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=31/home/API/GetWorkTime?comid=31
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T17:11:55+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=31/home/API/GetWorkTime?comid=31
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T17:14:16+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=31/home/API/GetWorkTime?comid=31/home/API/GetWorkTime?comid=31/home/API/GetWorkTime?comid=31
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T17:14:19+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=31/home/API/GetWorkTime?comid=31
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T17:17:20+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=31/home/API/GetWorkTime?comid=31
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T17:18:13+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T17:38:27+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=31/home/API/GetWorkTime?comid=31/home/API/GetWorkTime?comid=31/home/API/GetWorkTime?comid=31/home/API/GetWorkTime?comid=31
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T17:44:15+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T17:51:01+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=31/home/API/GetWorkTime?comid=31/home/API/GetWorkTime?comid=31
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T18:04:21+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T18:07:29+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=31/home/API/GetWorkTime?comid=31
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T18:09:20+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T18:20:57+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=31/home/API/GetWorkTime?comid=31
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T18:25:17+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T18:50:18+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=31/home/API/GetWorkTime?comid=31/home/API/GetWorkTime?comid=31/home/API/GetWorkTime?comid=31
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T18:50:22+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=31/home/API/GetWorkTime?comid=31
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T19:16:03+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T19:17:40+08:00 ] 113.235.127.151 /home/API/GetWorkTime?comid=31/home/API/GetWorkTime?comid=31
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T19:19:50+08:00 ] 42.84.116.49 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T19:19:52+08:00 ] 42.84.116.49 /home/API/GetWorkTime?comid=31/home/API/GetWorkTime?comid=31/home/API/GetWorkTime?comid=31/home/API/GetWorkTime?comid=31/home/API/GetWorkTime?comid=31/home/API/GetWorkTime?comid=31/home/API/GetWorkTime?comid=31
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T19:19:54+08:00 ] 42.84.116.49 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25&data=TPCMSCDTPCMSSD03012200223046600363046900103046700000990098|2019-10-25-19-19-31,ender/home/API/GetWorkTime?comid=25&data=TPCMSCD,ender/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T19:25:33+08:00 ] 42.84.116.49 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T19:34:12+08:00 ] 42.84.116.49 /home/API/GetWorkTime?comid=31/home/API/GetWorkTime?comid=31/home/API/GetWorkTime?comid=31/home/API/GetWorkTime?comid=31
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T19:35:30+08:00 ] 42.84.116.49 /home/API/GetWorkTime?comid=31/home/API/GetWorkTime?comid=31
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T19:38:42+08:00 ] 42.84.116.49 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T19:54:26+08:00 ] 42.84.116.49 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T20:05:08+08:00 ] 42.84.116.49 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T20:18:23+08:00 ] 42.84.116.49 /home/API/GetWorkTime?comid=31/home/API/GetWorkTime?comid=31/home/API/GetWorkTime?comid=31/home/API/GetWorkTime?comid=31
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T20:42:23+08:00 ] 42.84.116.49 /home/API/GetWorkTime?comid=31/home/API/GetWorkTime?comid=31
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T20:44:07+08:00 ] 42.84.116.49 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T20:44:13+08:00 ] 42.84.116.49 /home/API/GetWorkTime?comid=31/home/API/GetWorkTime?comid=31
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T20:54:17+08:00 ] 42.84.116.49 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T21:20:15+08:00 ] 42.84.116.49 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T21:21:29+08:00 ] 42.84.116.49 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T21:53:09+08:00 ] 42.84.116.49 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T22:20:25+08:00 ] 42.84.116.49 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T22:24:10+08:00 ] 42.84.116.49 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T22:25:06+08:00 ] 42.84.116.49 /home/API/GetWorkTime?comid=31/home/API/GetWorkTime?comid=31
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T22:46:00+08:00 ] 42.84.116.49 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T22:46:04+08:00 ] 42.84.116.49 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T23:21:12+08:00 ] 42.84.116.49 /home/API/GetWorkTime?comid=25/home/API/GetWorkTime?comid=25
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T23:25:00+08:00 ] 42.84.116.49 /home/API/GetWorkTime?comid=31/home/API/GetWorkTime?comid=31
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T23:36:07+08:00 ] 42.84.116.49 /home/API/GetWorkTime?comid=31/home/API/GetWorkTime?comid=31
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+
+[ 2019-10-25T23:49:32+08:00 ] 42.84.116.49 /home/API/GetWorkTime?comid=31/home/API/GetWorkTime?comid=31
+ERR: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+

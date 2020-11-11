@@ -1,0 +1,98 @@
+<?php if (!defined('THINK_PATH')) exit();?><html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+    <link rel="stylesheet" href="/Public/css/supervisory.css" type="text/css" media="screen" />
+    <script src='/Public/js/jquery.js' ></script>
+    <script language="javascript" type="text/javascript" src="/Public/js/My97DatePicker/WdatePicker.js"></script>
+    <script>
+
+
+function edit(id,page) {
+  window.location.href="/home/supervisory/edit?id="+id+"&page="+page;
+//  window.open("/home/warning/innit?id="+id);
+}
+
+    function showinfo(sid,tid) {
+      window.open("/home/supervisory/checkinfo?sid="+sid+"&tid="+tid,"","height=500, width=1150, top=50, left=50, toolbar=no, menubar=no, scrollbars=no, resizable=yes, location=no, status=no");
+    }
+    
+    function btn_search_click(){
+      var area=trim($("#select_area").val());
+      var time_s=trim($("#input_t_s").val());
+      var time_e=trim($("#input_t_e").val());
+      var trapno=trim($("#input_t_n").val());
+      var trapstate=trim($("#select_state_").val());
+      $.get("Supervisory/search?area="+area+"&ts="+time_s+"&te="+time_e+"&tn="+trapno+"&tstate="+trapstate+"",function(res){
+        $("#tab_show_list").html(' <tr><td style="text-align: center;color:#222;"><?php echo L("L_AREA_JDBH");?></td><td style="text-align: center;color:#222;"><?php echo L("L_AREA_JDMC");?></td><td style="text-align: center;color:#222;"><?php echo L("L_AREA_QY");?></td><td style="text-align: center;color:#222;"><?php echo L("L_LIST_SHOW_NEWSTATE");?></td><td style="text-align:center;color:#222;"><?php echo L("L_LIST_SHOW_LASTTIME");?></td><td style="text-align: center;color:#222;"><?php echo L("L_LIST_SHOW_OTHER");?></td><td style="text-align: center;color:#222;"><?php echo L("L_AREA_CZ");?></td></tr>'+res);
+        
+      });
+    }
+   
+    function ltrim(s){
+      return s.replace( /^\s*/,"");
+    }
+    function rtrim(s){
+      return s.replace( /\s*$/,"");
+    }
+    function trim(s){
+      return ltrim(rtrim(s));
+    }
+    function getUrlParam(name) {
+      var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)"); //构造一个含有目标参数的正则表达式对象
+      var r = window.location.search.substr(1).match(reg);  //匹配目标参数
+      if (r != null) return unescape(r[2]); return ""; //返回参数值
+    }
+    $(function(){
+      $.get("/home/supervisory/getareas",function(res){
+        var area_array_=res.split('/');
+        for(var i=0;i<area_array_.length;i++){
+          if(area_array_[i]==""){break;}
+          $("#select_area").append("<option value='"+area_array_[i].split(",")[0]+"'>"+area_array_[i].split(",")[1]+"</option>");
+        }
+      });
+    });
+    </script>
+</head>
+<body>
+  <h1 style="font-size:14px;"><?php echo L('L_MENU_SUPER_LIST');?></h1>
+  <table class="tab_search">
+    <tr>
+      <td><?php echo L("L_AREA_QY");?></td>
+      <td><select class="input_search" id="select_area"><option value=""><?php echo L("L_ALERT_TJ_ALL");?></option></select></td>
+      <td>&nbsp;</td>
+      <td><?php echo L("L_LIST_SHOW_TIME");?></td>
+      <td><input type="text" value="" id="input_t_s" class="input_search" onclick="WdatePicker()"/></td>
+      <td>-</td>
+      <td><input type="text" value="" id="input_t_e" class="input_search" onclick="WdatePicker()"/></td>
+      <td>&nbsp;</td>
+      <td><?php echo L('L_AREA_JDBH');?></td>
+      <td><input type="text" value="" id="input_t_n" class="input_search"/></td>
+      <td>&nbsp;</td>
+      <td><?php echo L("L_LIST_SHOW_STATE");?></td>
+      <td>
+        <select class="input_search" id="select_state_">
+          <option value=""><?php echo L("L_ALERT_TJ_ALL");?></option>
+          <option value="0"><?php echo L("L_ALERT_TJ_WORK");?></option>
+          <option value="1"><?php echo L("L_ALERT_TJ_EXC");?></option>
+        </select>
+      </td>
+      <td>&nbsp;</td>
+      <td><input type="button" value=" <?php echo L('L_SEARCH_SEARCH');?> " onclick="btn_search_click()" class="btn_search" /></td>
+
+    </tr>
+  </table>
+  <table class="tab_list" id="tab_show_list" cellspacing="0" cellpadding="0">
+    <tr>
+      <td style="text-align: center;color:#222;"><?php echo L('L_AREA_JDBH');?></td>
+      <td style="text-align: center;color:#222;"><?php echo L('L_AREA_JDMC');?></td>
+      <td style="text-align: center;color:#222;"><?php echo L("L_AREA_QY");?></td>
+      <td style="text-align: center;color:#222;"><?php echo L("L_LIST_SHOW_NEWSTATE");?></td>
+      <td style="text-align: center;color:#222;"><?php echo L("L_LIST_SHOW_LASTTIME");?></td>
+      <td style="text-align: center;color:#222;"><?php echo L("L_LIST_SHOW_OTHER");?></td>
+      <td style="text-align: center;color:#222;"><?php echo L("L_AREA_CZ");?></td>
+    </tr>
+    <?php echo ($tab_list); ?>
+  </table>
+</body>
+</html>

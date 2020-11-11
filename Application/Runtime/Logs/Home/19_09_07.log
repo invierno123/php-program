@@ -1,0 +1,15 @@
+[ 2019-09-07T10:35:12+08:00 ] 175.167.138.120 /home/API/GetWorkTime?comid=18comid=18
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '18comid' in 'where clause'
+
+[ 2019-09-07T10:48:08+08:00 ] 175.167.130.99 /home/API/GetWorkTime?comid=18comid=18
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '18comid' in 'where clause'
+
+[ 2019-09-07T11:19:28+08:00 ] 175.167.154.236 /home/API/GetWorkTime?comid=18comid=18&mcuid=01comid=18&mcuid=01comid=18comid=18comid=18comid=18comid=18comid=18
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '18comid' in 'where clause'
+
+[ 2019-09-07T11:31:02+08:00 ] 175.167.154.236 /home/API/GetWorkTime?comid=18comid=18&mcuid=01&gd=qqgdcomid=18&mcuid=01&gd=qqgdcomid=18comid=18&mcuid=01comid=18&mcuid=01
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '18comid' in 'where clause'
+
+[ 2019-09-07T12:12:58+08:00 ] 223.104.176.253 /home/API/GetWorkTime?comid=18comid=18&mcuid=01comid=18&mcuid=01
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '18comid' in 'where clause'
+

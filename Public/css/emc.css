@@ -1,0 +1,53 @@
+*{
+  font-size: 14px;
+
+}
+h1{
+  font-size: 14px;
+}
+label{
+  padding-right: 35px;
+}
+span{
+  width: 100px;
+  float: left;
+  padding-right: 10px;
+}
+p{
+  height: 30px;
+  line-height: 30px;
+  padding-left: 30px;
+}
+input{
+  height: 30px;
+  border:1px solid #ccc;
+  border-radius: 5px;
+}
+.select_input{
+  height: 30px;
+  border:1px solid #ccc;
+  border-radius: 5px;
+}
+.tab_radio td{
+  padding-left: 15px;
+}
+.tab_month{
+  text-align: center;
+  background-color: #eee;
+  border:1px solid #ccc;
+  color:#aaa;
+}
+.tab_month td{
+  padding: 5px 5px 5px 5px;
+}
+.tab_month td input{
+  width: 80px;
+}
+.tab_month tr:nth-child(2) td{
+  border-bottom:1px solid #ccc;
+}
+.save{
+  cursor:pointer;
+  width: 100px;
+  height: 30px;
+}

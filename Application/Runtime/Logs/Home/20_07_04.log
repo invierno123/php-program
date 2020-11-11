@@ -1,0 +1,776 @@
+[ 2020-07-04T16:43:02+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.016001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017001s ]
+NOTIC: [8] Undefined index: trapno F:\C\VSPRO\TMS_WEB\TMTY\Application\Home\Controller\IndexController.class.php 第 37 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.115006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.116006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.059004s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.059004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011000s ]
+
+[ 2020-07-04T16:43:08+08:00 ] 127.0.0.1 /home/Index/logindata
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `companyinfo` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `companyinfo` WHERE ( LoginName='test' and LoginPWD='e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.0240s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2020-07-04T16:43:09+08:00 ] 127.0.0.1 /home/index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2020-07-04T16:43:09+08:00 ] 127.0.0.1 /home/index/top
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2020-07-04T16:43:10+08:00 ] 127.0.0.1 /home/index/menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2020-07-04T16:43:10+08:00 ] 127.0.0.1 /home/index/welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2020-07-04T16:43:18+08:00 ] 127.0.0.1 /home/InputData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2020-07-04T16:43:19+08:00 ] 127.0.0.1 /home/Supervisory?t=list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `trapinfo` [ RunTime:0.0260s ]
+NOTIC: [8] Undefined index: area F:\C\VSPRO\TMS_WEB\TMTY\Application\Home\Controller\SupervisoryController.class.php 第 555 行.
+NOTIC: [8] Undefined index: ts F:\C\VSPRO\TMS_WEB\TMTY\Application\Home\Controller\SupervisoryController.class.php 第 556 行.
+NOTIC: [8] Undefined index: te F:\C\VSPRO\TMS_WEB\TMTY\Application\Home\Controller\SupervisoryController.class.php 第 557 行.
+NOTIC: [8] Undefined index: tn F:\C\VSPRO\TMS_WEB\TMTY\Application\Home\Controller\SupervisoryController.class.php 第 558 行.
+NOTIC: [8] Undefined index: tstate F:\C\VSPRO\TMS_WEB\TMTY\Application\Home\Controller\SupervisoryController.class.php 第 559 行.
+SQL: SELECT * FROM `trapinfo` WHERE (  CompanyID=1  ) GROUP BY TrapNo ORDER BY DateCheck desc,areaid,trapno  [ RunTime:0.1550s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2020-07-04T16:43:20+08:00 ] 127.0.0.1 /home/supervisory/getareas
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `areainfo` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `areainfo` WHERE ( CompanyID=1 )  [ RunTime:0.0270s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2020-07-04T16:43:20+08:00 ] 127.0.0.1 /home/Supervisory?t=line
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined index: areacode F:\C\VSPRO\TMS_WEB\TMTY\Application\Home\Controller\SupervisoryController.class.php 第 9 行.
+NOTIC: [8] Undefined index: trapid F:\C\VSPRO\TMS_WEB\TMTY\Application\Home\Controller\SupervisoryController.class.php 第 13 行.
+
+[ 2020-07-04T16:43:20+08:00 ] 127.0.0.1 /home/supervisory/superline
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2020-07-04T16:43:21+08:00 ] 127.0.0.1 /home/supervisory/getareas
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `areainfo` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `areainfo` WHERE ( CompanyID=1 )  [ RunTime:0.0240s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2020-07-04T16:43:21+08:00 ] 127.0.0.1 /home/supervisory/drawline
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `trapinfo` [ RunTime:0.0260s ]
+NOTIC: [8] Undefined index: dn F:\C\VSPRO\TMS_WEB\TMTY\Application\Home\Controller\SupervisoryController.class.php 第 350 行.
+SQL: SELECT * FROM `trapinfo` WHERE ( CompanyID=1 ) GROUP BY areaid ORDER BY DateCheck desc LIMIT 5   [ RunTime:0.0740s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( CompanyID=1 and TrapNo='0130' ) ORDER BY DateCheck desc LIMIT 10   [ RunTime:0.0590s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( CompanyID=1 and TrapNo='1231' ) ORDER BY DateCheck desc LIMIT 10   [ RunTime:0.0370s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( CompanyID=1 and TrapNo='0201' ) ORDER BY DateCheck desc LIMIT 10   [ RunTime:0.0450s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( CompanyID=1 and TrapNo='0201' ) ORDER BY DateCheck desc LIMIT 10   [ RunTime:0.0320s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( CompanyID=1 and TrapNo='0102' ) ORDER BY DateCheck desc LIMIT 10   [ RunTime:0.0300s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2020-07-04T16:43:30+08:00 ] 127.0.0.1 /home/Supervisory/showmax2d
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `areainfo` [ RunTime:0.0260s ]
+SQL: SHOW COLUMNS FROM `trapmodel` [ RunTime:0.0290s ]
+SQL: SHOW COLUMNS FROM `trapinfo` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `areainfo` WHERE ( CompanyID=1 ) ORDER BY AreaLocation  [ RunTime:0.0270s ]
+SQL: SELECT * FROM `trapmodel` WHERE ( CompanyID=1 and AreaId=88 ) ORDER BY OrderNum  [ RunTime:0.0410s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='1231' and AreaId=88 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0280s ]
+SQL: SELECT * FROM `trapmodel` WHERE ( CompanyID=1 and AreaId=1 ) ORDER BY OrderNum  [ RunTime:0.0530s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='9709' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0280s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='9809' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='9909' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0260s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='9919' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0270s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='1103' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='6666' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='8888' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='FF33' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0510s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0102' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0270s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0132' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.1880s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0405' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0406' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0340s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0411' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='040e' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0412' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0413' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0416' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0417' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='040f' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0270s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0410' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.8310s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0414' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0280s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0415' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='AAFF' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0110' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0620s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0111' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0670s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0201' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0390s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0206' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0270s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0515' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:1.2141s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0420' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0280s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0559' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0600s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='055a' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0400s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='055e' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0280s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0550' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0564' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0571' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0280s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='055d' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0340s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='056d' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0280s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0545' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='056a' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0570' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0280s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0556' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0890s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0546' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0280s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0561' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0270s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0551' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0548' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0280s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='3338' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='3337' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='3331' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='3332' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='3335' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='9999' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='3339' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0280s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='3334' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0280s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='1123' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='1221' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0340s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='9002' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='9003' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='9004' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0280s ]
+SQL: SELECT * FROM `trapmodel` WHERE ( CompanyID=1 and AreaId=2 ) ORDER BY OrderNum  [ RunTime:0.0560s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='9706' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='9708' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0260s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='9806' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='9808' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0270s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='9906' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='9908' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0260s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='9916' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0260s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='9918' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0240s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='1102' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='1104' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='5555' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='9006' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0280s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='9008' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0101' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0501' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.1170s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0502' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0560s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0112' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0640s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0503' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0330s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0504' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0505' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0280s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0506' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0580s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0507' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0380s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0508' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0280s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0509' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='050A' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0205' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='050B' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='050C' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='050D' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='050E' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='050F' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0510' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0720s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0511' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0560s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0512' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0590s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0513' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0400s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0514' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0410s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0516' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0630s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0517' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0260s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0518' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0420s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0519' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0390s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0520' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0660s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='051A' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0400s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='051B' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.1450s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='051C' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0400s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='051D' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0270s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='051E' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0280s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='051F' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0410s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0521' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0460s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0522' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0470s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0523' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0536' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0538' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0270s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0539' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0540' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0280s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0541' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='053A' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0280s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='053B' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0330s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='053C' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0280s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='053D' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0280s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='053E' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0280s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='053F' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0280s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0542' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0543' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0280s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0544' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0340s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0524' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0440s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0525' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0528' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0280s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0529' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='052A' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0960s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='052B' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='052C' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='052D' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0260s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='052E' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0280s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='052F' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0260s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0531' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0280s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0533' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0534' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0340s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0535' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0280s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0549' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0390s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0552' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0360s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0553' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0370s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0554' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='9001' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT * FROM `trapmodel` WHERE ( CompanyID=1 and AreaId=3 ) ORDER BY OrderNum  [ RunTime:0.0280s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0113' and AreaId=3 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0680s ]
+SQL: SELECT * FROM `trapmodel` WHERE ( CompanyID=1 and AreaId=10 ) ORDER BY OrderNum  [ RunTime:0.0260s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='9707' and AreaId=10 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='9807' and AreaId=10 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='9907' and AreaId=10 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='9917' and AreaId=10 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='1101' and AreaId=10 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='4444' and AreaId=10 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0260s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='1105' and AreaId=10 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='9007' and AreaId=10 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0280s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0208' and AreaId=10 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='020A' and AreaId=10 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='9000' and AreaId=10 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0390s ]
+SQL: SELECT * FROM `trapmodel` WHERE ( CompanyID=1 and AreaId=74 ) ORDER BY OrderNum  [ RunTime:0.0350s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\C\VSPRO\TMS_WEB\TMTY\Application\Home\Controller\SupervisoryController.class.php 第 88 行.
+SQL: SELECT * FROM `trapmodel` WHERE ( CompanyID=1 and AreaId=73 ) ORDER BY OrderNum  [ RunTime:0.0280s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\C\VSPRO\TMS_WEB\TMTY\Application\Home\Controller\SupervisoryController.class.php 第 88 行.
+SQL: SELECT * FROM `trapmodel` WHERE ( CompanyID=1 and AreaId=87 ) ORDER BY OrderNum  [ RunTime:0.0260s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\C\VSPRO\TMS_WEB\TMTY\Application\Home\Controller\SupervisoryController.class.php 第 88 行.
+SQL: SELECT * FROM `trapmodel` WHERE ( CompanyID=1 and AreaId=75 ) ORDER BY OrderNum  [ RunTime:0.0260s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0203' and AreaId=75 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0270s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0204' and AreaId=75 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0480s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0207' and AreaId=75 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0330s ]
+SQL: SELECT * FROM `trapmodel` WHERE ( CompanyID=1 and AreaId=76 ) ORDER BY OrderNum  [ RunTime:0.0280s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\C\VSPRO\TMS_WEB\TMTY\Application\Home\Controller\SupervisoryController.class.php 第 88 行.
+SQL: SELECT * FROM `trapmodel` WHERE ( CompanyID=1 and AreaId=70 ) ORDER BY OrderNum  [ RunTime:0.0260s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\C\VSPRO\TMS_WEB\TMTY\Application\Home\Controller\SupervisoryController.class.php 第 88 行.
+SQL: SELECT * FROM `trapmodel` WHERE ( CompanyID=1 and AreaId=71 ) ORDER BY OrderNum  [ RunTime:0.0260s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0219' and AreaId=71 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0260s ]
+SQL: SELECT * FROM `trapmodel` WHERE ( CompanyID=1 and AreaId=77 ) ORDER BY OrderNum  [ RunTime:0.0350s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\C\VSPRO\TMS_WEB\TMTY\Application\Home\Controller\SupervisoryController.class.php 第 88 行.
+SQL: SELECT * FROM `trapmodel` WHERE ( CompanyID=1 and AreaId=78 ) ORDER BY OrderNum  [ RunTime:0.0250s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\C\VSPRO\TMS_WEB\TMTY\Application\Home\Controller\SupervisoryController.class.php 第 88 行.
+SQL: SELECT * FROM `trapmodel` WHERE ( CompanyID=1 and AreaId=82 ) ORDER BY OrderNum  [ RunTime:0.0260s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\C\VSPRO\TMS_WEB\TMTY\Application\Home\Controller\SupervisoryController.class.php 第 88 行.
+SQL: SELECT * FROM `trapmodel` WHERE ( CompanyID=1 and AreaId=81 ) ORDER BY OrderNum  [ RunTime:0.0260s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='' and AreaId=81 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0260s ]
+SQL: SELECT * FROM `trapmodel` WHERE ( CompanyID=1 and AreaId=86 ) ORDER BY OrderNum  [ RunTime:0.0270s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\C\VSPRO\TMS_WEB\TMTY\Application\Home\Controller\SupervisoryController.class.php 第 88 行.
+SQL: SELECT * FROM `trapmodel` WHERE ( CompanyID=1 and AreaId=83 ) ORDER BY OrderNum  [ RunTime:0.0260s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\C\VSPRO\TMS_WEB\TMTY\Application\Home\Controller\SupervisoryController.class.php 第 88 行.
+SQL: SELECT * FROM `trapmodel` WHERE ( CompanyID=1 and AreaId=84 ) ORDER BY OrderNum  [ RunTime:0.0270s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\C\VSPRO\TMS_WEB\TMTY\Application\Home\Controller\SupervisoryController.class.php 第 88 行.
+SQL: SELECT * FROM `trapmodel` WHERE ( CompanyID=1 and AreaId=80 ) ORDER BY OrderNum  [ RunTime:0.0300s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\C\VSPRO\TMS_WEB\TMTY\Application\Home\Controller\SupervisoryController.class.php 第 88 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2020-07-04T16:43:30+08:00 ] 127.0.0.1 /home/Supervisory?t=line
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: areacode F:\C\VSPRO\TMS_WEB\TMTY\Application\Home\Controller\SupervisoryController.class.php 第 9 行.
+NOTIC: [8] Undefined index: trapid F:\C\VSPRO\TMS_WEB\TMTY\Application\Home\Controller\SupervisoryController.class.php 第 13 行.
+
+[ 2020-07-04T16:43:36+08:00 ] 127.0.0.1 /home/Supervisory/showmax2d
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `areainfo` [ RunTime:0.0250s ]
+SQL: SHOW COLUMNS FROM `trapmodel` [ RunTime:0.0280s ]
+SQL: SHOW COLUMNS FROM `trapinfo` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `areainfo` WHERE ( CompanyID=1 ) ORDER BY AreaLocation  [ RunTime:0.0240s ]
+SQL: SELECT * FROM `trapmodel` WHERE ( CompanyID=1 and AreaId=88 ) ORDER BY OrderNum  [ RunTime:0.0290s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='1231' and AreaId=88 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT * FROM `trapmodel` WHERE ( CompanyID=1 and AreaId=1 ) ORDER BY OrderNum  [ RunTime:0.0510s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='9709' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0240s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='9809' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0260s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='9909' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0240s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='9919' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0280s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='1103' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0240s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='6666' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='8888' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0260s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='FF33' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0102' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0132' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.2460s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0405' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0270s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0406' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0280s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0411' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0270s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='040e' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0270s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0412' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0280s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0413' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0416' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0270s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0417' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0340s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='040f' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0410' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0620s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0414' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0415' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='AAFF' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0110' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0720s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0111' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0820s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0201' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0280s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0206' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0240s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0515' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0550s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0420' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0559' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0360s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='055a' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0340s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='055e' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0270s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0550' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0270s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0564' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0571' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0260s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='055d' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0280s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='056d' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0280s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0545' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='056a' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0280s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0570' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0270s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0556' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0546' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0561' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0270s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0551' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0270s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0548' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='3338' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0330s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='3337' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='3331' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0270s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='3332' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='3335' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0330s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='9999' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='3339' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='3334' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='1123' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='1221' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='9002' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='9003' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0270s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='9004' and AreaId=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0270s ]
+SQL: SELECT * FROM `trapmodel` WHERE ( CompanyID=1 and AreaId=2 ) ORDER BY OrderNum  [ RunTime:0.0490s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='9706' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='9708' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='9806' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0240s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='9808' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='9906' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0240s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='9908' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0240s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='9916' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='9918' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0240s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='1102' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0240s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='1104' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0270s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='5555' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0230s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='9006' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0270s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='9008' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0101' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0280s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0501' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0502' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0340s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0112' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0640s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0503' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0280s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0504' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0340s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0505' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0270s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0506' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0370s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0507' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0508' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0330s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0509' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0280s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='050A' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0205' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='050B' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0370s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='050C' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0280s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='050D' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0370s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='050E' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='050F' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0280s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0510' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0270s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0511' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0560s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0512' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0610s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0513' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0480s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0514' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0530s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0516' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0490s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0517' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0518' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0530s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0519' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0360s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0520' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0590s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='051A' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0840s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='051B' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0490s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='051C' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0490s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='051D' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='051E' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0270s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='051F' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0520s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0521' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0710s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0522' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0550s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0523' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0536' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0538' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0260s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0539' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0540' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0541' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='053A' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0260s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='053B' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0270s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='053C' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0270s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='053D' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0270s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='053E' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0280s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='053F' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0270s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0542' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0330s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0543' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0544' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0270s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0524' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0470s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0525' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0260s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0528' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0260s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0529' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='052A' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='052B' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='052C' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='052D' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0260s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='052E' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='052F' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0531' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0270s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0533' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0280s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0534' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0280s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0535' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0270s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0549' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0370s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0552' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0330s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0553' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0554' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0350s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='9001' and AreaId=2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0270s ]
+SQL: SELECT * FROM `trapmodel` WHERE ( CompanyID=1 and AreaId=3 ) ORDER BY OrderNum  [ RunTime:0.0260s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0113' and AreaId=3 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0670s ]
+SQL: SELECT * FROM `trapmodel` WHERE ( CompanyID=1 and AreaId=10 ) ORDER BY OrderNum  [ RunTime:0.0330s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='9707' and AreaId=10 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0240s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='9807' and AreaId=10 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0260s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='9907' and AreaId=10 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0260s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='9917' and AreaId=10 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='1101' and AreaId=10 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0240s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='4444' and AreaId=10 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0270s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='1105' and AreaId=10 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0240s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='9007' and AreaId=10 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0270s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0208' and AreaId=10 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0360s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='020A' and AreaId=10 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0270s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='9000' and AreaId=10 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0270s ]
+SQL: SELECT * FROM `trapmodel` WHERE ( CompanyID=1 and AreaId=74 ) ORDER BY OrderNum  [ RunTime:0.0270s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\C\VSPRO\TMS_WEB\TMTY\Application\Home\Controller\SupervisoryController.class.php 第 88 行.
+SQL: SELECT * FROM `trapmodel` WHERE ( CompanyID=1 and AreaId=73 ) ORDER BY OrderNum  [ RunTime:0.0270s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\C\VSPRO\TMS_WEB\TMTY\Application\Home\Controller\SupervisoryController.class.php 第 88 行.
+SQL: SELECT * FROM `trapmodel` WHERE ( CompanyID=1 and AreaId=87 ) ORDER BY OrderNum  [ RunTime:0.0300s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\C\VSPRO\TMS_WEB\TMTY\Application\Home\Controller\SupervisoryController.class.php 第 88 行.
+SQL: SELECT * FROM `trapmodel` WHERE ( CompanyID=1 and AreaId=75 ) ORDER BY OrderNum  [ RunTime:0.0280s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0203' and AreaId=75 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0270s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0204' and AreaId=75 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0207' and AreaId=75 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0330s ]
+SQL: SELECT * FROM `trapmodel` WHERE ( CompanyID=1 and AreaId=76 ) ORDER BY OrderNum  [ RunTime:0.0260s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\C\VSPRO\TMS_WEB\TMTY\Application\Home\Controller\SupervisoryController.class.php 第 88 行.
+SQL: SELECT * FROM `trapmodel` WHERE ( CompanyID=1 and AreaId=70 ) ORDER BY OrderNum  [ RunTime:0.0250s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\C\VSPRO\TMS_WEB\TMTY\Application\Home\Controller\SupervisoryController.class.php 第 88 行.
+SQL: SELECT * FROM `trapmodel` WHERE ( CompanyID=1 and AreaId=71 ) ORDER BY OrderNum  [ RunTime:0.0260s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='0219' and AreaId=71 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0240s ]
+SQL: SELECT * FROM `trapmodel` WHERE ( CompanyID=1 and AreaId=77 ) ORDER BY OrderNum  [ RunTime:0.0260s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\C\VSPRO\TMS_WEB\TMTY\Application\Home\Controller\SupervisoryController.class.php 第 88 行.
+SQL: SELECT * FROM `trapmodel` WHERE ( CompanyID=1 and AreaId=78 ) ORDER BY OrderNum  [ RunTime:0.0250s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\C\VSPRO\TMS_WEB\TMTY\Application\Home\Controller\SupervisoryController.class.php 第 88 行.
+SQL: SELECT * FROM `trapmodel` WHERE ( CompanyID=1 and AreaId=82 ) ORDER BY OrderNum  [ RunTime:0.0250s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\C\VSPRO\TMS_WEB\TMTY\Application\Home\Controller\SupervisoryController.class.php 第 88 行.
+SQL: SELECT * FROM `trapmodel` WHERE ( CompanyID=1 and AreaId=81 ) ORDER BY OrderNum  [ RunTime:0.0250s ]
+SQL: SELECT * FROM `trapinfo` WHERE ( companyid=1 and trapno='' and AreaId=81 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0240s ]
+SQL: SELECT * FROM `trapmodel` WHERE ( CompanyID=1 and AreaId=86 ) ORDER BY OrderNum  [ RunTime:0.0260s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\C\VSPRO\TMS_WEB\TMTY\Application\Home\Controller\SupervisoryController.class.php 第 88 行.
+SQL: SELECT * FROM `trapmodel` WHERE ( CompanyID=1 and AreaId=83 ) ORDER BY OrderNum  [ RunTime:0.0330s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\C\VSPRO\TMS_WEB\TMTY\Application\Home\Controller\SupervisoryController.class.php 第 88 行.
+SQL: SELECT * FROM `trapmodel` WHERE ( CompanyID=1 and AreaId=84 ) ORDER BY OrderNum  [ RunTime:0.0340s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\C\VSPRO\TMS_WEB\TMTY\Application\Home\Controller\SupervisoryController.class.php 第 88 行.
+SQL: SELECT * FROM `trapmodel` WHERE ( CompanyID=1 and AreaId=80 ) ORDER BY OrderNum  [ RunTime:0.0290s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\C\VSPRO\TMS_WEB\TMTY\Application\Home\Controller\SupervisoryController.class.php 第 88 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2020-07-04T16:43:36+08:00 ] 127.0.0.1 /home/warning/index?page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page F:\C\VSPRO\TMS_WEB\TMTY\Application\Runtime\Cache\Home\7dd8466f41fafacb879d4736903fe25e.php 第 188 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2020-07-04T16:43:36+08:00 ] 127.0.0.1 /home/emc/setdata
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `emcdata` [ RunTime:0.0250s ]
+NOTIC: [8] Undefined index: type F:\C\VSPRO\TMS_WEB\TMTY\Application\Home\Controller\EmcController.class.php 第 14 行.
+SQL: SELECT * FROM `emcdata` WHERE `CompanyID` = 1 LIMIT 1   [ RunTime:0.0430s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2020-07-04T16:43:37+08:00 ] 127.0.0.1 /home/AreaInfo/TrapAnalysis
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2020-07-04T16:43:37+08:00 ] 127.0.0.1 /home/AreaInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `companyinfo` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `companyinfo` WHERE ( Id=1 and LoginName='test' ) LIMIT 1   [ RunTime:0.0250s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
