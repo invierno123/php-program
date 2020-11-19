@@ -87,6 +87,8 @@ return array(
     'L_LIST_SHOW_OTHER'=>'其他',
     'L_LIST_SHOW_STATE'=>'状态',
     'L_LIST_SHOW_TIME'=>'时间',
+
+    'L_LIST_SHOW_addnl'=>'折线图',
     ///////////////////区域设置///////////////////////////
     'L_AREA_QY'=>'区域',
     'L_AREA_SL'=>'数量',
@@ -161,6 +163,7 @@ return array(
     'L_AREA_GJZ'=>'关键字',
     'L_AREA_ADD'=>'添加',
     'L_AREA_EDIT'=>'编辑',
+    'L_AREA_watch'=>'查看',
     'L_AREA_EMPTYSPACE'=>'未分配',
     'L_AREA_NAME'=>'分区名称',
     'L_AREA_LOCATION'=>'分区位置',
