@@ -8,15 +8,17 @@
     <script>
 
 
-function edit(id,page) {
-  window.location.href="/home/supervisory/edit?id="+id+"&page="+page;
+function watchinfo(id,page) {
+  window.location.href="/home/supervisory/watchinfo?id="+id+"&page="+page;
 //  window.open("/home/warning/innit?id="+id);
 }
 
     function showinfo(sid,tid) {
       window.open("/home/supervisory/checkinfo?sid="+sid+"&tid="+tid,"","height=500, width=1150, top=50, left=50, toolbar=no, menubar=no, scrollbars=no, resizable=yes, location=no, status=no");
     }
-    
+
+// --------------------------------------------------
+
     function btn_search_click(){
       var area=trim($("#select_area").val());
       var time_s=trim($("#input_t_s").val());
