@@ -1,94 +1,135 @@
-<!doctype html>
-<html>
-<head>
-  <title></title>
-  <style type="text/css">
-    body {
-      font: 10pt sans;
+<!DOCTYPE html>
+<html style="height: 100%">
+   <head>
+       <meta charset="utf-8">
+   </head>
+   <body style="height: 100%; margin: 0">
+    <div style="background:url(/Public/images/bg.png);height: 100%;">
+       <div id="container" style="height: 100%"></div>
+       <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>
+       <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts-gl/dist/echarts-gl.min.js"></script>
+       <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts-stat/dist/ecStat.min.js"></script>
+       <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/dist/extension/dataTool.min.js"></script>
+       <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/map/js/china.js"></script>
+       <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/map/js/world.js"></script>
+       
+       <!-- <script type="text/javascript" src="https://api.map.baidu.com/api?v=2.0&ak=xfhhaTThl11qYVrqLZii6w8qE5ggnhrY&__ec_v__=20190126"></script> -->
+       <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/dist/extension/bmap.min.js"></script>
+       <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+      <script type="text/javascript">
+var dom = document.getElementById("container");
+var myChart = echarts.init(dom);
+var app = {};
+option = null;
+var dres = [],gres = [];
+
+
+ var geoCoordMap = [
+     <volist name="trapdata" id="v" empty="">                
+        {name:"{$v['trapno']}",value:["{$v.coordx}","{$v.coordy}"]},
+            </volist>]
+ 
+
+var convertData = function (data) {
+    var res = [];
+    for (var i = 0; i < data.length; i++) {
+        var geoCoord = geoCoordMap[data[i].name];
+        if (geoCoord) {
+            res.push({
+                name: data[i].name,
+                value: geoCoord.concat(data[i].value)
+            });
+        }
     }
-    #mygraph {
-      width:100%;
-      border: 1px solid lightgray;
-    }
-  </style>
-  <script src='/Public/js/jquery.js' ></script>
-  <link href="/Public/css/jquery-fallr-1.3.css" rel="stylesheet" type="text/css" />
-  <script type="text/javascript" src="/Public/js/jquery-fallr-1.3.pack.js"></script>
-  <script type="text/javascript" src="/Public/js/dist/vis.js"></script>
-  <script>
-  $(function(){
-    $("#mygraph").css("height",$(window).height()-50);
-  });
-  </script>
-  <script type="text/javascript">
+    return res;
+    
+};
 
-    var nodes = null;
-    var edges = null;
-    var graph = null;
+option = {
+    backgroundColor:'rgba(255, 255, 255, 0)',
 
-    function draw() {
-      nodes = [];
-      edges = [];
-      var connectionCount = [];
+    title: {
+        text: '区域温度',
+        subtext: 'data from sql',
 
-      // randomly create some nodes and edges
-      var nodeCount = 35;//document.getElementById('nodeCount').value;
-      nodes.push({$NODES});
-      edges.push({$EDGES});
-      // create a graph
-      var container = document.getElementById('mygraph');
-      var data = {
-        nodes: nodes,
-        edges: edges
-      };
-
-    var options = {
-    edges: {
-      width:3
+        x:'center',
+        textStyle: {
+            color: 'black'
+        }
     },
-    stabilize: false,
-    smoothCurves:false
-    //configurePhysics:true,
-    /*hierarchicalLayout: {
-        enabled:true,
-        direction: "UD",
-        nodeSpacing: 100,
-        levelSeparation: 150,
-    }*/
-    };
-    graph = new vis.Graph(container, data, options);
 
-    // add event listeners
-    graph.on('select', function(params) {
-      //params.nodes;
-    });
-    graph.on('doubleClick', function(params) {
-      //alert(params.nodes)
-
-      if((params.nodes+"").indexOf("-")>-1||(params.nodes+"")==""){return;}
-      $.fallr("show", {
-    			content: "<iframe src='/home/Supervisory?t=line&trapid="+params.nodes+"' frameborder='0' width='100%' height='100%'></iframe>",
-    			position: "center",
-    			height:"90%",
-    			width:"90%",
-    			buttons:{
-    				button1: {
-    						text: "{:L('L_ALERT_CANCEL')}",
-    						onclick: function () {
-    							$.fallr("hide");
-    						}
-    				}
-    			}
-    	});
-    });
-    }
-  </script>
-</head>
-
-<body onload="draw();">
-    <h1 style="font-size:14px;">{:L('L_MENU_SUPER_2D')}</h1>
-
-
-<div id="mygraph"></div>
+    tooltip: {
+        trigger: 'item',
+        formatter: function (params) {
+            return params.name + ' : ' + params.value[2];
+        }
+    },
+    legend: {
+        orient: 'vertical',
+        top: 'bottom',
+        left: 'right',
+        data:['temperature'],
+        textStyle: {
+            color: 'black'
+        }
+    },
+    visualMap: {
+        min: 0,
+        max: 80,
+        calculable: true,
+        inRange: {
+            color: ['#50a3ba', '#eac736', '#d94e5d']
+        },
+        textStyle: {
+            color: '#fff'
+        }
+    },
+    geo: {
+        map: 'china',
+        itemStyle: {
+            areaColor: 'rgba(255, 255, 255, 0)',
+            borderColor: 'rgba(255, 255, 255, 0)'
+        },
+        emphasis: {
+            itemStyle: {
+                areaColor: 'rgba(255, 255, 255, 0)'
+            },
+            label: {
+                show: false
+            }
+        }
+    },
+    series: [
+        {
+            name: 'temperature',
+            type: 'scatter',
+            coordinateSystem: 'geo',
+            data: [
+            <volist name="trapdata" id="v" empty="">                
+                {name:"{$v['trapno']}",value:["{$v.coordxx}","{$v.coordyy}","{$v.temstatus}"]},
+            </volist>
+                
+                
+            ],
+          
+           
+            symbolSize:  function (val) {
+                return val[2] / 2;
+            },
+            emphasis: {
+                itemStyle: {
+                    borderColor: '#fff',
+                    borderWidth: 1
+                }
+            }
+        }
+    ]
+};
+                
+if (option && typeof option === "object") {
+    myChart.setOption(option, true);
+}
+       </script>
+  </div>
 </body>
 </html>
