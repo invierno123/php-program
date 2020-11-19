@@ -34,232 +34,13 @@ class SupervisoryController extends Controller {
 	}
 	//输出平面展示图
 	public function showmax2d(){
-    if(cookie("companyid").""==""){
-      if($_GET["oid"]!=""){
-        cookie("companyid",$_GET["oid"]);
-      }
-    }
-		$nodes_str="";//最后输出的nodes字符串
-		$edges_str="";//最后输出的edges字符串
-
-		$AreaDAO=M("areainfo");
-		$TrapDAO=M("trapmodel");
-		$TrapInfoDAO=M("trapinfo");
-		$X_=0;//当前节点的X位置 越小越靠左
-		$Y_=0;//当前节点的Y位置 越小越靠上
-		$X_MAX=0;//目前到达的最大X值
-		$Y_MAX=0;//目前到达的最大Y值
-
-		$X_START=0;//边框的X起始位置；
-		$Y_START=0;//边框的Y起始位置；
-
-		$AreaList=$AreaDAO->where("CompanyID=".cookie("companyid"))->order("AreaLocation")->select();
-		$LOCATION_L_M_R="";//当前区域的位置
-
-		$LAY_IF=false;//是否输出
-		$AREA_COUNT_=0;//区域的数量
-		$ALL_AREACOUNT= count($AreaList);//所有区域的数量
-		$FOR_INDEX=0;
-		$MIN_Y_V=0;
-		foreach ($AreaList as $areamodel) {
-			$FOR_INDEX++;
-			$Trap_Area_List = $TrapDAO->where("CompanyID=".cookie("companyid")." and AreaId=".$areamodel["id"])->order("OrderNum")->select();
-			$LJ_NODE_1="";
-			$LJ_NODE_2="";
-			$All_trap_count = count($Trap_Area_List);
-			//计算节点分成两列的位置
-			$BR_NUM = (int)((int)$All_trap_count/2);
-			$TRAP_FLAG=0;
-			$Y_A_P_FLAG=false;
-			$A_1="1";
-			$A_2="2";
-			if($LOCATION_L_M_R==""){
-				$LOCATION_L_M_R=substr($areamodel["arealocation"],0,1);
-			}
-
-			//绘制标题
-			$nodes_str.='{id: "title-'.$FOR_INDEX.'",
-										label: "'.L("L_AREA_QY").':'.$areamodel["areaname"].'",
-										title: "'.$areamodel["id"].'",
-										x:'.((int)$X_+380).',
-										y:'.((int)$Y_-100).',
-										group:10,
-										color:"blue",
-										fontColor:"#fff",
-										shape:"box",},';
-
-			foreach ($Trap_Area_List as $trap_area) {
-				$LAY_IF=true;
-				if($All_trap_count>2&&$TRAP_FLAG==$BR_NUM){
-					$Y_A_P_FLAG=true;
-					$X_+=450;
-					$A_1="2";
-					$A_2="1";
-					$Y_-=100;
-				}
-				if($Y_<$MIN_Y_V){
-					$MIN_Y_V=$Y_;
-				}
-				$TRAP_FLAG++;
-				$GRAP_=1;
-				$COLOR_="green";
-
-				$Last_DATA = $TrapInfoDAO->where("companyid=".cookie("companyid")." and trapno='".$trap_area["trapno"]."' and AreaId=".$trap_area["areaid"])->order("id desc")->find();
-				$TITLE_STR="".L("L_ALERT_DATAEMPTY");
-				if($Last_DATA!=null && $Last_DATA["id"]>0){
-					$TITLE_STR=L("L_ALERT_TJ_WENDU")."：".$Last_DATA["newtem"]."<br/>".L("L_ALERT_TJ_PINLV")."：".$Last_DATA["hznumber"]."<br/>".L("L_LIST_SHOW_LASTTIME").":".date("m-d H:i:s",strtotime($Last_DATA["datecheck"]));
-				}
-
-				$nodes_str.='{id: "'.$trap_area["id"].'-'.$A_1.'",
-				        			label: "",
-				        			x:'.$X_.',
-				        			y:'.$Y_.',
-				        			group:0,
-				        			color:"gray",
-				        			fontColor:"#fff",
-				        			shape:"dot"},
-											{id: "'.$trap_area["id"].'",
-				        			label: "'.$trap_area["trapno"].'",
-											title:"'.$TITLE_STR.'",
-				        			x:'.((int)$X_+150).',
-				        			y:'.$Y_.',
-				        			group:'.$GRAP_.',
-				        			color:"'.$COLOR_.'",
-				        			fontColor:"#fff",
-				        			shape:"box"},
-											{id: "'.$trap_area["id"].'-'.$A_2.'",
-				        			 label: "",
-											 x:'.((int)$X_+300).',
-											 y:'.$Y_.',
-											 group:0,
-											 color:"gray",
-											 fontColor:"#fff",
-											 shape:"dot"},';
-
-				$F_T1="";
-				$F_T2="";
-				if($LJ_NODE_1!=""){
-					$F_T1='{from:"'.$LJ_NODE_1.'",to:"'.$trap_area["id"].'-1"},';
-					$LJ_NODE_1="";
-				}else{
-					$LJ_NODE_1=$trap_area["id"]."-1";
-				}
-				if($LJ_NODE_2==""){
-					$LJ_NODE_2=$trap_area["id"]."-2";
-				}else{
-					$F_T2='{from:"'.$LJ_NODE_2.'",to:"'.$trap_area["id"].'-2"},';
-					$LJ_NODE_2=$trap_area["id"]."-2";
-				}
-				$edges_str.='{
-	        						from: "'.$trap_area["id"].'-1",
-	        						to: "'.$trap_area["id"].'",
-										},
-										{
-							        from: "'.$trap_area["id"].'",
-							        to: "'.$trap_area["id"].'-2",
-										},'.$F_T1.$F_T2;
-
-
-				//$X_+=100;
-				if($Y_A_P_FLAG){
-					$Y_-=100;
-				}else{
-					$Y_+=100;
-				}
-				if($X_>$X_MAX){
-					$X_MAX=$X_;
-				}
-				if($Y_>$Y_MAX){
-					$Y_MAX=$Y_;
-				}
-			}
-
-
-/*
-				//绘制边框
-				$PADDING_PX=20;
-				$nodes_str.='{id: "border-'.$FOR_INDEX.'-1",
-											label: "",
-											x:'.((int)$X_START-(int)$PADDING_PX).',
-											y:'.((int)$MIN_Y_V-(int)$PADDING_PX).',
-											group:10,
-											color:"#ccc",
-											shape:"dot"},';
-				$nodes_str.='{id: "border-'.$FOR_INDEX.'-2",
-											label: "",
-											x:'.((int)$X_START-(int)$PADDING_PX).',
-											y:'.((int)$Y_MAX+(int)$PADDING_PX).',
-											group:10,
-											color:"#ccc",
-											shape:"dot"},';
-				$nodes_str.='{id: "border-'.$FOR_INDEX.'-4",
-											 label: "",
-											 x:'.((int)$X_MAX+(int)$PADDING_PX).',
-											 y:'.((int)$MIN_Y_V-(int)$PADDING_PX).',
-											 group:10,
-											 color:"#ccc",
-											 shape:"dot"},';
-				 $nodes_str.='{id: "border-'.$FOR_INDEX.'-3",
- 											 label: "",
- 											 x:'.((int)$X_MAX+(int)$PADDING_PX).',
- 											 y:'.((int)$Y_MAX+(int)$PADDING_PX).',
- 											 group:10,
- 											 color:"#ccc",
- 											 shape:"dot"},';
-
-				 $edges_str.='{
-	 	        						from: "border-'.$FOR_INDEX.'-1",
-	 	        						to: "border-'.$FOR_INDEX.'-2",
-												style:"dash-line",
-	 										},
-	 										{
-												from: "border-'.$FOR_INDEX.'-2",
-	 	        						to: "border-'.$FOR_INDEX.'-3",
-												style:"dash-line",
-	 										},
-											{
-												from: "border-'.$FOR_INDEX.'-3",
-	 	        						to: "border-'.$FOR_INDEX.'-4",
-												style:"dash-line",
-	 										},
-											{
-												from: "border-'.$FOR_INDEX.'-4",
-	 	        						to: "border-'.$FOR_INDEX.'-1",
-												style:"dash-line",
-	 										},';
-
-			$X_START=$X_MAX;
-			$Y_START=$Y_MAX;*/
-			if(((int)$AREA_COUNT_+1)<$ALL_AREACOUNT){
-				if(substr($AreaList[$AREA_COUNT_+1]["arealocation"],0,1)!=substr($areamodel["arealocation"],0,1)){
-					if($LAY_IF){
-						$X_+=950;
-						$Y_=0;
-					}
-					$LOCATION_L_M_R=substr($areamodel["arealocation"],0,1);
-				}else if(substr($AreaList[$AREA_COUNT_+1]["arealocation"],0,1)==substr($areamodel["arealocation"],0,1)){
-					if($LAY_IF){
-						$Y_=$Y_MAX+100;
-					}
-					if($Y_A_P_FLAG){
-						$X_-=450;
-					}
-				}
-			}
-			$AREA_COUNT_++;
-		}
-		$this->NODES=rtrim($nodes_str,",");
-		$this->EDGES=rtrim($edges_str,",");
+		$Dao=M("trapmodel");
+		$result=$Dao->where("companyid=1")->select();
+	//   $data['']==0?"正常":"异常";
+		$this->trapdata=$result;
+	
 		$this->display();
-	}
-	public function superline(){
 
-		if(cookie("companyid").""==""){
-			if($_GET["oid"]!=""){
-				cookie("companyid",$_GET["oid"]);
-			}
-		}
-		$this->display();
 	}
 	//绘制单个折线图
 	public function drawline_search(){
@@ -660,6 +441,13 @@ class SupervisoryController extends Controller {
 		  }
 
 //-----------------------------------------------------------------------------
+public  function  watchinfo(){
+	$Dan=M("trapinfo");
+	$result=$Dan->where('id='.$_GET['id'])->find();
+//   $data['']==0?"正常":"异常";
+	$this->trapdata=$result;
+	$this->display();
+	}
 
 	//列表展示
 	public function ListShow(){
@@ -711,7 +499,7 @@ class SupervisoryController extends Controller {
 			$show_list_str.=$trap_each["description"];
 			$show_list_str.="</td>";
 			$show_list_str.="<td>";//,'".$trap_each["trapstate"]."'
-			$show_list_str.="<a onclick=\"showinfo('".$trap_each["id"]."','".$trap_each["trapno"]."');\" style='cursor:pointer;'>".L("L_ALERT_TJ_XIANGXI")."</a>";
+			$show_list_str.="<a onclick=\"showinfo('".$trap_each["id"]."','".$trap_each["trapno"]."');\" style='cursor:pointer;'>".L("L_ALERT_TJ_XIANGXI")."</a>&nbsp;<a onclick=\"watchinfo('".$trap_each["id"]."','".$trap_each["trapno"]."');\" style='cursor:pointer;'>".L("L_AREA_watch")."</a>";
 			$show_list_str.="</td>";
 			$show_list_str.="</tr>";
 			
